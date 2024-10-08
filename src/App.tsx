@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState } from 'react';
 
 import { MantineProvider, Title, Text, Autocomplete, NumberInput, Button } from '@mantine/core';
@@ -7,7 +6,6 @@ import './App.css';
 
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
-import { start } from 'repl';
 
 interface FighterSelectProps {
   label: string;
