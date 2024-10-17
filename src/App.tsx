@@ -2,7 +2,8 @@ import { useState } from 'react';
 
 import { MantineProvider, Title, Text, Autocomplete, NumberInput, Button } from '@mantine/core';
 
-import './App.css';
+import '@mantine/core/styles.css';
+
 
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
@@ -78,10 +79,10 @@ const Intro = () => {
       <Title order={1}>MMA Math</Title>
       <Text>
         <p>
-          We should know that MMA math doesn't work in real life. If Fighter A beats Fighter B, and Fighter B beats Fighter C, it doesn't necessarilly mean Fighter A will beat Fighter C. Fighting ability isn't a one-dimensional trait and matchups can be nontransitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. I call this the starter Pokemon phenomenon.
+          We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and the game rock-paper-scissors.
         </p>
         <p>
-          Because I still see this type of logic in MMA forums, this project takes the idea of MMA math to its most absurd degree. Using fight results from UFC history, I've assigned fighters Elo scores (a ranking system originally developed for chess) and built a graph that connects fighters by their wins. The project lets you find the paths between any given fighter and the highest-rated fighters of all time, according to peak Elo scores. You can also simply find a path between any two given fighters if it exists. 
+          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the paths between any given fighter and the highest-rated fighters of all time (based on Elo ratings I calculated). You can also simply find a path between any two given fighters if it exists. 
         </p>
       </Text>
     </>
@@ -98,6 +99,7 @@ const FighterSelectForm = (props: FighterSelectProps) => {
         onChange={props.onChange}
         withScrollArea={false}
         styles={{ dropdown: { maxHeight: 200, overflowY: 'auto', cursor: 'pointer' } }}
+        style={{ marginRight: '1em' }} 
       />
   )
 }
@@ -115,8 +117,9 @@ const FindPathButton = (props: FindPathButtonProps) => {
 const NumPathsInput = (props: NumPathsInputProps) => {
   return (
     <NumberInput 
-      label="Number of paths"
+      label="Number of GOATs"
       onChange={props.onChange}
+      style={{ marginRight: '1em' }} 
     />
   )
 }
@@ -127,24 +130,26 @@ const FindPath = () => {
   const [fighterPath, setFighterPath] = useState<string[] | null>([]);
 
   const handleFindPath = () => {
-    var print = findShortestPath( fighterWinsGraph, startingFighter, endingFighter);
+    var print = findShortestPath(fighterWinsGraph, startingFighter, endingFighter);
     setFighterPath(print);
   }
 
   return (
     <>
-    <FighterSelectForm
-      label="Select the starting fighter"
-      onChange={setStartingFighter}
-    />
-    <FighterSelectForm
-      label="Select the ending fighter"
-      onChange={setEndingFighter}
-    />
-    <FindPathButton
-      label="Find path"
-      onClick={handleFindPath}
-    />
+    <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+      <FighterSelectForm
+        label="Select the starting fighter"
+        onChange={setStartingFighter}
+      />
+      <FighterSelectForm
+        label="Select the ending fighter"
+        onChange={setEndingFighter}
+      />
+      <FindPathButton
+        label="Find path"
+        onClick={handleFindPath}
+      />
+    </div>
     <PrintArea 
       path={fighterPath}/>
     </>
@@ -163,21 +168,23 @@ const GoatPaths = () => {
 
   return (
     <>
-    <FighterSelectForm 
-      label="Select the starting fighter"
-      onChange={setStartFighter}
-    />
-    <NumPathsInput 
-      onChange={(value) => setNumPaths(Number(value))}
-    />
-    <FindPathButton 
-      label="Find paths"
-      onClick={handleFindGoatPaths}
-    />
+    <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+      <FighterSelectForm 
+        label="Select the starting fighter"
+        onChange={setStartFighter}
+      />
+      <NumPathsInput 
+        onChange={(value) => setNumPaths(Number(value))}
+      />
+      <FindPathButton 
+        label="Find paths"
+        onClick={handleFindGoatPaths}
+      />
+    </div>
     {paths.map((path, index) => (
-      <div>
+      <div key={index}>
         <br />
-        <PrintArea key={index} path={path} />
+        <PrintArea path={path} />
       </div>
     ))}
     </>
@@ -195,9 +202,11 @@ const PrintArea = (props: PrintAreaProps) => {
 function App() {
   return (
     <MantineProvider>
-      <Intro />
-      <FindPath />
-      <GoatPaths />
+      <div style={{ padding: '3rem 2rem 1rem' }}>
+        <Intro />
+        <GoatPaths />
+        <FindPath />
+      </div>
     </MantineProvider>
   );
 }
