@@ -1,18 +1,24 @@
 import { useState } from 'react';
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-import { MantineProvider, Title, Text, Autocomplete, NumberInput, Button } from '@mantine/core';
-
+import { MantineProvider, Title, Text, Autocomplete, NumberInput, Button, Collapse, Divider, Anchor } from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
 
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
 
+interface CollapseDividerProps {
+  label: string;
+  opened: boolean;
+  onClick: () => void;
+}
+
 interface FighterSelectProps {
   label: string;
   onChange: (fighter: string) => void
 }
-
 
 interface FindPathButtonProps {
   label: string,
@@ -89,6 +95,25 @@ const Intro = () => {
   );
 }
 
+const CollapseDivider = (props: CollapseDividerProps) => {
+  return (
+    <Divider
+      my="xs"
+      label={
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ marginBottom: '1em' }}>
+            {props.label}
+          </div>
+          <Button onClick={props.onClick}>
+            {props.opened && <IoIosArrowUp />}
+            {!props.opened && <IoIosArrowDown />}
+          </Button>
+        </div>
+      }
+    />
+  )
+}
+
 const FighterSelectForm = (props: FighterSelectProps) => {
   const fighterKeys = Object.keys(fighterWinsGraph).sort();
 
@@ -124,10 +149,19 @@ const NumPathsInput = (props: NumPathsInputProps) => {
   )
 }
 
+const PrintArea = (props: PrintAreaProps) => {
+  return (
+    <>
+    {props.path && props.path.join(' -> ')}
+    </>
+  )
+}
+
 const FindPath = () => {
   const [startingFighter, setStartingFighter] = useState<string>("");
   const [endingFighter, setEndingFighter] = useState<string>("");
   const [fighterPath, setFighterPath] = useState<string[] | null>([]);
+  const [opened, { toggle }] = useDisclosure(false);
 
   const handleFindPath = () => {
     var print = findShortestPath(fighterWinsGraph, startingFighter, endingFighter);
@@ -136,22 +170,30 @@ const FindPath = () => {
 
   return (
     <>
-    <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-      <FighterSelectForm
-        label="Select the starting fighter"
-        onChange={setStartingFighter}
+    <CollapseDivider 
+      label="Fighter vs Fighter"
+      opened={opened}
+      onClick={toggle}
+    />
+    <Collapse in={opened}>
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <FighterSelectForm
+          label="Select the starting fighter"
+          onChange={setStartingFighter}
+        />
+        <FighterSelectForm
+          label="Select the ending fighter"
+          onChange={setEndingFighter}
+        />
+        <FindPathButton
+          label="Find path"
+          onClick={handleFindPath}
+        />
+      </div>
+      <PrintArea 
+        path={fighterPath}
       />
-      <FighterSelectForm
-        label="Select the ending fighter"
-        onChange={setEndingFighter}
-      />
-      <FindPathButton
-        label="Find path"
-        onClick={handleFindPath}
-      />
-    </div>
-    <PrintArea 
-      path={fighterPath}/>
+    </Collapse>
     </>
   )
 }
@@ -160,6 +202,7 @@ const GoatPaths = () => {
   const [startFighter, setStartFighter] = useState<string>("");
   const [numPaths, setNumPaths] = useState<number>(0);
   const [paths, setPaths] = useState<string[][]>([]);
+  const [opened, { toggle }] = useDisclosure(false);
 
   const handleFindGoatPaths = () => {
     const goatPaths: string[][] = findPathsToGOATS(startFighter, numPaths);
@@ -168,33 +211,32 @@ const GoatPaths = () => {
 
   return (
     <>
-    <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-      <FighterSelectForm 
-        label="Select the starting fighter"
-        onChange={setStartFighter}
-      />
-      <NumPathsInput 
-        onChange={(value) => setNumPaths(Number(value))}
-      />
-      <FindPathButton 
-        label="Find paths"
-        onClick={handleFindGoatPaths}
-      />
-    </div>
-    {paths.map((path, index) => (
-      <div key={index}>
-        <br />
-        <PrintArea path={path} />
+    <CollapseDivider 
+      label="Fighter vs GOATs"
+      onClick={toggle}
+      opened={opened}
+    />
+    <Collapse in={opened}>
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <FighterSelectForm 
+          label="Select the starting fighter"
+          onChange={setStartFighter}
+        />
+        <NumPathsInput 
+          onChange={(value) => setNumPaths(Number(value))}
+        />
+        <FindPathButton 
+          label="Find paths"
+          onClick={handleFindGoatPaths}
+        />
       </div>
-    ))}
-    </>
-  )
-}
-
-const PrintArea = (props: PrintAreaProps) => {
-  return (
-    <>
-    {props.path && props.path.join(' -> ')}
+      {paths.map((path, index) => (
+        <div key={index}>
+          <br />
+          <PrintArea path={path} />
+        </div>
+      ))}
+    </Collapse>
     </>
   )
 }
