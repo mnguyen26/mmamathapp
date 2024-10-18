@@ -1,13 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 import { MantineProvider, Title, Text, Autocomplete, NumberInput, Button, Collapse, Divider, Anchor } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
+import * as d3 from 'd3';
 
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
+import fighterPics from './JSONData/fighter_pics.json'; // Import the JSON data
 
 interface CollapseDividerProps {
   label: string;
@@ -31,6 +33,10 @@ interface NumPathsInputProps {
 
 interface PrintAreaProps {
   path: string[] | null
+}
+
+interface FighterPathChartProps {
+  path: string[];
 }
 
 const findShortestPath = (graph: { [key: string]: string[] }, startFighter: string, targetFighter: string): string[] | null => {
@@ -61,6 +67,25 @@ const findShortestPath = (graph: { [key: string]: string[] }, startFighter: stri
   }
 
   return null;
+}
+
+interface FighterDetail {
+  name: string;
+  elo: number;
+  picUrl: string | null;
+}
+
+const getFighterDetails = (fighterNames: string[]): FighterDetail[] => {
+  return fighterNames.map(fighterName => {
+    const eloRecord = goatFighters[fighterName as keyof typeof goatFighters];
+    const picRecord = fighterPics.find(f => f.Name === fighterName);
+    
+    return {
+      name: fighterName,
+      elo: eloRecord ? eloRecord.Elo : 1000,
+      picUrl: picRecord ? picRecord.PicURL : ''
+    };
+  });
 }
 
 const findPathsToGOATS = (startFighter: string, numPaths: number): string[][] => {
@@ -157,46 +182,86 @@ const PrintArea = (props: PrintAreaProps) => {
   )
 }
 
-const FindPath = () => {
-  const [startingFighter, setStartingFighter] = useState<string>("");
-  const [endingFighter, setEndingFighter] = useState<string>("");
-  const [fighterPath, setFighterPath] = useState<string[] | null>([]);
-  const [opened, { toggle }] = useDisclosure(false);
+const FighterPathChart = ({ path }: FighterPathChartProps) => {
+  const svgRef = useRef<SVGSVGElement | null>(null);
+  const fighterDetails = getFighterDetails(path)
 
-  const handleFindPath = () => {
-    var print = findShortestPath(fighterWinsGraph, startingFighter, endingFighter);
-    setFighterPath(print);
-  }
+  useEffect(() => {
+    if (!path) return; // Return if no path is provided
 
-  return (
-    <>
-    <CollapseDivider 
-      label="Fighter vs Fighter"
-      opened={opened}
-      onClick={toggle}
-    />
-    <Collapse in={opened}>
-      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-        <FighterSelectForm
-          label="Select the starting fighter"
-          onChange={setStartingFighter}
-        />
-        <FighterSelectForm
-          label="Select the ending fighter"
-          onChange={setEndingFighter}
-        />
-        <FindPathButton
-          label="Find path"
-          onClick={handleFindPath}
-        />
-      </div>
-      <PrintArea 
-        path={fighterPath}
-      />
-    </Collapse>
-    </>
-  )
-}
+    const svg = d3.select(svgRef.current);
+    const width = 800;
+    const height = 300;
+    const margin = { top: 20, right: 20, bottom: 30, left: 40 };
+
+    svg.selectAll('*').remove();
+
+    // Create scales based on the path
+    const xScale = d3.scalePoint<string>()
+      .domain(fighterDetails.map(f => f.name))
+      .range([margin.left, width - margin.right])
+      .padding(0.5);
+
+    const yScale = d3.scaleLinear()
+      .domain([d3.min(fighterDetails, d => d.elo) || 800, d3.max(fighterDetails, d => d.elo) || 2500]) // Use Elo from fighterDetails
+      .nice()
+      .range([height - margin.bottom, margin.top]);
+
+    svg.attr('viewBox', `0 0 ${width} ${height}`);
+
+    // Add line between points
+    const line = d3.line<string>()
+      .x(d => xScale(d) as number)
+      .y(d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000));
+
+    svg.append('path')
+      .datum(path)
+      .attr('fill', 'none')
+      .attr('stroke', 'steelblue')
+      .attr('stroke-width', 1)
+      .attr('d', line);
+
+    // Add images for fighters
+    svg.selectAll('image')
+      .data(path)
+      .enter()
+      .append('image')
+      .attr('xlink:href', d => {
+        const fighterDetail = fighterDetails.find(f => f.name === d); 
+        return fighterDetail ? fighterDetail.picUrl : ''; 
+      })
+      .attr('x', d => xScale(d) as number - 12)
+      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) - 12) 
+      .attr('width', 20)
+      .attr('height', 20);
+
+    // Add labels for fighters
+    svg.selectAll('text.label')
+      .data(path)
+      .enter()
+      .append('text')
+      .attr('class', 'label')
+      .attr('x', d => xScale(d) as number + 10)
+      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) + 15)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '10px')
+      .text(d => d);
+
+    // Elo rating below the fighter name
+    svg.selectAll('text.elo')
+      .data(path)
+      .enter()
+      .append('text')
+      .attr('class', 'elo')
+      .attr('x', d => xScale(d) as number + 10)
+      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) + 25)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '8px') 
+      .text(d => fighterDetails.find(f => f.name === d)?.elo || 'N/A'); 
+  }, [path]);
+
+  return <svg ref={svgRef} style={{ width: '800px', height: '300px' }} />;
+};
 
 const GoatPaths = () => {
   const [startFighter, setStartFighter] = useState<string>("");
@@ -241,13 +306,52 @@ const GoatPaths = () => {
   )
 }
 
+const FighterPath = () => {
+  const [startingFighter, setStartingFighter] = useState<string>("");
+  const [endingFighter, setEndingFighter] = useState<string>("");
+  const [fighterPath, setFighterPath] = useState<string[] | null>(null);
+  const [opened, { toggle }] = useDisclosure(false);
+
+  const handleFindPath = () => {
+    let path = findShortestPath(fighterWinsGraph, startingFighter, endingFighter);
+    setFighterPath(path);
+  }
+
+  return (
+    <>
+      <CollapseDivider 
+        label="Fighter vs Fighter"
+        opened={opened}
+        onClick={toggle}
+      />
+      <Collapse in={opened}>
+        <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+          <FighterSelectForm
+            label="Select the starting fighter"
+            onChange={setStartingFighter}
+          />
+          <FighterSelectForm
+            label="Select the ending fighter"
+            onChange={setEndingFighter}
+          />
+          <FindPathButton
+            label="Find path"
+            onClick={handleFindPath}
+          />
+        </div>
+        {fighterPath && <FighterPathChart path={fighterPath} />}
+      </Collapse>
+    </>
+  );
+}
+
 function App() {
   return (
     <MantineProvider>
       <div style={{ padding: '3rem 2rem 1rem' }}>
         <Intro />
         <GoatPaths />
-        <FindPath />
+        <FighterPath />
       </div>
     </MantineProvider>
   );
