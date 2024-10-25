@@ -8,7 +8,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 // Mantine
 import { MantineProvider, Title, Text, Autocomplete, Button, Collapse, Divider, Combobox, useCombobox, Input, InputBase } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { useDisclosure, useDebouncedCallback } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
 // d3
@@ -174,11 +174,15 @@ const CollapseDivider = (props: CollapseDividerProps) => {
 
 const FighterSelectForm = (props: FighterSelectProps) => {
 
+  const debounceOnChange = useDebouncedCallback((value: string) => {
+    props.onChange(value);
+  }, 300);
+
   return (
     <Autocomplete
         label={props.label}
         data={props.data}
-        onChange={props.onChange}
+        onChange={debounceOnChange}
         withScrollArea={false}
         styles={{ dropdown: { maxHeight: 200, overflowY: 'auto', cursor: 'pointer' } }}
         style={{ marginRight: '1em' }} 
