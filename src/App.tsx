@@ -1,15 +1,28 @@
+//========================================================================================================
+// IMPORTS
+//========================================================================================================
+
+// React
 import { useState, useEffect, useRef } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
+// Mantine
 import { MantineProvider, Title, Text, Autocomplete, Button, Collapse, Divider, Combobox, useCombobox, Input, InputBase } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
+// d3
 import * as d3 from 'd3';
 
+// data
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
 import fighterPics from './JSONData/fighter_pics.json';
+import fighter_id_name_map from './JSONData/fighter_id_name_map.json';
+
+//========================================================================================================
+// INTERFACES
+//========================================================================================================
 
 interface CollapseDividerProps {
   label: string;
@@ -37,34 +50,68 @@ interface FighterPathChartProps {
   path: string[];
 }
 
+interface FighterWin
+{
+  Name: string,
+  Opponent: string,
+  OpponentId: string,
+  Date: string,
+}
+
 interface FighterDetail {
   name: string;
   elo: number;
   picUrl: string | null;
 }
 
-const findShortestPath = (graph: { [key: string]: string[] }, startFighter: string, targetFighter: string): string[] | null => {
-  if (!graph[startFighter] || !graph[targetFighter]) {
+interface FighterIdNameMap {
+  [key: string]: string;
+}
+
+//========================================================================================================
+// FUNCTIONS
+//========================================================================================================
+
+const fighterMap: FighterIdNameMap = fighter_id_name_map;
+
+const mapFighterIdToName = (fighterId: string): string => {
+  return fighterMap[fighterId] || 'NA';
+};
+
+const mapFighterIdsToNames = (fighterIds: string[] | null): string[] => {
+  if (fighterIds != null) {
+    return fighterIds.map(mapFighterIdToName);
+  }
+  return [];
+};
+
+const mapFighterNameToId = (fighterName: string): string => {
+  return Object.keys(fighter_id_name_map).find(key => fighter_id_name_map[key as keyof typeof fighter_id_name_map] === fighterName) || '';
+}
+
+const findShortestPath = (graph: { [key: string]: FighterWin[] }, startFighterId: string, targetFighterId: string): string[] | null => {
+  if (!graph[startFighterId] || !graph[targetFighterId]) {
     return null;
   }
 
-  const queue: string[][] = [[startFighter]];
-  const visited: Set<string> = new Set([startFighter]);
+  const queue: string[][] = [[startFighterId]];
+  const visited: Set<string> = new Set([startFighterId]);
 
   while (queue.length > 0) {
     const path = queue.shift();
     if (!path) continue;
 
-    const lastFighter = path[path.length - 1];
+    const lastFighterId = path[path.length - 1];
 
-    if (lastFighter === targetFighter) {
+    if (lastFighterId === targetFighterId) {
       return path;
     }
 
-    for (const neighbor of graph[lastFighter]) {
-      if (!visited.has(neighbor)) {
-        visited.add(neighbor);
-        const newPath = [...path, neighbor];
+    for (const win of graph[lastFighterId]) {
+      const neighborId = win.OpponentId;
+      if (!visited.has(neighborId)) {
+        visited.add(neighborId);
+        const newPath = [...path, neighborId];
         queue.push(newPath);
       }
     }
@@ -73,34 +120,22 @@ const findShortestPath = (graph: { [key: string]: string[] }, startFighter: stri
   return null;
 }
 
-const getFighterDetails = (fighterNames: string[]): FighterDetail[] => {
-  return fighterNames.map(fighterName => {
-    const eloRecord = goatFighters[fighterName as keyof typeof goatFighters];
-    const picRecord = fighterPics.find(f => f.Name === fighterName);
+const getFighterDetails = (fighterIds: string[]): FighterDetail[] => {
+  return fighterIds.map(fighterId => {
+    const eloRecord = goatFighters[fighterId as keyof typeof goatFighters];
+    const picRecord = fighterPics.find(f => f.Name === fighterId);
     
     return {
-      name: fighterName,
+      name: eloRecord.Name,
       elo: eloRecord ? eloRecord.Elo : 1000,
       picUrl: picRecord ? picRecord.PicURL : ''
     };
   });
 }
 
-const findGOATsWithPaths = (startFighter: string): string[] => {
-  let pathsLeft: number = 25;
-  let retList: string[] = [];
-
-  for (const key of Object.keys(goatFighters)) {
-    let path = findShortestPath(fighterWinsGraph, startFighter, key);
-    if (path !=null) {
-      retList[retList.length] = path[path.length - 1]
-      pathsLeft--;
-    }
-    if (pathsLeft == 0) { break; }
-  }
-
-  return retList;
-}
+//========================================================================================================
+// SMALLER COMPONENTS
+//========================================================================================================
 
 const Intro = () => {
   return (
@@ -213,7 +248,9 @@ const FindPathButton = (props: FindPathButtonProps) => {
 
 const FighterPathChart = ({ path }: FighterPathChartProps) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
-  const fighterDetails = getFighterDetails(path)
+  
+  const fighterDetails = getFighterDetails(path);
+  const fighterNames = path.map(mapFighterIdToName);
 
   useEffect(() => {
     if (!fighterDetails) return;
@@ -226,7 +263,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
     svg.selectAll('*').remove();
 
     const xScale = d3.scalePoint<string>()
-      .domain(fighterDetails.map(f => f.name))
+      .domain(fighterNames)
       .range([margin.left, width - margin.right])
       .padding(0.5);
 
@@ -242,14 +279,14 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
       .y(d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000));
 
     svg.append('path')
-      .datum(path)
+      .datum(fighterNames)
       .attr('fill', 'none')
       .attr('stroke', 'steelblue')
       .attr('stroke-width', 1)
       .attr('d', line);
 
     svg.selectAll('image')
-      .data(path)
+      .data(fighterNames)
       .enter()
       .append('image')
       .attr('xlink:href', d => {
@@ -262,7 +299,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
       .attr('height', 20);
 
     svg.selectAll('text.label')
-      .data(path)
+      .data(fighterNames)
       .enter()
       .append('text')
       .attr('class', 'label')
@@ -274,7 +311,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
 
     // Elo rating below the fighter name
     svg.selectAll('text.elo')
-      .data(path)
+      .data(fighterNames)
       .enter()
       .append('text')
       .attr('class', 'elo')
@@ -288,24 +325,46 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
   return <svg ref={svgRef} style={{ width: '800px', height: '300px' }} />;
 };
 
+//========================================================================================================
+// LARGER COMPONENTS
+//========================================================================================================
+
 const GoatPaths = () => {
-  const [startFighter, setStartFighter] = useState<string>("");
-  const [goats, setGoats] = useState<string[]>([])
-  const [endFighter, setEndFighter] = useState<string>("");
+  const [startFighterId, setStartFighterId] = useState<string>(""); 
+  const [goats, setGoats] = useState<string[]>([]);
+  const [endFighterId, setEndFighterId] = useState<string>(""); 
   const [fighterPath, setFighterPath] = useState<string[] | null>(null);
   const [opened, { toggle }] = useDisclosure(true);
 
-  const fighterKeys = Object.keys(fighterWinsGraph).sort();
-  
-  const handleFighterSelected = (fighter: string) => {
-    setStartFighter(fighter);
+  const fighterKeys = Object.keys(fighter_id_name_map);
+  const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
-    const goatsToCompare: string[] = findGOATsWithPaths(fighter);
-    setGoats(goatsToCompare);
+  const handleFighterSelected = (fighterName: string) => { 
+    let fighterId = mapFighterNameToId(fighterName);
+    setStartFighterId(fighterId);
+
+    const goatsToCompare: string[] = findGOATsWithPaths(fighterId); 
+    setGoats(mapFighterIdsToNames(goatsToCompare));
+  }
+
+  const findGOATsWithPaths = (fighterId: string): string[] => {
+    let pathsLeft: number = 25;
+    let retList: string[] = [];
+  
+    for (const key of Object.keys(goatFighters)) {
+      let path = findShortestPath(fighterWinsGraph, fighterId, key);
+      if (path !=null) {
+        retList[retList.length] = path[path.length - 1]
+        pathsLeft--;
+      }
+      if (pathsLeft == 0) { break; }
+    }
+  
+    return retList;
   }
 
   const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startFighter, endFighter);
+    let path = findShortestPath(fighterWinsGraph, startFighterId, endFighterId); 
     setFighterPath(path);
   }
 
@@ -320,34 +379,35 @@ const GoatPaths = () => {
       <div style={{ display: 'flex', alignItems: 'flex-end' }}>
         <FighterSelectForm 
           label="Select the starting fighter"
-          data={fighterKeys}
+          data={fighterNames}
           onChange={handleFighterSelected}
         />
         <GoatSelectDropDown 
           data={goats}
-          onSelect={setEndFighter}
+          onSelect={(fighterName) => setEndFighterId(mapFighterNameToId(fighterName))}
         />
         <FindPathButton 
           label="Find path"
           onClick={handleFindPath}
         />
       </div>
-      {fighterPath && <FighterPathChart path={fighterPath} />}
+      {fighterPath && <FighterPathChart path={fighterPath} />} 
     </Collapse>
     </>
   )
 }
 
 const FighterPath = () => {
-  const [startingFighter, setStartingFighter] = useState<string>("");
-  const [endingFighter, setEndingFighter] = useState<string>("");
+  const [startingFighterId, setStartingFighterId] = useState<string>(""); 
+  const [endingFighterId, setEndingFighterId] = useState<string>(""); 
   const [fighterPath, setFighterPath] = useState<string[] | null>(null);
   const [opened, { toggle }] = useDisclosure(true);
 
-  const fighterKeys = Object.keys(fighterWinsGraph).sort();
+  const fighterKeys = Object.keys(fighter_id_name_map);
+  const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
   const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startingFighter, endingFighter);
+    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId); 
     setFighterPath(path);
   }
 
@@ -362,13 +422,13 @@ const FighterPath = () => {
         <div style={{ display: 'flex', alignItems: 'flex-end' }}>
           <FighterSelectForm
             label="Select the starting fighter"
-            data={fighterKeys}
-            onChange={setStartingFighter}
+            data={fighterNames}
+            onChange={(fighterName) => setStartingFighterId(mapFighterNameToId(fighterName))}
           />
           <FighterSelectForm
             label="Select the ending fighter"
-            data={fighterKeys}
-            onChange={setEndingFighter}
+            data={fighterNames}
+            onChange={(fighterName) => setEndingFighterId(mapFighterNameToId(fighterName))}
           />
           <FindPathButton
             label="Find path"
@@ -380,6 +440,10 @@ const FighterPath = () => {
     </>
   );
 }
+
+//========================================================================================================
+// MAINT COMPONENT & RENDER
+//========================================================================================================
 
 function App() {
   return (
