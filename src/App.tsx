@@ -121,9 +121,10 @@ const findShortestPath = (graph: { [key: string]: FighterWin[] }, startFighterId
 }
 
 const getFighterDetails = (fighterIds: string[]): FighterDetail[] => {
-  return fighterIds.map(fighterId => {
+  const fighterNames = mapFighterIdsToNames(fighterIds);
+  return fighterIds.map((fighterId, index) => {
     const eloRecord = goatFighters[fighterId as keyof typeof goatFighters];
-    const picRecord = fighterPics.find(f => f.Name === fighterId);
+    const picRecord = fighterPics.find(f => f.Name === fighterNames[index]);
     
     return {
       name: eloRecord.Name,
@@ -250,18 +251,37 @@ const FindPathButton = (props: FindPathButtonProps) => {
   )
 }
 
+const FighterPathText = ({ path }: { path: string[] | null }) => {
+  if (!path) return null;
+
+  return (
+    <div>
+      {path.map((fighterId, index) => {
+        const fighterName = mapFighterIdToName(fighterId);
+        const nextFighterId = path[index + 1];
+        if (nextFighterId) {
+          const nextFighterName = mapFighterIdToName(nextFighterId);
+          return <div key={index}>{fighterName} defeated {nextFighterName}</div>;
+        }
+        return null;
+      })}
+    </div>
+  );
+}
+
+// d3 line graph
 const FighterPathChart = ({ path }: FighterPathChartProps) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
   
   const fighterDetails = getFighterDetails(path);
-  const fighterNames = path.map(mapFighterIdToName);
+  const fighterNames = fighterDetails.map(detail => detail.name);
 
   useEffect(() => {
     if (!fighterDetails) return;
 
     const svg = d3.select(svgRef.current);
-    const width = 800;
-    const height = 300;
+    const width = 1200;
+    const height = 200;
     const margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
     svg.selectAll('*').remove();
@@ -297,10 +317,10 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
         const fighterDetail = fighterDetails.find(f => f.name === d); 
         return fighterDetail ? fighterDetail.picUrl : ''; 
       })
-      .attr('x', d => xScale(d) as number - 12)
-      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) - 12) 
-      .attr('width', 20)
-      .attr('height', 20);
+      .attr('x', d => xScale(d) as number - 25)
+      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) - 40) 
+      .attr('width', 50)
+      .attr('height', 50);
 
     svg.selectAll('text.label')
       .data(fighterNames)
@@ -313,7 +333,6 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
       .attr('font-size', '10px')
       .text(d => d);
 
-    // Elo rating below the fighter name
     svg.selectAll('text.elo')
       .data(fighterNames)
       .enter()
@@ -326,7 +345,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
       .text(d => fighterDetails.find(f => f.name === d)?.elo || 'N/A'); 
   }, [path]);
 
-  return <svg ref={svgRef} style={{ width: '800px', height: '300px' }} />;
+  return <svg ref={svgRef} style={{ width: '1200px', height: '400px' }} />;
 };
 
 //========================================================================================================
@@ -395,7 +414,12 @@ const GoatPaths = () => {
           onClick={handleFindPath}
         />
       </div>
-      {fighterPath && <FighterPathChart path={fighterPath} />} 
+      {fighterPath && (
+          <>
+          <FighterPathChart path={fighterPath} />
+          <FighterPathText path={fighterPath} />
+          </>
+        )}
     </Collapse>
     </>
   )
@@ -439,7 +463,12 @@ const FighterPath = () => {
             onClick={handleFindPath}
           />
         </div>
-        {fighterPath && <FighterPathChart path={fighterPath} />}
+        {fighterPath && (
+          <>
+          <FighterPathChart path={fighterPath} />
+          <FighterPathText path={fighterPath} />
+          </>
+        )}
       </Collapse>
     </>
   );
