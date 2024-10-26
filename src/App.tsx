@@ -20,6 +20,9 @@ import goatFighters from './JSONData/fighter_peak_elo_records.json'
 import fighterPics from './JSONData/fighter_pics.json';
 import fighter_id_name_map from './JSONData/fighter_id_name_map.json';
 
+import './Styles/app.css'
+
+
 //========================================================================================================
 // INTERFACES
 //========================================================================================================
@@ -129,7 +132,7 @@ const getFighterDetails = (fighterIds: string[]): FighterDetail[] => {
     return {
       name: eloRecord.Name,
       elo: eloRecord ? eloRecord.Elo : 1000,
-      picUrl: picRecord ? picRecord.PicURL : ''
+      picUrl: picRecord ? picRecord.PicURL : "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/ComingSoon/comingsoon_headshot_odopod.png?VersionId=6Lx8ImOpYf0wBYQKs_FGYIkuSIfTN0f0\u0026amp;itok=pYDOjN8k"
     };
   });
 }
@@ -194,9 +197,7 @@ const FighterSelectForm = (props: FighterSelectProps) => {
 const GoatSelectDropDown = (props: GoatSelectDropDownProps) => {
   const [value, setValue] = useState<string | null>(null);
 
-  const combobox = useCombobox({
-    onDropdownClose: () => combobox.resetSelectedOption(),
-  });
+  const combobox = useCombobox();
 
   const options = props.data.map((item) => (
     <Combobox.Option value={item} key={item}>
@@ -363,15 +364,19 @@ const GoatPaths = () => {
   const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
   const handleFighterSelected = (fighterName: string) => { 
-    let fighterId = mapFighterNameToId(fighterName);
+    let fighterId = "";
+    let goatsToCompare: string[] = [];
+    
+    if (fighterName != "") {
+      fighterId = mapFighterNameToId(fighterName);
+      goatsToCompare = mapFighterIdsToNames(findGOATsWithPaths(fighterId))
+    }
     setStartFighterId(fighterId);
-
-    const goatsToCompare: string[] = findGOATsWithPaths(fighterId); 
-    setGoats(mapFighterIdsToNames(goatsToCompare));
+    setGoats(goatsToCompare);
   }
 
   const findGOATsWithPaths = (fighterId: string): string[] => {
-    let pathsLeft: number = 25;
+    let pathsLeft: number = 20;
     let retList: string[] = [];
   
     for (const key of Object.keys(goatFighters)) {
@@ -415,10 +420,10 @@ const GoatPaths = () => {
         />
       </div>
       {fighterPath && (
-          <>
-          <FighterPathChart path={fighterPath} />
-          <FighterPathText path={fighterPath} />
-          </>
+          <div className="fade-in" key={JSON.stringify(fighterPath)}>
+            <FighterPathChart path={fighterPath} />
+            <FighterPathText path={fighterPath} />
+          </div>
         )}
     </Collapse>
     </>
@@ -430,12 +435,19 @@ const FighterPath = () => {
   const [endingFighterId, setEndingFighterId] = useState<string>(""); 
   const [fighterPath, setFighterPath] = useState<string[] | null>(null);
   const [opened, { toggle }] = useDisclosure(true);
+  const [isVisible, setIsVisible] = useState<boolean>(false); // New state for visibility
 
   const fighterKeys = Object.keys(fighter_id_name_map);
   const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
   const handleFindPath = () => {
     let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId); 
+    if (path != null) {
+      setIsVisible(true);
+    }
+    else {
+      setIsVisible(false);
+    }
     setFighterPath(path);
   }
 
@@ -464,10 +476,10 @@ const FighterPath = () => {
           />
         </div>
         {fighterPath && (
-          <>
-          <FighterPathChart path={fighterPath} />
-          <FighterPathText path={fighterPath} />
-          </>
+          <div className="fade-in" key={JSON.stringify(fighterPath)}>
+            <FighterPathChart path={fighterPath} />
+            <FighterPathText path={fighterPath} />
+          </div>
         )}
       </Collapse>
     </>
@@ -481,7 +493,7 @@ const FighterPath = () => {
 function App() {
   return (
     <MantineProvider>
-      <div style={{ padding: '3rem 2rem 1rem' }}>
+      <div style={{ padding: '3rem 4rem 3rem' }}>
         <Intro />
         <GoatPaths />
         <FighterPath />
