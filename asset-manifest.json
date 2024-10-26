@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mmamathapp/static/css/main.e30ba7d3.css",
+    "main.js": "/mmamathapp/static/js/main.5388a75d.js",
+    "static/js/453.6a7562f1.chunk.js": "/mmamathapp/static/js/453.6a7562f1.chunk.js",
+    "index.html": "/mmamathapp/index.html",
+    "main.e30ba7d3.css.map": "/mmamathapp/static/css/main.e30ba7d3.css.map",
+    "main.5388a75d.js.map": "/mmamathapp/static/js/main.5388a75d.js.map",
+    "453.6a7562f1.chunk.js.map": "/mmamathapp/static/js/453.6a7562f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e30ba7d3.css",
+    "static/js/main.5388a75d.js"
+  ]
+}
