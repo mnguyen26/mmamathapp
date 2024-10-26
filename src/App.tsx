@@ -235,7 +235,9 @@ const GoatSelectDropDown = (props: GoatSelectDropDownProps) => {
         </Combobox.Target>
 
         <Combobox.Dropdown>
-          <Combobox.Options>{options}</Combobox.Options>
+          <Combobox.Options mah={200} style={{ overflowY: 'auto' }}>
+            {options}
+            </Combobox.Options>
         </Combobox.Dropdown>
       </Combobox>
     </div>
