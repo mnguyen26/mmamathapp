@@ -14044,6 +14044,12 @@
       "Opponent": "TJ Brown",
       "OpponentId": "91387-tj-brown",
       "Date": "2023-10-14T00:00:00"
+    },
+    {
+      "Name": "Darren Elkins",
+      "Opponent": "Daniel Pineda",
+      "OpponentId": "daniel-pineda",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "greg-soto": [
@@ -14547,6 +14553,12 @@
       "Opponent": "Ramiz Brahimaj",
       "OpponentId": "129794-ramiz-brahimaj",
       "Date": "2022-01-15T00:00:00"
+    },
+    {
+      "Name": "Court McGee",
+      "Opponent": "Tim Means",
+      "OpponentId": "3224-tim-means-the-dirty-bird",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "kris-mccray-savage": [],
@@ -17059,6 +17071,12 @@
       "Opponent": "Rob Font",
       "OpponentId": "rob-font",
       "Date": "2021-12-04T00:00:00"
+    },
+    {
+      "Name": "Jos\u00E9 Aldo",
+      "Opponent": "Jonathan Martinez",
+      "OpponentId": "41237-jonathon-martinez",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "renan-barao-barao": [
@@ -19186,6 +19204,12 @@
       "Opponent": "Chan Sung Jung",
       "OpponentId": "chan-sung-jung-the-korean-zombie",
       "Date": "2023-08-26T00:00:00"
+    },
+    {
+      "Name": "Max Holloway",
+      "Opponent": "Justin Gaethje",
+      "OpponentId": "16421-justin-gaethje",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "3224-tim-means-the-dirty-bird": [
@@ -20050,6 +20074,12 @@
       "Opponent": "Neil Magny",
       "OpponentId": "16456-aoutneil-magny",
       "Date": "2021-01-20T00:00:00"
+    },
+    {
+      "Name": "Michael Chiesa",
+      "Opponent": "Tony Ferguson",
+      "OpponentId": "tony-ferguson-el-cucuy",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "15047-al-iaquinta": [
@@ -21116,6 +21146,12 @@
       "Opponent": "Paulo Costa",
       "OpponentId": "64306-paulo-henrique-costa-borrachinha",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Robert Whittaker",
+      "Opponent": "Ikram Aliskerov",
+      "OpponentId": "108253-ikram-aliskerov",
+      "Date": "2024-06-22T00:00:00"
     }
   ],
   "16615-bradley-scott": [
@@ -21535,6 +21571,12 @@
       "Opponent": "Grant Dawson",
       "OpponentId": "32750-grant-dawson",
       "Date": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "Bobby Green",
+      "Opponent": "Jim Miller",
+      "OpponentId": "jim-miller",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "tyron-woodley-t-wood": [
@@ -22407,6 +22449,12 @@
       "Opponent": "Chris Curtis",
       "OpponentId": "14863-christopher-curtis-the-action-man",
       "Date": "2023-04-08T00:00:00"
+    },
+    {
+      "Name": "Kelvin Gastelum",
+      "Opponent": "Daniel Rodriguez",
+      "OpponentId": "61421-daniel-rodriguez",
+      "Date": "2024-06-22T00:00:00"
     }
   ],
   "uriah-hall": [
@@ -22716,6 +22764,12 @@
       "Opponent": "Austin Hubbard",
       "OpponentId": "67931-austin-hubbard",
       "Date": "2023-08-19T00:00:00"
+    },
+    {
+      "Name": "Kurt Holobaugh",
+      "Opponent": "Kaynan Kruschewsky",
+      "OpponentId": "76640-kaynan-kruschewsky-bahia",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "15591-sara-mcmann": [
@@ -23190,6 +23244,12 @@
       "Opponent": "Ryan Spann",
       "OpponentId": "20908-ryan-spann",
       "Date": "2023-08-26T00:00:00"
+    },
+    {
+      "Name": "Anthony Smith",
+      "Opponent": "Vitor Petrino",
+      "OpponentId": "158172-vitor-petrino",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "31763-leandro-silva-buscape": [
@@ -23582,6 +23642,12 @@
       "Opponent": "Mackenzie Dern",
       "OpponentId": "134267",
       "Date": "2023-11-11T00:00:00"
+    },
+    {
+      "Name": "J\u00E9ssica Andrade",
+      "Opponent": "Marina Rodriguez",
+      "OpponentId": "81799-marina-rodriguez",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "10447-viscardi-andrade": [
@@ -24353,6 +24419,12 @@
       "Opponent": "Lucas Almeida",
       "OpponentId": "124782-lucas-de-oliveira-almeida",
       "Date": "2023-12-16T00:00:00"
+    },
+    {
+      "Name": "Andre Fili",
+      "Opponent": "Cub Swanson",
+      "OpponentId": "cub-swanson",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "sarah-kaufman": [
@@ -25089,6 +25161,12 @@
       "Opponent": "Amanda Nunes",
       "OpponentId": "amanda-nunes-lioness-of-the-ring",
       "Date": "2021-12-11T00:00:00"
+    },
+    {
+      "Name": "Julianna Pe\u00F1a",
+      "Opponent": "Raquel Pennington",
+      "OpponentId": "26224-raquel-pennington",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "jessica-rakoczy-the-ragin": [],
@@ -26039,6 +26117,12 @@
       "Opponent": "Henry Cejudo",
       "OpponentId": "42359-henry-cejudo",
       "Date": "2023-05-06T00:00:00"
+    },
+    {
+      "Name": "Aljamain Sterling",
+      "Opponent": "Calvin Kattar",
+      "OpponentId": "calvin-kattar-the-boston-finisher",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "cody-gibson": [
@@ -26047,6 +26131,12 @@
       "Opponent": "Johnny Bedford",
       "OpponentId": "johnny-bedford",
       "Date": "2014-06-28T00:00:00"
+    },
+    {
+      "Name": "Cody Gibson",
+      "Opponent": "Brian Kelleher",
+      "OpponentId": "13751-Brian-Kelleher",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "5243-pedro-munoz-pedrinho": [
@@ -26341,6 +26431,12 @@
       "Opponent": "Israel Adesanya",
       "OpponentId": "79163-israel-adesanya",
       "Date": "2023-09-09T00:00:00"
+    },
+    {
+      "Name": "Sean Strickland",
+      "Opponent": "Paulo Costa",
+      "OpponentId": "64306-paulo-henrique-costa-borrachinha",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "16484-francisco-trevino": [
@@ -26752,6 +26848,12 @@
       "Opponent": "Marcos Rog\u00E9rio de Lima",
       "OpponentId": "marcos-rogerio-de-lima-pezao",
       "Date": "2023-07-29T00:00:00"
+    },
+    {
+      "Name": "Derrick Lewis",
+      "Opponent": "Rodrigo Nascimento",
+      "OpponentId": "66758-rodrigo-nascimento-z-colmeia",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "20325-jack-may": [],
@@ -27489,6 +27591,12 @@
       "Opponent": "Jalin Turner",
       "OpponentId": "68396-jalin-turner",
       "Date": "2023-07-08T00:00:00"
+    },
+    {
+      "Name": "Dan Hooker",
+      "Opponent": "Mateusz Gamrot",
+      "OpponentId": "26305-mateusz-gamrot",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "13889-Ian-Entwistle": [
@@ -27573,6 +27681,12 @@
       "Opponent": "Darrius Flowers",
       "OpponentId": "91236-darrius-flowers",
       "Date": "2023-07-29T00:00:00"
+    },
+    {
+      "Name": "Jake Matthews",
+      "Opponent": "Phil Rowe",
+      "OpponentId": "37289-philip-rowe",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "70082-dashon-johnson-fly-boy": [],
@@ -27707,6 +27821,12 @@
       "Opponent": "Michael Johnson",
       "OpponentId": "michael-johnson-the-menace",
       "Date": "2023-05-20T00:00:00"
+    },
+    {
+      "Name": "Diego Ferreira",
+      "Opponent": "Mateusz R\u0119becki",
+      "OpponentId": "65128-mateusz-rbecki-chiczyk",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "5106-joe-ellenberger": [
@@ -27793,6 +27913,12 @@
       "Opponent": "Adrian Yanez",
       "OpponentId": "34063-adrian-yanez",
       "Date": "2023-04-08T00:00:00"
+    },
+    {
+      "Name": "Rob Font",
+      "Opponent": "Kyler Phillips",
+      "OpponentId": "93501-kyler-phillips",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "robert-drysdale": [],
@@ -28737,6 +28863,12 @@
       "Opponent": "Pat Sabatini",
       "OpponentId": "29210-pat-sabatini",
       "Date": "2022-09-17T00:00:00"
+    },
+    {
+      "Name": "Damon Jackson",
+      "Opponent": "Alexander Hernandez",
+      "OpponentId": "46253-alexander-hernandez",
+      "Date": "2024-04-06T00:00:00"
     }
   ],
   "shayna-baszler-the-queen-of-spades": [],
@@ -29636,6 +29768,12 @@
       "Opponent": "Thiago Tavares",
       "OpponentId": "thiago-tavares",
       "Date": "2016-07-08T00:00:00"
+    },
+    {
+      "Name": "Doo Ho Choi",
+      "Opponent": "Bill Algeo",
+      "OpponentId": "25872-william-algeo-honey-badger",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "29691-paige-vanzant": [
@@ -29766,6 +29904,12 @@
       "Opponent": "Denise Gomes",
       "OpponentId": "165655-denise-gomes",
       "Date": "2023-11-04T00:00:00"
+    },
+    {
+      "Name": "Angela Hill",
+      "Opponent": "Luana Pinheiro",
+      "OpponentId": "152138-luana-pinheiro",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "15647-emily-kagen": [],
@@ -29845,6 +29989,12 @@
       "Opponent": "Angela Hill",
       "OpponentId": "57525-angela-hill-overkill",
       "Date": "2021-08-07T00:00:00"
+    },
+    {
+      "Name": "Tecia Pennington",
+      "Opponent": "Carla Esparza",
+      "OpponentId": "carla-esparza",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "angela-magana": [],
@@ -30153,6 +30303,12 @@
       "Opponent": "Amanda Ribas",
       "OpponentId": "74330-amanda-ribas",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Rose Namajunas",
+      "Opponent": "Tracy Cortez",
+      "OpponentId": "63711-tracy-cortez",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "13551-Anthony-Birchak": [
@@ -30387,6 +30543,18 @@
       "Opponent": "Drew Dober",
       "OpponentId": "drew-dober",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Renato Moicano",
+      "Opponent": "Jalin Turner",
+      "OpponentId": "68396-jalin-turner",
+      "Date": "2024-04-13T00:00:00"
+    },
+    {
+      "Name": "Renato Moicano",
+      "Opponent": "Benoit Saint-Denis",
+      "OpponentId": "212810-benoit-saint-denis",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "37560-antnio-dos-santos-jr-junior-alpha": [],
@@ -30875,6 +31043,18 @@
       "Opponent": "Caol\u00E1n Loughran",
       "OpponentId": "152507-caolan-loughran",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "Taylor Lapilus",
+      "Opponent": "Cody Stamann",
+      "OpponentId": "22124-cody-stamann",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "Taylor Lapilus",
+      "Opponent": "Vince Morales",
+      "OpponentId": "91401-vince-morales",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "27661-rocky-lee": [],
@@ -31152,6 +31332,12 @@
       "Opponent": "Alexander Volkanovski",
       "OpponentId": "41705-alex-volkanski",
       "Date": "2023-10-21T00:00:00"
+    },
+    {
+      "Name": "Islam Makhachev",
+      "Opponent": "Dustin Poirier",
+      "OpponentId": "dustin-poirier-the-diamond",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "21567-leo-kuntz": [],
@@ -31412,6 +31598,12 @@
       "Opponent": "Calvin Kattar",
       "OpponentId": "calvin-kattar-the-boston-finisher",
       "Date": "2022-10-29T00:00:00"
+    },
+    {
+      "Name": "Arnold Allen",
+      "Opponent": "Giga Chikadze",
+      "OpponentId": "121253-giga-chikadze",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "12724-lukasz-sajewski-wookie": [],
@@ -32324,6 +32516,12 @@
       "Opponent": "Ricardo Ramos",
       "OpponentId": "56182-ricardo-ramos-carcacinha",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Julian Erosa",
+      "Opponent": "Christian Rodriguez",
+      "OpponentId": "121190-christian-rodriguez",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "29459-marcin-wrzosek": [],
@@ -32560,6 +32758,12 @@
       "Opponent": "Taila Santos",
       "OpponentId": "74022-taila-santos",
       "Date": "2022-06-11T00:00:00"
+    },
+    {
+      "Name": "Valentina Shevchenko",
+      "Opponent": "Alexa Grasso",
+      "OpponentId": "68972-alexa-grasso",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "35968-karolina-kowalkiewicz": [
@@ -32710,6 +32914,12 @@
       "Opponent": "Tim Means",
       "OpponentId": "3224-tim-means-the-dirty-bird",
       "Date": "2023-05-13T00:00:00"
+    },
+    {
+      "Name": "Alex Morono",
+      "Opponent": "Court McGee",
+      "OpponentId": "court-mcgee-the-crusher",
+      "Date": "2024-04-06T00:00:00"
     }
   ],
   "elvis-mutapcic-the-king": [],
@@ -32822,6 +33032,12 @@
       "Opponent": "Muslim Salikhov",
       "OpponentId": "44727-muslim-salikhov",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Randy Brown",
+      "Opponent": "Elizeu Zaleski",
+      "OpponentId": "28131-elizeu-zaleski-capoeira",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "63731-mickey-gall": [
@@ -33387,6 +33603,12 @@
       "Opponent": "Tanner Boser",
       "OpponentId": "35149-tanner-boser",
       "Date": "2023-04-15T00:00:00"
+    },
+    {
+      "Name": "Ion Cutelaba",
+      "Opponent": "Ivan Erslan",
+      "OpponentId": "42328-ivan-erslan",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "32797-belal-muhammad": [
@@ -33473,6 +33695,12 @@
       "Opponent": "Gilbert Burns",
       "OpponentId": "31168-gilbert-burns-durinho",
       "Date": "2023-05-06T00:00:00"
+    },
+    {
+      "Name": "Belal Muhammad",
+      "Opponent": "Leon Edwards",
+      "OpponentId": "21429-leon-edwards",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "17180-josh-stansbury-the-sandman": [
@@ -34157,6 +34385,12 @@
       "Opponent": "Jamey-Lyn Horth",
       "OpponentId": "148703-jamey-lyn-horth",
       "Date": "2023-12-02T00:00:00"
+    },
+    {
+      "Name": "Veronica Hardy",
+      "Opponent": "JJ Aldrich",
+      "OpponentId": "28420-jj-aldrich",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "28341-jessin-ayari-abacus": [
@@ -34742,6 +34976,12 @@
       "Opponent": "Tai Tuivasa",
       "OpponentId": "120884-tai-tuivasa-bam-bam",
       "Date": "2023-09-09T00:00:00"
+    },
+    {
+      "Name": "Alexander Volkov",
+      "Opponent": "Sergei Pavlovich",
+      "OpponentId": "89112-sergey-pavlovich",
+      "Date": "2024-06-22T00:00:00"
     }
   ],
   "44180-darren-stewart": [
@@ -35148,6 +35388,12 @@
       "Opponent": "Bryan Barberena",
       "OpponentId": "16876-bryan-barberena",
       "Date": "2024-03-16T00:00:00"
+    },
+    {
+      "Name": "Gerald Meerschaert",
+      "Opponent": "Edmen Shahbazyan",
+      "OpponentId": "142325-edmen-shahbazyan",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "29040-brian-camozzi": [],
@@ -35349,6 +35595,12 @@
       "Opponent": "Alex Oliveira",
       "OpponentId": "45649-alex-cowboy",
       "Date": "2021-10-02T00:00:00"
+    },
+    {
+      "Name": "Niko Price",
+      "Opponent": "Alex Morono",
+      "OpponentId": "16353-alex-morono",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "29515-drakkar-klose": [
@@ -35399,6 +35651,12 @@
       "Opponent": "Joe Solecki",
       "OpponentId": "116995-joseph-solecki",
       "Date": "2023-12-02T00:00:00"
+    },
+    {
+      "Name": "Drakkar Klose",
+      "Opponent": "Joaquim Silva",
+      "OpponentId": "58797-joaquim-silva-netto-bjj",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "13384-Devin-Powell": [
@@ -35475,6 +35733,12 @@
       "Opponent": "Brandon Royval",
       "OpponentId": "25031-brandon-royval",
       "Date": "2023-12-16T00:00:00"
+    },
+    {
+      "Name": "Alexandre Pantoja",
+      "Opponent": "Steve Erceg",
+      "OpponentId": "132326-stephen-erceg",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "29791-eric-shelton": [
@@ -35568,6 +35832,12 @@
       "Opponent": "Danny Chavez",
       "OpponentId": "17303-danny-chaves",
       "Date": "2022-06-18T00:00:00"
+    },
+    {
+      "Name": "Ricardo Ramos",
+      "Opponent": "Josh Culibao",
+      "OpponentId": "101823-joshua-culibao",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "19559-marcel-fortuna": [
@@ -35620,6 +35890,12 @@
       "Opponent": "Bogdan Guskov",
       "OpponentId": "136052-bogdan-guskov",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "Volkan Oezdemir",
+      "Opponent": "Johnny Walker",
+      "OpponentId": "85671-johnny-walker",
+      "Date": "2024-06-22T00:00:00"
     }
   ],
   "25314-aiemann-zahabi": [
@@ -35963,6 +36239,18 @@
       "Opponent": "Rob Font",
       "OpponentId": "rob-font",
       "Date": "2023-12-02T00:00:00"
+    },
+    {
+      "Name": "Deiveson Figueiredo",
+      "Opponent": "Cody Garbrandt",
+      "OpponentId": "21780-cody-garbrandt-no-love",
+      "Date": "2024-04-13T00:00:00"
+    },
+    {
+      "Name": "Deiveson Figueiredo",
+      "Opponent": "Marlon Vera",
+      "OpponentId": "48144-marlon-vera-chito",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "13751-Brian-Kelleher": [
@@ -36201,6 +36489,12 @@
       "Opponent": "Chris Weidman",
       "OpponentId": "chris-weidman",
       "Date": "2019-10-18T00:00:00"
+    },
+    {
+      "Name": "Dominick Reyes",
+      "Opponent": "Dustin Jacoby",
+      "OpponentId": "15069-dustin-jacoby",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "tom-gallicchio": [],
@@ -36883,6 +37177,12 @@
       "Opponent": "Jamie Mullarkey",
       "OpponentId": "51640-jamie-mullarkey",
       "Date": "2023-12-09T00:00:00"
+    },
+    {
+      "Name": "Nasrat Haqparast",
+      "Opponent": "Jared Gordon",
+      "OpponentId": "17754-jared-gordon",
+      "Date": "2024-06-22T00:00:00"
     }
   ],
   "46894-oskar-piechota-imadlo": [
@@ -37199,6 +37499,12 @@
       "Opponent": "Rolando Bedoya",
       "OpponentId": "81901-rolando-bedoya",
       "Date": "2023-08-26T00:00:00"
+    },
+    {
+      "Name": "Kenan Song",
+      "Opponent": "Ricky Glenn",
+      "OpponentId": "17746-rick-glenn",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "32709-sheymon-da-silva-moraes": [
@@ -37251,6 +37557,12 @@
       "Opponent": "Andre Fialho",
       "OpponentId": "115985-andre-fialho",
       "Date": "2022-11-19T00:00:00"
+    },
+    {
+      "Name": "Muslim Salikhov",
+      "Opponent": "Santiago Ponzinibbio",
+      "OpponentId": "29349-santiago-ponzinibbio-el-rasta",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "17397-guan-wang": [
@@ -37321,6 +37633,12 @@
       "Opponent": "Polyana Viana",
       "OpponentId": "85751-polyana-mota-poly",
       "Date": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Gillian Robertson",
+      "Opponent": "M. Waterson-Gomez",
+      "OpponentId": "michelle-waterson-the-karate-hottie",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "33183-emily-whitmire": [
@@ -37391,6 +37709,12 @@
       "Opponent": "Ariane Lipski",
       "OpponentId": "57056-ariane-lipski",
       "Date": "2021-06-05T00:00:00"
+    },
+    {
+      "Name": "Montana De La Rosa",
+      "Opponent": "Andrea Lee",
+      "OpponentId": "47916-andrea-lee",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "15598-christina-marks": [],
@@ -37535,6 +37859,12 @@
       "Opponent": "Henry Cejudo",
       "OpponentId": "42359-henry-cejudo",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Merab Dvalishvili",
+      "Opponent": "Sean O\u0026#39;Malley",
+      "OpponentId": "68186-sean-omalley",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "alex-perez": [
@@ -37573,6 +37903,12 @@
       "Opponent": "Jussier Formiga",
       "OpponentId": "jussier-da-silva-formiga",
       "Date": "2020-06-06T00:00:00"
+    },
+    {
+      "Name": "Alex Perez",
+      "Opponent": "Matheus Nicolau",
+      "OpponentId": "35392-matheus-nicolau-pereira",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "47476-benito-lopez-golden-boy": [
@@ -38074,6 +38410,12 @@
       "Opponent": "Vicente Luque",
       "OpponentId": "16651-vicente-luque",
       "Date": "2022-08-06T00:00:00"
+    },
+    {
+      "Name": "Geoff Neal",
+      "Opponent": "Rafael dos Anjos",
+      "OpponentId": "rafael-dos-anjos",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "steven-peterson-ocho": [
@@ -38198,6 +38540,12 @@
       "Opponent": "Jim Miller",
       "OpponentId": "jim-miller",
       "Date": "2023-02-18T00:00:00"
+    },
+    {
+      "Name": "Alexander Hernandez",
+      "Opponent": "Austin Hubbard",
+      "OpponentId": "67931-austin-hubbard",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "134267": [
@@ -38248,6 +38596,12 @@
       "Opponent": "Angela Hill",
       "OpponentId": "57525-angela-hill-overkill",
       "Date": "2023-05-20T00:00:00"
+    },
+    {
+      "Name": "Mackenzie Dern",
+      "Opponent": "Lupita Godinez",
+      "OpponentId": "133312-lupita-godinez",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "19820-yana-kunitskaya-foxy": [
@@ -38274,6 +38628,12 @@
       "Opponent": "Ketlen Vieira",
       "OpponentId": "99972-ketlen-vieira-fenomeno",
       "Date": "2021-02-20T00:00:00"
+    },
+    {
+      "Name": "Yana Santos",
+      "Opponent": "Chelsea Chandler",
+      "OpponentId": "134566-chelsea-chandler",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "55324-dmitriy-sosnovskiy": [
@@ -38344,6 +38704,12 @@
       "Opponent": "Johnny Walker",
       "OpponentId": "85671-johnny-walker",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Magomed Ankalaev",
+      "Opponent": "Aleksandar Raki\u0107",
+      "OpponentId": "75026-aleksandar-rakic",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "62664-hakeem-dawodu": [
@@ -38609,6 +38975,12 @@
       "Opponent": "Andre Fili",
       "OpponentId": "11328-andre-fili-dre-duke",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Nathaniel Wood",
+      "Opponent": "Daniel Pineda",
+      "OpponentId": "daniel-pineda",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "54332-chance-rencountre": [
@@ -38839,6 +39211,12 @@
       "Opponent": "Cody Gibson",
       "OpponentId": "cody-gibson",
       "Date": "2023-08-19T00:00:00"
+    },
+    {
+      "Name": "Brad Katona",
+      "Opponent": "Jesse Butler",
+      "OpponentId": "39845-jessie-butler",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "32349-jay-cucciniello": [],
@@ -39124,6 +39502,12 @@
       "Opponent": "Amanda Lemos",
       "OpponentId": "87845-amanda-lemos-amandinha",
       "Date": "2023-08-19T00:00:00"
+    },
+    {
+      "Name": "Weili Zhang",
+      "Opponent": "Xiaonan Yan",
+      "OpponentId": "12602-xiao-nan-yang-fury",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "75678-matt-sayles-robo": [
@@ -39176,6 +39560,12 @@
       "Opponent": "Rani Yahya",
       "OpponentId": "rani-yahya",
       "Date": "2023-04-22T00:00:00"
+    },
+    {
+      "Name": "Montel Jackson",
+      "Opponent": "Da\u0026#39;Mon Blackshear",
+      "OpponentId": "78497-damon-blackshear",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "35757-kevin-holland": [
@@ -39250,6 +39640,12 @@
       "Opponent": "Michael Chiesa",
       "OpponentId": "15253-mike-chiesa-maverick",
       "Date": "2023-07-29T00:00:00"
+    },
+    {
+      "Name": "Kevin Holland",
+      "Opponent": "Micha\u0142 Oleksiejczuk",
+      "OpponentId": "61212-michal-oleksiejczuk",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "86797-stefan-sekuli": [],
@@ -39411,6 +39807,12 @@
       "Opponent": "Dominick Reyes",
       "OpponentId": "61438-dominick-reyes",
       "Date": "2022-11-12T00:00:00"
+    },
+    {
+      "Name": "Ryan Spann",
+      "Opponent": "Ovince St. Preux",
+      "OpponentId": "ovince-st-preux",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "81799-marina-rodriguez": [
@@ -39968,6 +40370,12 @@
       "Opponent": "Alatengheili",
       "OpponentId": "57170-ala-tengheili",
       "Date": "2023-10-14T00:00:00"
+    },
+    {
+      "Name": "Chris Gutierrez",
+      "Opponent": "Quang Le",
+      "OpponentId": "114976-quang-le",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "66843-roosevelt-roberts": [
@@ -40165,6 +40573,12 @@
       "Opponent": "Pannie Kianzad",
       "OpponentId": "36969-pannie-kianzad",
       "Date": "2024-03-16T00:00:00"
+    },
+    {
+      "Name": "Macy Chiasson",
+      "Opponent": "Mayra Bueno Silva",
+      "OpponentId": "140732-mayra-bueno-silva-sheetara",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "36969-pannie-kianzad": [
@@ -40289,6 +40703,12 @@
       "Opponent": "Askar Askarov",
       "OpponentId": "99919-askar-askarov",
       "Date": "2022-03-26T00:00:00"
+    },
+    {
+      "Name": "Kai Kara-France",
+      "Opponent": "Steve Erceg",
+      "OpponentId": "132326-stephen-erceg",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "126283-jim-chute": [
@@ -40475,6 +40895,12 @@
       "Opponent": "Ricky Sim\u00F3n",
       "OpponentId": "33229-ricky-simon",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Mario Bautista",
+      "Opponent": "Jos\u00E9 Aldo",
+      "OpponentId": "jose-aldo-junior",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "69032-alonzo-menifield": [
@@ -40676,6 +41102,12 @@
       "Opponent": "Shamil Gaziev",
       "OpponentId": "201352-shamil-gaziev",
       "Date": "2024-03-02T00:00:00"
+    },
+    {
+      "Name": "Jairzinho Rozenstruik",
+      "Opponent": "Tai Tuivasa",
+      "OpponentId": "120884-tai-tuivasa-bam-bam",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "74022-taila-santos": [
@@ -40740,6 +41172,12 @@
       "Opponent": "Roman Kopylov",
       "OpponentId": "138424-roman-kopylov",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Anthony Hernandez",
+      "Opponent": "Michel Pereira",
+      "OpponentId": "55575-michel-pereira",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "130369-sarah-frota": [],
@@ -40810,6 +41248,12 @@
       "Opponent": "Marc Diakiese",
       "OpponentId": "66513-marc-diakiese",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Joel Alvarez",
+      "Opponent": "Elves Brener",
+      "OpponentId": "131388-elvis-brenner",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "79755-ismael-naurdiev": [
@@ -40824,6 +41268,12 @@
       "Opponent": "Siyar Bahadurzada",
       "OpponentId": "siyar-bahadurzada-the-great",
       "Date": "2019-09-28T00:00:00"
+    },
+    {
+      "Name": "Ismail Naurdiev",
+      "Opponent": "Bruno Silva",
+      "OpponentId": "59819-bruno-silva-blindado",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "63237-klidson-farias-de-abreu": [
@@ -40891,6 +41341,18 @@
       "Opponent": "Damir Ismagulov",
       "OpponentId": "81591-damir-ismagulov",
       "Date": "2023-07-01T00:00:00"
+    },
+    {
+      "Name": "Grant Dawson",
+      "Opponent": "Joe Solecki",
+      "OpponentId": "116995-joseph-solecki",
+      "Date": "2024-06-01T00:00:00"
+    },
+    {
+      "Name": "Grant Dawson",
+      "Opponent": "Rafa Garc\u00EDa",
+      "OpponentId": "105452-rafael-garcia-gifted",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "23283-michael-grundy": [
@@ -41030,6 +41492,12 @@
       "Opponent": "Devin Clark",
       "OpponentId": "23218-devin-clark",
       "Date": "2023-05-06T00:00:00"
+    },
+    {
+      "Name": "Kennedy Nzechukwu",
+      "Opponent": "Chris Barnett",
+      "OpponentId": "8196-chris-barnett-beast-boy",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "65764-randy-costa": [
@@ -41219,6 +41687,12 @@
       "Opponent": "Beneil Dariush",
       "OpponentId": "20010-beneil-dariush-benny",
       "Date": "2023-12-02T00:00:00"
+    },
+    {
+      "Name": "Arman Tsarukyan",
+      "Opponent": "Charles Oliveira",
+      "OpponentId": "charles-oliveira-do-bronx",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "51604-mike-davis": [
@@ -41283,6 +41757,12 @@
       "Opponent": "Lupita Godinez",
       "OpponentId": "133312-lupita-godinez",
       "Date": "2024-03-30T00:00:00"
+    },
+    {
+      "Name": "Virna Jandiroba",
+      "Opponent": "Amanda Lemos",
+      "OpponentId": "87845-amanda-lemos-amandinha",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "57862-takashi-sato": [
@@ -41383,6 +41863,12 @@
       "Opponent": "Derrick Lewis",
       "OpponentId": "14023-derrick-lewis-the-black-beast",
       "Date": "2023-02-04T00:00:00"
+    },
+    {
+      "Name": "Serghei Spivac",
+      "Opponent": "Marcin Tybura",
+      "OpponentId": "34449-marcin-tybura-tybur",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "106437-viviane-araujo-vivi": [
@@ -41454,6 +41940,12 @@
       "Opponent": "Julija Stoliarenko",
       "OpponentId": "54390-julia-stoliarenko",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Luana Carolina",
+      "Opponent": "Lucie Pudilov\u00E1",
+      "OpponentId": "90345-lucie-pudilova",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "55575-michel-pereira": [
@@ -41504,6 +41996,12 @@
       "Opponent": "Micha\u0142 Oleksiejczuk",
       "OpponentId": "61212-michal-oleksiejczuk",
       "Date": "2024-03-09T00:00:00"
+    },
+    {
+      "Name": "Michel Pereira",
+      "Opponent": "Ihor Potieria",
+      "OpponentId": "91636-igor-poterya",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "36724-charles-jourdain": [
@@ -41562,6 +42060,12 @@
       "Opponent": "Dakota Bush",
       "OpponentId": "109057-dakota-bush",
       "Date": "2021-04-17T00:00:00"
+    },
+    {
+      "Name": "Austin Hubbard",
+      "Opponent": "Michal Figlak",
+      "OpponentId": "78396-michal-figlak",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "4212-derrick-krantz-d-rock": [],
@@ -41931,6 +42435,12 @@
       "Opponent": "Yana Santos",
       "OpponentId": "19820-yana-kunitskaya-foxy",
       "Date": "2023-07-01T00:00:00"
+    },
+    {
+      "Name": "Karol Rosa",
+      "Opponent": "Pannie Kianzad",
+      "OpponentId": "36969-pannie-kianzad",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "67543-lara-procopio": [
@@ -41965,6 +42475,12 @@
       "Opponent": "Chad Anheliger",
       "OpponentId": "20364-chad-anheliger",
       "Date": "2022-09-10T00:00:00"
+    },
+    {
+      "Name": "Alatengheili",
+      "Opponent": "Kleydson Rodrigues",
+      "OpponentId": "147055-kleidison-rodrigues-kr",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "17399-danaa-batgerel": [
@@ -42056,6 +42572,12 @@
       "Opponent": "Albert Duraev",
       "OpponentId": "18658-albert-duraev",
       "Date": "2023-07-15T00:00:00"
+    },
+    {
+      "Name": "Jun Yong Park",
+      "Opponent": "Brad Tavares",
+      "OpponentId": "brad-tavares",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "25717-mizuki-inoue": [
@@ -42102,6 +42624,12 @@
       "Opponent": "Claudio Puelles",
       "OpponentId": "53808-claudio-puelles",
       "Date": "2024-02-24T00:00:00"
+    },
+    {
+      "Name": "Fares Ziam",
+      "Opponent": "Matt Frevola",
+      "OpponentId": "83149-matt-frevola",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "60986-ottman-azaitar-bulldozer": [
@@ -42156,6 +42684,18 @@
       "Opponent": "Josh Culibao",
       "OpponentId": "101823-joshua-culibao",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Lerone Murphy",
+      "Opponent": "Edson Barboza",
+      "OpponentId": "edson-barboza-mendes-junior",
+      "Date": "2024-05-18T00:00:00"
+    },
+    {
+      "Name": "Lerone Murphy",
+      "Opponent": "Dan Ige",
+      "OpponentId": "21178-dan-ige",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "99152-hunter-azure": [
@@ -42202,6 +42742,12 @@
       "Opponent": "Cody Gibson",
       "OpponentId": "cody-gibson",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Miles Johns",
+      "Opponent": "D. Silva de Andrade",
+      "OpponentId": "38718-douglas-dsilva",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "tristan-connelly": [
@@ -42244,6 +42790,12 @@
       "Opponent": "Istela Nunes",
       "OpponentId": "48686-istela-nunes",
       "Date": "2021-10-16T00:00:00"
+    },
+    {
+      "Name": "Ariane Carnelossi",
+      "Opponent": "Piera Rodriguez",
+      "OpponentId": "140642-pierangela-rodriguez",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "50942-vanessa-melo": [
@@ -42432,6 +42984,12 @@
       "Opponent": "Tyson Nam",
       "OpponentId": "tyson-nam",
       "Date": "2023-03-11T00:00:00"
+    },
+    {
+      "Name": "Bruno Silva",
+      "Opponent": "Cody Durden",
+      "OpponentId": "68337-cody-durden",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "98694-zarah-fairn": [],
@@ -42653,6 +43211,12 @@
       "Opponent": "Paul Craig",
       "OpponentId": "25338-paul-craig",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Brendan Allen",
+      "Opponent": "Chris Curtis",
+      "OpponentId": "14863-christopher-curtis-the-action-man",
+      "Date": "2024-04-06T00:00:00"
     }
   ],
   "32242-sean-brady": [
@@ -42691,6 +43255,12 @@
       "Opponent": "Kelvin Gastelum",
       "OpponentId": "41355-kelvin-gastelum",
       "Date": "2023-12-02T00:00:00"
+    },
+    {
+      "Name": "Sean Brady",
+      "Opponent": "Gilbert Burns",
+      "OpponentId": "31168-gilbert-burns-durinho",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "103506-sean-woodson": [
@@ -42723,6 +43293,12 @@
       "Opponent": "Charles Jourdain",
       "OpponentId": "36724-charles-jourdain",
       "Date": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Sean Woodson",
+      "Opponent": "Alex Caceres",
+      "OpponentId": "alex-caceres-bruce-leroy",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "76509-diana-belbita": [
@@ -42828,6 +43404,12 @@
       "Opponent": "Andrei Arlovski",
       "OpponentId": "andrei-arlovski-the-pitbull",
       "Date": "2023-06-03T00:00:00"
+    },
+    {
+      "Name": "Don\u0026#39;Tale Mayes",
+      "Opponent": "Caio Machado",
+      "OpponentId": "148701-caio-machado",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "65871-abubakr-nurmagomedov": [
@@ -42868,6 +43450,12 @@
       "Opponent": "Josh Fremd",
       "OpponentId": "65199-joshua-fremd",
       "Date": "2023-09-16T00:00:00"
+    },
+    {
+      "Name": "Roman Kopylov",
+      "Opponent": "C\u00E9sar Almeida",
+      "OpponentId": "126015-csar-almeida",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "66739-shamil-gamzatov": [
@@ -43047,6 +43635,12 @@
       "Opponent": "Dalcha Lungiambula",
       "OpponentId": "72343-dalcha-lungiambula-champion",
       "Date": "2022-07-16T00:00:00"
+    },
+    {
+      "Name": "Punahele Soriano",
+      "Opponent": "Miguel Baeza",
+      "OpponentId": "99224-miguel-baeza",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "158947-chase-hooper": [
@@ -43079,6 +43673,12 @@
       "Opponent": "Jordan Leavitt",
       "OpponentId": "90318-jordan-leavitt",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Chase Hooper",
+      "Opponent": "Viacheslav Borshchev",
+      "OpponentId": "48692-vyacheslav-borshev",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "102616-omar-morales": [
@@ -43269,6 +43869,12 @@
       "Opponent": "Billy Quarantillo",
       "OpponentId": "42701-billy-quarantillo",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Youssef Zalal",
+      "Opponent": "Jarno Errens",
+      "OpponentId": "112766-jarno-errens",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "129509-austin-lingo": [
@@ -43315,6 +43921,12 @@
       "Opponent": "Rolando Bedoya",
       "OpponentId": "81901-rolando-bedoya",
       "Date": "2023-05-06T00:00:00"
+    },
+    {
+      "Name": "Khaos Williams",
+      "Opponent": "Carlston Harris",
+      "OpponentId": "43804-carlston-harris-moambique",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "58605-shanna-young": [
@@ -43367,6 +43979,12 @@
       "Opponent": "Jingliang Li",
       "OpponentId": "jing-liang-li-the-leech",
       "Date": "2022-09-10T00:00:00"
+    },
+    {
+      "Name": "Daniel Rodriguez",
+      "Opponent": "Alex Morono",
+      "OpponentId": "16353-alex-morono",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "49877-brock-weaver": [
@@ -43450,6 +44068,18 @@
       "Opponent": "Melquizael Costa",
       "OpponentId": "101043-melquizael-costa-melkcalty",
       "Date": "2023-12-09T00:00:00"
+    },
+    {
+      "Name": "Steve Garcia",
+      "Opponent": "Seung Woo Choi",
+      "OpponentId": "108867-seung-woo-choi",
+      "Date": "2024-07-20T00:00:00"
+    },
+    {
+      "Name": "Steve Garcia",
+      "Opponent": "Kyle Nelson",
+      "OpponentId": "21458-kyle-nelson-the-monster",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "93501-kyler-phillips": [
@@ -43540,6 +44170,18 @@
       "Opponent": "Chelsea Chandler",
       "OpponentId": "134566-chelsea-chandler",
       "Date": "2023-07-15T00:00:00"
+    },
+    {
+      "Name": "Norma Dumont",
+      "Opponent": "Germaine de Randamie",
+      "OpponentId": "germaine-de-randamie-the-iron-lady",
+      "Date": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "Norma Dumont",
+      "Opponent": "Irene Aldana",
+      "OpponentId": "60294-irene-aldana-robles",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "32088-jamall-emmers": [
@@ -43686,6 +44328,12 @@
       "Opponent": "Brandon Moreno",
       "OpponentId": "27833-brandon-moreno-the-assassin",
       "Date": "2024-02-24T00:00:00"
+    },
+    {
+      "Name": "Brandon Royval",
+      "Opponent": "Tatsuro Taira",
+      "OpponentId": "145595-tatsuro-taira",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "86242-gabriel-green": [
@@ -43841,6 +44489,12 @@
       "Opponent": "Glover Teixeira",
       "OpponentId": "glover-teixeira",
       "Date": "2022-06-11T00:00:00"
+    },
+    {
+      "Name": "Ji\u0159\u00ED Proch\u00E1zka",
+      "Opponent": "Aleksandar Raki\u0107",
+      "OpponentId": "75026-aleksandar-rakic",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "85433-modestas-bukauskas": [
@@ -43861,6 +44515,12 @@
       "Opponent": "Zac Pauga",
       "OpponentId": "212294-zac-pauga",
       "Date": "2023-06-17T00:00:00"
+    },
+    {
+      "Name": "Modestas Bukauskas",
+      "Opponent": "Marcin Prachnio",
+      "OpponentId": "51446-marcin-prachnio",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "72348-andreas-mihalidis": [
@@ -43913,6 +44573,12 @@
       "Opponent": "Kamaru Usman",
       "OpponentId": "39265-kamarudeen-usman",
       "Date": "2023-10-21T00:00:00"
+    },
+    {
+      "Name": "Khamzat Chimaev",
+      "Opponent": "Robert Whittaker",
+      "OpponentId": "17398-robert-whittaker",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "26813-mounir-lazzez": [
@@ -44031,6 +44697,18 @@
       "Opponent": "Jack Hermansson",
       "OpponentId": "13893-Jack-Hermansson",
       "Date": "2022-12-03T00:00:00"
+    },
+    {
+      "Name": "Roman Dolidze",
+      "Opponent": "Anthony Smith",
+      "OpponentId": "anthony-smith-lionheart",
+      "Date": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "Roman Dolidze",
+      "Opponent": "Kevin Holland",
+      "OpponentId": "35757-kevin-holland",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "20125-john-castaneda": [
@@ -44102,6 +44780,12 @@
       "Opponent": "Sergei Pavlovich",
       "OpponentId": "89112-sergey-pavlovich",
       "Date": "2023-11-11T00:00:00"
+    },
+    {
+      "Name": "Tom Aspinall",
+      "Opponent": "Curtis Blaydes",
+      "OpponentId": "51080-curtis-blaydes",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "70002-jai-herbert": [
@@ -44116,6 +44800,12 @@
       "Opponent": "Kyle Nelson",
       "OpponentId": "21458-kyle-nelson-the-monster",
       "Date": "2022-07-23T00:00:00"
+    },
+    {
+      "Name": "Jai Herbert",
+      "Opponent": "Rolando Bedoya",
+      "OpponentId": "81901-rolando-bedoya",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "54321-rhys-mckee": [],
@@ -44149,6 +44839,12 @@
       "Opponent": "Jake Hadley",
       "OpponentId": "87298-jake-hadley",
       "Date": "2023-08-05T00:00:00"
+    },
+    {
+      "Name": "Cody Durden",
+      "Opponent": "Matt Schnell",
+      "OpponentId": "29221-matt-schnell",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "94562-vincent-cachero": [],
@@ -44176,6 +44872,12 @@
       "Opponent": "Mateus Mendon\u00E7a",
       "OpponentId": "218144-matheus-mendonca-bocao",
       "Date": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "Nate Maness",
+      "Opponent": "Jimmy Flick",
+      "OpponentId": "jimmy-flick",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "79600-john-munoz-jr": [
@@ -44250,6 +44952,18 @@
       "Opponent": "Vicente Luque",
       "OpponentId": "16651-vicente-luque",
       "Date": "2024-03-30T00:00:00"
+    },
+    {
+      "Name": "Joaquin Buckley",
+      "Opponent": "Nursulton Ruziboev",
+      "OpponentId": "89891-nursultan-ruziboev-black",
+      "Date": "2024-05-11T00:00:00"
+    },
+    {
+      "Name": "Joaquin Buckley",
+      "Opponent": "Stephen Thompson",
+      "OpponentId": "16753-stephen-thompson-wonderboy",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "74838-kai-kamaka-iii-boy": [
@@ -44558,6 +45272,18 @@
       "Opponent": "AJ Cunningham",
       "OpponentId": "124154-austin-cunningham",
       "Date": "2024-03-02T00:00:00"
+    },
+    {
+      "Name": "\u013Dudov\u00EDt Klein",
+      "Opponent": "Thiago Mois\u00E9s",
+      "OpponentId": "49744-thiago-moiss",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "\u013Dudov\u00EDt Klein",
+      "Opponent": "Roosevelt Roberts",
+      "OpponentId": "66843-roosevelt-roberts",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "125404-nassourdine-imavov": [
@@ -44590,6 +45316,18 @@
       "Opponent": "Roman Dolidze",
       "OpponentId": "147160-roman-dolidze",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Nassourdine Imavov",
+      "Opponent": "Jared Cannonier",
+      "OpponentId": "63163-jared-cannonier",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "Nassourdine Imavov",
+      "Opponent": "Brendan Allen",
+      "OpponentId": "91516-brendan-allen",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "73288-jordan-williams": [],
@@ -44703,6 +45441,12 @@
       "Opponent": "Alexander Volkanovski",
       "OpponentId": "41705-alex-volkanski",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Ilia Topuria",
+      "Opponent": "Max Holloway",
+      "OpponentId": "12723-max-holloway-lil-evil",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "50336-alan-baudot": [],
@@ -44748,6 +45492,12 @@
       "Opponent": "Sean Strickland",
       "OpponentId": "6055-sean-strickland-tarzan",
       "Date": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Dricus Du Plessis",
+      "Opponent": "Israel Adesanya",
+      "OpponentId": "79163-israel-adesanya",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "15454-mark-striegl-mugen": [],
@@ -44757,6 +45507,12 @@
       "Opponent": "Mateusz Gamrot",
       "OpponentId": "26305-mateusz-gamrot",
       "Date": "2020-10-17T00:00:00"
+    },
+    {
+      "Name": "Guram Kutateladze",
+      "Opponent": "Jordan Vucenic",
+      "OpponentId": "106035-jordan-vucenic",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "26305-mateusz-gamrot": [
@@ -44839,6 +45595,12 @@
       "Opponent": "Andrea Lee",
       "OpponentId": "47916-andrea-lee",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Miranda Maverick",
+      "Opponent": "Dione Barbosa",
+      "OpponentId": "173579-dione-barbosa",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "81052-shavkat-rakhmonov": [
@@ -44963,6 +45725,12 @@
       "Opponent": "Tony Kelley",
       "OpponentId": "46792-tony-kelley",
       "Date": "2022-06-18T00:00:00"
+    },
+    {
+      "Name": "Adrian Yanez",
+      "Opponent": "Vinicius Salvador",
+      "OpponentId": "95618-vinicius-de-almeida-salvador",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "91412-victor-rodrigez": [],
@@ -45105,6 +45873,12 @@
       "Opponent": "Jaqueline Amorim",
       "OpponentId": "248605-jaqueline-amorim",
       "Date": "2023-04-08T00:00:00"
+    },
+    {
+      "Name": "Sam Hughes",
+      "Opponent": "Victoria Dudakova",
+      "OpponentId": "227991-viktoria-dudakova",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "jimmy-flick": [
@@ -45173,6 +45947,12 @@
       "Opponent": "Lucie Pudilov\u00E1",
       "OpponentId": "90345-lucie-pudilova",
       "Date": "2023-04-15T00:00:00"
+    },
+    {
+      "Name": "Joselyne Edwards",
+      "Opponent": "Tamires Vidal",
+      "OpponentId": "193326-tamires-vidal",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "136168-manon-fiorot": [
@@ -45257,6 +46037,12 @@
       "Opponent": "Bekzat Almakhan",
       "OpponentId": "192704-bekzat-almakhan",
       "Date": "2024-03-02T00:00:00"
+    },
+    {
+      "Name": "Umar Nurmagomedov",
+      "Opponent": "Cory Sandhagen",
+      "OpponentId": "32931-cory-sandhagen",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "85896-sergey-morozov": [
@@ -45395,6 +46181,12 @@
       "Opponent": "Roxanne Modafferi",
       "OpponentId": "roxanne-modafferi-the-happy-warrior",
       "Date": "2022-02-12T00:00:00"
+    },
+    {
+      "Name": "Casey O\u0026#39;Neill",
+      "Opponent": "Luana Santos",
+      "OpponentId": "223129-luana-santos",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "38205-ronnie-lawrence": [
@@ -45429,6 +46221,12 @@
       "Opponent": "Matthew Semelsberger",
       "OpponentId": "98220-matthew-semelsberger",
       "Date": "2023-07-29T00:00:00"
+    },
+    {
+      "Name": "Uros Medic",
+      "Opponent": "Tim Means",
+      "OpponentId": "3224-tim-means-the-dirty-bird",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "203365-carlos-ulberg-mr-marvelous": [
@@ -45461,6 +46259,12 @@
       "Opponent": "Da Woon Jung",
       "OpponentId": "103262-da-un-jung",
       "Date": "2023-09-09T00:00:00"
+    },
+    {
+      "Name": "Carlos Ulberg",
+      "Opponent": "Alonzo Menifield",
+      "OpponentId": "69032-alonzo-menifield",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "137395-gloria-de-paula-glorinha": [
@@ -45556,6 +46360,18 @@
       "Opponent": "Trey Ogden",
       "OpponentId": "90133-trey-ogden",
       "Date": "2023-04-08T00:00:00"
+    },
+    {
+      "Name": "Ignacio Bahamondes",
+      "Opponent": "Christos Giagos",
+      "OpponentId": "38606-christos-giagos-the-spartan",
+      "Date": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "Ignacio Bahamondes",
+      "Opponent": "Manuel Torres",
+      "OpponentId": "194607-manuel-torres-el-loco",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "109057-dakota-bush": [],
@@ -45682,6 +46498,12 @@
       "Opponent": "Lucas Almeida",
       "OpponentId": "124782-lucas-de-oliveira-almeida",
       "Date": "2023-06-17T00:00:00"
+    },
+    {
+      "Name": "Pat Sabatini",
+      "Opponent": "Jonathan Pearce",
+      "OpponentId": "40655-jonathan-pearce",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "152138-luana-pinheiro": [
@@ -45805,6 +46627,18 @@
       "Opponent": "Gillian Robertson",
       "OpponentId": "73142-gillian-robertson",
       "Date": "2023-06-24T00:00:00"
+    },
+    {
+      "Name": "Tabatha Ricci",
+      "Opponent": "Tecia Pennington",
+      "OpponentId": "32610-tecia-torres-the-tiny-tornado",
+      "Date": "2024-05-11T00:00:00"
+    },
+    {
+      "Name": "Tabatha Ricci",
+      "Opponent": "Angela Hill",
+      "OpponentId": "57525-angela-hill-overkill",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "66705-kamuela-kirk": [
@@ -45851,6 +46685,12 @@
       "Opponent": "Brad Tavares",
       "OpponentId": "brad-tavares",
       "Date": "2024-02-10T00:00:00"
+    },
+    {
+      "Name": "Gregory Rodrigues",
+      "Opponent": "Christian Leroy Duncan",
+      "OpponentId": "116334-christian-duncan",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "126382-terrance-mckinney": [
@@ -45970,6 +46810,12 @@
       "Opponent": "Jinh Yu Frey",
       "OpponentId": "32655-jinh-yu",
       "Date": "2023-06-03T00:00:00"
+    },
+    {
+      "Name": "Elise Reed",
+      "Opponent": "Jessica Penne",
+      "OpponentId": "jessica-pene",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "67420-orion-cosce": [
@@ -46013,6 +46859,12 @@
       "Opponent": "Sijara Eubanks",
       "OpponentId": "56532-sajara-eubanks",
       "Date": "2021-12-18T00:00:00"
+    },
+    {
+      "Name": "Melissa Gatto",
+      "Opponent": "Tamires Vidal",
+      "OpponentId": "193326-tamires-vidal",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "61258-josiane-nunes": [
@@ -46087,6 +46939,12 @@
       "Opponent": "Kanako Murata",
       "OpponentId": "129348-kanako-murata",
       "Date": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "Vanessa Demopoulos",
+      "Opponent": "Emily Ducote",
+      "OpponentId": "70991-emily-ducote",
+      "Date": "2024-05-18T00:00:00"
     }
   ],
   "123353-andre-petroski": [
@@ -46119,6 +46977,18 @@
       "Opponent": "Gerald Meerschaert",
       "OpponentId": "6018-gerald-meerschaert-the-machine",
       "Date": "2023-08-19T00:00:00"
+    },
+    {
+      "Name": "Andre Petroski",
+      "Opponent": "Josh Fremd",
+      "OpponentId": "65199-joshua-fremd",
+      "Date": "2024-07-13T00:00:00"
+    },
+    {
+      "Name": "Andre Petroski",
+      "Opponent": "Dylan Budka",
+      "OpponentId": "275778-dylan-budka",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "86130-mike-gillmore": [],
@@ -46148,6 +47018,12 @@
       "Opponent": "Batgerel Danaa",
       "OpponentId": "17399-danaa-batgerel",
       "Date": "2023-04-22T00:00:00"
+    },
+    {
+      "Name": "Brady Hiestand",
+      "Opponent": "Garrett Armfield",
+      "OpponentId": "128099-garrett-armfield",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "153353-bryan-battle": [
@@ -46180,6 +47056,12 @@
       "Opponent": "AJ Fletcher",
       "OpponentId": "140431-aj-fletcher",
       "Date": "2023-09-23T00:00:00"
+    },
+    {
+      "Name": "Bryan Battle",
+      "Opponent": "Kevin Jousset",
+      "OpponentId": "195097-kevin-jousset",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "68420-gilbert-urbina": [
@@ -46221,6 +47103,12 @@
       "Opponent": "Tony Ferguson",
       "OpponentId": "tony-ferguson-el-cucuy",
       "Date": "2023-12-16T00:00:00"
+    },
+    {
+      "Name": "Paddy Pimblett",
+      "Opponent": "Bobby Green",
+      "OpponentId": "bobby-green-king",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "167460-erin-blanchfield": [
@@ -46357,6 +47245,12 @@
       "Opponent": "Gabriel Santos",
       "OpponentId": "159865-gabriel-santos-mosquitinho",
       "Date": "2023-06-24T00:00:00"
+    },
+    {
+      "Name": "David Onama",
+      "Opponent": "Jonathan Pearce",
+      "OpponentId": "40655-jonathan-pearce",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "30534-alan-nascimento": [
@@ -46482,6 +47376,12 @@
       "Opponent": "Geoff Neal",
       "OpponentId": "20058-geoffrey-neal",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Ian Machado Garry",
+      "Opponent": "Michael Page",
+      "OpponentId": "21208-michael-page",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "14863-christopher-curtis-the-action-man": [
@@ -46552,6 +47452,24 @@
       "Opponent": "Ji\u0159\u00ED Proch\u00E1zka",
       "OpponentId": "34779-jiri-prochazka",
       "Date": "2023-11-11T00:00:00"
+    },
+    {
+      "Name": "Alex Pereira",
+      "Opponent": "Jamahal Hill",
+      "OpponentId": "120815-jamahal-hill",
+      "Date": "2024-04-13T00:00:00"
+    },
+    {
+      "Name": "Alex Pereira",
+      "Opponent": "Ji\u0159\u00ED Proch\u00E1zka",
+      "OpponentId": "34779-jiri-prochazka",
+      "Date": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "Alex Pereira",
+      "Opponent": "Khalil Rountree Jr.",
+      "OpponentId": "47284-khalil-rountree-the-war-horse",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "121270-natan-levy": [
@@ -46601,6 +47519,12 @@
       "Opponent": "Jonathan Pearce",
       "OpponentId": "40655-jonathan-pearce",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Joanderson Brito",
+      "Opponent": "Jack Shore",
+      "OpponentId": "80250-jack-shore",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "48692-vyacheslav-borshev": [
@@ -46615,6 +47539,12 @@
       "Opponent": "Maheshate Hayisaer",
       "OpponentId": "230872-maheshate",
       "Date": "2023-05-20T00:00:00"
+    },
+    {
+      "Name": "Viacheslav Borshchev",
+      "Opponent": "James Llontop",
+      "OpponentId": "94585-james-llontop",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "171056-jasmine-jasdavicious": [
@@ -46641,6 +47571,12 @@
       "Opponent": "Priscila Cachoeira",
       "OpponentId": "128371-priscila-cachoeira",
       "Date": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Jasmine Jasudavicius",
+      "Opponent": "Fatima Kline",
+      "OpponentId": "194482-fatima-kline",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "214582-genaro-valdez-el-rayadito": [],
@@ -46709,6 +47645,12 @@
       "Opponent": "Tony Gravely",
       "OpponentId": "80780-tony-gravely-lamar",
       "Date": "2023-03-11T00:00:00"
+    },
+    {
+      "Name": "Victor Henry",
+      "Opponent": "Rani Yahya",
+      "OpponentId": "rani-yahya",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "164286-michael-morales": [
@@ -46735,6 +47677,12 @@
       "Opponent": "Jake Matthews",
       "OpponentId": "45260-jake-matthews",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Michael Morales",
+      "Opponent": "Neil Magny",
+      "OpponentId": "16456-aoutneil-magny",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "115985-andre-fialho": [
@@ -46788,6 +47736,12 @@
       "Opponent": "Derrick Lewis",
       "OpponentId": "14023-derrick-lewis-the-black-beast",
       "Date": "2023-11-04T00:00:00"
+    },
+    {
+      "Name": "Jailton Almeida",
+      "Opponent": "Alexandr Romanov",
+      "OpponentId": "144301-alexander-romanov",
+      "Date": "2024-06-01T00:00:00"
     }
   ],
   "chidi-njokuani": [
@@ -46808,6 +47762,12 @@
       "Opponent": "Rhys McKee",
       "OpponentId": "54321-rhys-mckee",
       "Date": "2024-03-30T00:00:00"
+    },
+    {
+      "Name": "Chidi Njokuani",
+      "Opponent": "Jared Gooden",
+      "OpponentId": "43007-jared-gooden",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "65776-tresean-gore": [
@@ -46949,6 +47909,12 @@
       "Opponent": "Dustin Jacoby",
       "OpponentId": "15069-dustin-jacoby",
       "Date": "2023-04-15T00:00:00"
+    },
+    {
+      "Name": "Azamat Murzakanov",
+      "Opponent": "Alonzo Menifield",
+      "OpponentId": "69032-alonzo-menifield",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "116280-javid-bashrat": [
@@ -47015,6 +47981,12 @@
       "Opponent": "Alex Perez",
       "OpponentId": "alex-perez",
       "Date": "2024-03-02T00:00:00"
+    },
+    {
+      "Name": "Muhammad Mokaev",
+      "Opponent": "Manel Kape",
+      "OpponentId": "70075-manel-kape-prodigio",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "74383-aliaskhab-khizriev": [
@@ -47107,6 +48079,12 @@
       "Opponent": "Kurt Holobaugh",
       "OpponentId": "27877-kurt-holobaugh",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Trey Ogden",
+      "Opponent": "Loik Radzhabov",
+      "OpponentId": "95647-loik-razdhabov-jaguar-paw",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "147242-martin-buday": [
@@ -47133,6 +48111,12 @@
       "Opponent": "Josh Parisian",
       "OpponentId": "86139-josh-parisian",
       "Date": "2023-08-12T00:00:00"
+    },
+    {
+      "Name": "Martin Buday",
+      "Opponent": "Andrei Arlovski",
+      "OpponentId": "andrei-arlovski-the-pitbull",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "79954-ange-loosa": [
@@ -47179,6 +48163,18 @@
       "Opponent": "Abus Magomedov",
       "OpponentId": "30204-abusupiyan-magomedov-abus",
       "Date": "2023-11-04T00:00:00"
+    },
+    {
+      "Name": "Caio Borralho",
+      "Opponent": "Paul Craig",
+      "OpponentId": "25338-paul-craig",
+      "Date": "2024-05-04T00:00:00"
+    },
+    {
+      "Name": "Caio Borralho",
+      "Opponent": "Jared Cannonier",
+      "OpponentId": "63163-jared-cannonier",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "158874-gadzhi-omargadzhiev": [],
@@ -47189,6 +48185,12 @@
       "Opponent": "Genaro Vald\u00E9z",
       "OpponentId": "214582-genaro-valdez-el-rayadito",
       "Date": "2023-07-15T00:00:00"
+    },
+    {
+      "Name": "Evan Elder",
+      "Opponent": "Darrius Flowers",
+      "OpponentId": "91236-darrius-flowers",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "143438-yohan-lainesse": [
@@ -47239,6 +48241,12 @@
       "Opponent": "Carlos Hernandez",
       "OpponentId": "60838-carlos-hernandez",
       "Date": "2023-12-09T00:00:00"
+    },
+    {
+      "Name": "Tatsuro Taira",
+      "Opponent": "Alex Perez",
+      "OpponentId": "alex-perez",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "24551-carlos-candelori": [],
@@ -47254,6 +48262,12 @@
       "Opponent": "Malcolm Gordon",
       "OpponentId": "36176-malcom-gordon",
       "Date": "2023-03-18T00:00:00"
+    },
+    {
+      "Name": "Jake Hadley",
+      "Opponent": "Caol\u00E1n Loughran",
+      "OpponentId": "152507-caolan-loughran",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "194607-manuel-torres-el-loco": [
@@ -47294,6 +48308,18 @@
       "Opponent": "Kevin Lee",
       "OpponentId": "23860-kevin-lee",
       "Date": "2023-07-01T00:00:00"
+    },
+    {
+      "Name": "Rinat Fakhretdinov",
+      "Opponent": "Nicolas Dalby",
+      "OpponentId": "18302-nicolas-dalby",
+      "Date": "2024-06-22T00:00:00"
+    },
+    {
+      "Name": "Rinat Fakhretdinov",
+      "Opponent": "Carlos Leal",
+      "OpponentId": "58430-carlos-leal",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "162202-daniel-argueta-the-determined": [
@@ -47323,6 +48349,12 @@
       "Opponent": "Maryna Moroz",
       "OpponentId": "73990-marina-moroz",
       "Date": "2023-08-19T00:00:00"
+    },
+    {
+      "Name": "Karine Silva",
+      "Opponent": "Ariane Lipski",
+      "OpponentId": "57056-ariane-lipski",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "124782-lucas-de-oliveira-almeida": [
@@ -47331,6 +48363,12 @@
       "Opponent": "Michael Trizano",
       "OpponentId": "64126-michael-trizano",
       "Date": "2022-06-04T00:00:00"
+    },
+    {
+      "Name": "Lucas Almeida",
+      "Opponent": "Timmy Cuamba",
+      "OpponentId": "181377-timothy-cuamba",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "230872-maheshate": [
@@ -47339,6 +48377,12 @@
       "Opponent": "Steve Garcia",
       "OpponentId": "41407-steve-garcia-jr",
       "Date": "2022-06-11T00:00:00"
+    },
+    {
+      "Name": "Maheshate Hayisaer",
+      "Opponent": "Gabriel Ben\u00EDtez",
+      "OpponentId": "27087-gabriel-benitez-moggly",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "99885-natalia-silva": [
@@ -47371,6 +48415,12 @@
       "Opponent": "Viviane Araujo",
       "OpponentId": "106437-viviane-araujo-vivi",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Nat\u00E1lia Silva",
+      "Opponent": "J\u00E9ssica Andrade",
+      "OpponentId": "34388-jessica-andrade-bate-estaca",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "128099-garrett-armfield": [
@@ -47419,6 +48469,24 @@
       "Opponent": "Azat Maksum",
       "OpponentId": "204759-azat-maksum",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Charles Johnson",
+      "Opponent": "Jake Hadley",
+      "OpponentId": "87298-jake-hadley",
+      "Date": "2024-05-11T00:00:00"
+    },
+    {
+      "Name": "Charles Johnson",
+      "Opponent": "Joshua Van",
+      "OpponentId": "254261-joshua-thawng",
+      "Date": "2024-07-13T00:00:00"
+    },
+    {
+      "Name": "Charles Johnson",
+      "Opponent": "Sumudaerji",
+      "OpponentId": "130802-sumidaerji",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "91636-igor-poterya": [
@@ -47441,6 +48509,12 @@
       "Opponent": "Yusaku Kinoshita",
       "OpponentId": "152934-yusaku-kinoshita",
       "Date": "2023-02-04T00:00:00"
+    },
+    {
+      "Name": "Adam Fugitt",
+      "Opponent": "Josh Quinlan",
+      "OpponentId": "114123-josh-quinlan",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "227049-hamdy-abdelwahab": [],
@@ -47503,7 +48577,14 @@
       "Date": "2022-08-13T00:00:00"
     }
   ],
-  "90654-ukasz-brzeski": [],
+  "90654-ukasz-brzeski": [
+    {
+      "Name": "\u0141ukasz Brzeski",
+      "Opponent": "Valter Walker",
+      "OpponentId": "267496-valter-rui-the-clean-monster",
+      "Date": "2024-04-06T00:00:00"
+    }
+  ],
   "207769-yasmine-jauregui": [
     {
       "Name": "Yazmin Jauregui",
@@ -47536,6 +48617,18 @@
       "Opponent": "Polyana Viana",
       "OpponentId": "85751-polyana-mota-poly",
       "Date": "2023-08-12T00:00:00"
+    },
+    {
+      "Name": "Iasmin Lucindo",
+      "Opponent": "Karolina Kowalkiewicz",
+      "OpponentId": "35968-karolina-kowalkiewicz",
+      "Date": "2024-05-04T00:00:00"
+    },
+    {
+      "Name": "Iasmin Lucindo",
+      "Opponent": "Marina Rodriguez",
+      "OpponentId": "81799-marina-rodriguez",
+      "Date": "2024-10-05T18:30:00"
     }
   ],
   "143238-ailin-luciana-perez": [
@@ -47550,6 +48643,18 @@
       "Opponent": "Lucie Pudilov\u00E1",
       "OpponentId": "90345-lucie-pudilova",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Ail\u00EDn P\u00E9rez",
+      "Opponent": "Joselyne Edwards",
+      "OpponentId": "98366-yoselin-edwards",
+      "Date": "2024-06-01T00:00:00"
+    },
+    {
+      "Name": "Ail\u00EDn P\u00E9rez",
+      "Opponent": "Darya Zheleznyakova",
+      "OpponentId": "229363-dariya-zheleznyakova",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "69208-christian-quionez-el-taylon": [
@@ -47575,6 +48680,18 @@
       "Opponent": "Dustin Stoltzfus",
       "OpponentId": "34864-dustin-stoltzfus",
       "Date": "2022-09-03T00:00:00"
+    },
+    {
+      "Name": "Abus Magomedov",
+      "Opponent": "Warlley Alves",
+      "OpponentId": "37561-warley-alves",
+      "Date": "2024-05-18T00:00:00"
+    },
+    {
+      "Name": "Abus Magomedov",
+      "Opponent": "Brunno Ferreira",
+      "OpponentId": "218790-bruno-the-hulk",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "125696-william-gomis": [
@@ -47595,6 +48712,12 @@
       "Opponent": "Yanis Ghemmouri",
       "OpponentId": "98157-yanis-ghemmouri",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "William Gomis",
+      "Opponent": "Joanderson Brito",
+      "OpponentId": "98539-joanderson-brito-tubarao",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "112766-jarno-errens": [
@@ -47605,7 +48728,14 @@
       "Date": "2024-03-23T00:00:00"
     }
   ],
-  "113003-melissa-martinez": [],
+  "113003-melissa-martinez": [
+    {
+      "Name": "Melissa Martinez",
+      "Opponent": "Alice Ardelean",
+      "OpponentId": "84463-alice-ardelean",
+      "Date": "2024-10-19T16:00:00"
+    }
+  ],
   "193972-danyelle-wolf": [],
   "115015-anton-turkalj": [],
   "156784-daniel-olvera-zellhuber-zellhuber": [
@@ -47640,6 +48770,12 @@
       "Opponent": "Yazmin Jauregui",
       "OpponentId": "207769-yasmine-jauregui",
       "Date": "2023-07-08T00:00:00"
+    },
+    {
+      "Name": "Denise Gomes",
+      "Opponent": "Eduarda Moura",
+      "OpponentId": "292626-eduarda-moura",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "144942-joseph-pyfer": [
@@ -47660,6 +48796,12 @@
       "Opponent": "Abdul Razak Alhassan",
       "OpponentId": "59306-abdul-razak-alhassan",
       "Date": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "Joe Pyfer",
+      "Opponent": "Marc-Andr\u00E9 Barriault",
+      "OpponentId": "26658-marc-andre-barriault",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "134566-chelsea-chandler": [
@@ -47711,6 +48853,12 @@
       "Opponent": "Andrei Arlovski",
       "OpponentId": "andrei-arlovski-the-pitbull",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Waldo Cortes-Acosta",
+      "Opponent": "Robelis Despaigne",
+      "OpponentId": "339509-robelis-despaigne",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "193326-tamires-vidal": [
@@ -47735,6 +48883,12 @@
       "Opponent": "Marcelo Rojo",
       "OpponentId": "24632-marcelo-rojo",
       "Date": "2022-12-03T00:00:00"
+    },
+    {
+      "Name": "Francis Marshall",
+      "Opponent": "Dennis Buzukja",
+      "OpponentId": "131561-dennis-buzukia",
+      "Date": "2024-08-24T19:00:00"
     }
   ],
   "112520-cameron-saaiman": [
@@ -47771,6 +48925,18 @@
       "Opponent": "Terrence Mitchell",
       "OpponentId": "43175-terrence-mitchell",
       "Date": "2023-09-16T00:00:00"
+    },
+    {
+      "Name": "Raul Rosas Jr.",
+      "Opponent": "Ricky Turcios",
+      "OpponentId": "46586-ricky-turcios",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "Raul Rosas Jr.",
+      "Opponent": "Aoriqileng",
+      "OpponentId": "119560-aoriqileng",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "125815-alessandro-costa": [
@@ -47779,6 +48945,12 @@
       "Opponent": "Jimmy Flick",
       "OpponentId": "jimmy-flick",
       "Date": "2023-06-17T00:00:00"
+    },
+    {
+      "Name": "Alessandro Costa",
+      "Opponent": "Kevin Borjas",
+      "OpponentId": "115634-kevin-borias-olea",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "194945-nick-aguirre": [],
@@ -47800,6 +48972,12 @@
       "Opponent": "Roosevelt Roberts",
       "OpponentId": "66843-roosevelt-roberts",
       "Date": "2023-11-11T00:00:00"
+    },
+    {
+      "Name": "Mateusz R\u0119becki",
+      "Opponent": "Myktybek Orolbai",
+      "OpponentId": "182971-myktybek-orolbaev",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "136412-nick-fiore": [],
@@ -47824,6 +49002,12 @@
       "Opponent": "Davey Grant",
       "OpponentId": "18815-david-grant",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Daniel Marcos",
+      "Opponent": "John Casta\u00F1eda",
+      "OpponentId": "20125-john-castaneda",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "35163-ismael-marreta": [
@@ -47832,6 +49016,12 @@
       "Opponent": "Terrance McKinney",
       "OpponentId": "126382-terrance-mckinney",
       "Date": "2023-01-21T00:00:00"
+    },
+    {
+      "Name": "Ismael Bonfim",
+      "Opponent": "Vinc Pichel",
+      "OpponentId": "17554-vinc-pichel",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "74979-luan-luiz-lacerda": [],
@@ -47847,6 +49037,12 @@
       "Opponent": "Trevin Giles",
       "OpponentId": "20072-trevin-giles",
       "Date": "2023-07-29T00:00:00"
+    },
+    {
+      "Name": "Gabriel Bonfim",
+      "Opponent": "Ange Loosa",
+      "OpponentId": "79954-ange-loosa",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "101043-melquizael-costa-melkcalty": [
@@ -47855,6 +49051,12 @@
       "Opponent": "Austin Lingo",
       "OpponentId": "129509-austin-lingo",
       "Date": "2023-07-15T00:00:00"
+    },
+    {
+      "Name": "Melquizael Costa",
+      "Opponent": "Shayilan Nuerdanbieke",
+      "OpponentId": "132976-yilan-sha",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "218790-bruno-the-hulk": [
@@ -47869,6 +49071,12 @@
       "Opponent": "Phil Hawes",
       "OpponentId": "63542-phil-hawes",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Brunno Ferreira",
+      "Opponent": "Dustin Stoltzfus",
+      "OpponentId": "34864-dustin-stoltzfus",
+      "Date": "2024-06-08T00:00:00"
     }
   ],
   "108511-jesus-aguilar": [
@@ -47883,6 +49091,12 @@
       "Opponent": "Mateus Mendon\u00E7a",
       "OpponentId": "218144-matheus-mendonca-bocao",
       "Date": "2024-02-24T00:00:00"
+    },
+    {
+      "Name": "Jesus Aguilar",
+      "Opponent": "Stewart Nicoll",
+      "OpponentId": "189829-stewart-nicoll",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "180034-hyun-sung-park": [
@@ -47920,7 +49134,14 @@
       "Date": "2024-02-17T00:00:00"
     }
   ],
-  "265124-toshiomi-kazama": [],
+  "265124-toshiomi-kazama": [
+    {
+      "Name": "Toshiomi Kazama",
+      "Opponent": "Charalampos Grigoriou",
+      "OpponentId": "153363-pampos-grigoriou",
+      "Date": "2024-08-10T00:00:00"
+    }
+  ],
   "51443-jeong-young-lee": [
     {
       "Name": "Jeong Yeong Lee",
@@ -47993,6 +49214,12 @@
       "Opponent": "Jamall Emmers",
       "OpponentId": "32088-jamall-emmers",
       "Date": "2023-06-24T00:00:00"
+    },
+    {
+      "Name": "Jack Jenkins",
+      "Opponent": "Herbert Burns",
+      "OpponentId": "60086-herbert-burns",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "230239-francisco-prado": [
@@ -48010,6 +49237,12 @@
       "Opponent": "Juancamilo Ronderos",
       "OpponentId": "87976-juancamilo-ronderos",
       "Date": "2023-02-18T00:00:00"
+    },
+    {
+      "Name": "Clayton Carpenter",
+      "Opponent": "Lucas Rocha",
+      "OpponentId": "192343-lucas-rocha-fenomeno",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "52251-themba-takura-gorimbo": [
@@ -48024,6 +49257,18 @@
       "Opponent": "Pete Rodriguez",
       "OpponentId": "135356-pete-rodriguez",
       "Date": "2024-02-03T00:00:00"
+    },
+    {
+      "Name": "Themba Gorimbo",
+      "Opponent": "Ramiz Brahimaj",
+      "OpponentId": "129794-ramiz-brahimaj",
+      "Date": "2024-05-18T00:00:00"
+    },
+    {
+      "Name": "Themba Gorimbo",
+      "Opponent": "Niko Price",
+      "OpponentId": "22461-nico-price",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "71445-khusein-askhabov": [],
@@ -48065,7 +49310,14 @@
   ],
   "32970-carl-deaton-iii": [],
   "18297-victor-martinez": [],
-  "193148-gabriela-fernandes-gaby": [],
+  "193148-gabriela-fernandes-gaby": [
+    {
+      "Name": "Gabriella Fernandes",
+      "Opponent": "Carli Judice",
+      "OpponentId": "286593-carli-judice",
+      "Date": "2024-06-15T00:00:00"
+    }
+  ],
   "60331-trevor-peek": [
     {
       "Name": "Trevor Peek",
@@ -48100,6 +49352,18 @@
       "Opponent": "Kamuela Kirk",
       "OpponentId": "66705-kamuela-kirk",
       "Date": "2023-07-08T00:00:00"
+    },
+    {
+      "Name": "Esteban Ribovics",
+      "Opponent": "Terrance McKinney",
+      "OpponentId": "126382-terrance-mckinney",
+      "Date": "2024-05-11T00:00:00"
+    },
+    {
+      "Name": "Esteban Ribovics",
+      "Opponent": "Daniel Zellhuber",
+      "OpponentId": "156784-daniel-olvera-zellhuber-zellhuber",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "127815-farid-bashrat": [
@@ -48120,6 +49384,12 @@
       "Opponent": "Taylor Lapilus",
       "OpponentId": "52612-taylor-lapilus",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Farid Basharat",
+      "Opponent": "Victor Hugo",
+      "OpponentId": "48149-victor-striker",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "244627-bo-nickal": [
@@ -48134,6 +49404,12 @@
       "Opponent": "Val Woodburn",
       "OpponentId": "166396-valentine-woodburn",
       "Date": "2023-07-08T00:00:00"
+    },
+    {
+      "Name": "Bo Nickal",
+      "Opponent": "Cody Brundage",
+      "OpponentId": "169818-cody-brundage",
+      "Date": "2024-04-13T00:00:00"
     }
   ],
   "188574-sedriques-dumas": [
@@ -48148,6 +49424,12 @@
       "Opponent": "Abu Azaitar",
       "OpponentId": "33946-abu-azaitar",
       "Date": "2023-10-21T00:00:00"
+    },
+    {
+      "Name": "Sedriques Dumas",
+      "Opponent": "Denis Tiuliulin",
+      "OpponentId": "152605-denis-tiuliulin",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "215578-karl-williams": [
@@ -48216,7 +49498,14 @@
       "Date": "2024-03-02T00:00:00"
     }
   ],
-  "159865-gabriel-santos-mosquitinho": [],
+  "159865-gabriel-santos-mosquitinho": [
+    {
+      "Name": "Gabriel Santos",
+      "Opponent": "Yizha",
+      "OpponentId": "130355-zha-yi",
+      "Date": "2024-09-07T16:00:00"
+    }
+  ],
   "46690-jafel-cavalcante-filho": [
     {
       "Name": "Jafel Filho",
@@ -48237,6 +49526,12 @@
       "Opponent": "Sam Patterson",
       "OpponentId": "52607-sam-patterson",
       "Date": "2023-03-18T00:00:00"
+    },
+    {
+      "Name": "Yanal Ashmouz",
+      "Opponent": "Trevor Peek",
+      "OpponentId": "60331-trevor-peek",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "52607-sam-patterson": [
@@ -48245,6 +49540,12 @@
       "Opponent": "Yohan Lainesse",
       "OpponentId": "143438-yohan-lainesse",
       "Date": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Sam Patterson",
+      "Opponent": "Kiefer Crosbie",
+      "OpponentId": "69153-kiefer-crosbie",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "68484-chris-duncan": [
@@ -48259,6 +49560,12 @@
       "Opponent": "Yanal Ashmouz",
       "OpponentId": "164201-yanal-ashmoz-red-fox",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Chris Duncan",
+      "Opponent": "Bolaji Oki",
+      "OpponentId": "158527-bolaji-oki",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "95618-vinicius-de-almeida-salvador": [],
@@ -48274,6 +49581,12 @@
       "Opponent": "Cory McKenna",
       "OpponentId": "81574-cory-mckenna",
       "Date": "2024-03-16T00:00:00"
+    },
+    {
+      "Name": "Jaqueline Amorim",
+      "Opponent": "Vanessa Demopoulos",
+      "OpponentId": "35907-vanessa-demopoulos",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "41575-gaston-bolanoes": [
@@ -48290,6 +49603,12 @@
       "Opponent": "Shauna Bannon",
       "OpponentId": "209968-shauna-bannon",
       "Date": "2023-07-22T00:00:00"
+    },
+    {
+      "Name": "Bruna Brasil",
+      "Opponent": "Molly McCann",
+      "OpponentId": "57976-molly-mccann",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "242095-junior-tafa": [
@@ -48298,6 +49617,12 @@
       "Opponent": "Parker Porter",
       "OpponentId": "parker-porter",
       "Date": "2023-08-26T00:00:00"
+    },
+    {
+      "Name": "Junior Tafa",
+      "Opponent": "Sean Sharaf",
+      "OpponentId": "229173-sean-sharaf",
+      "Date": "2024-10-12T16:00:00"
     }
   ],
   "148703-jamey-lyn-horth": [
@@ -48343,6 +49668,12 @@
       "Opponent": "Josh Quinlan",
       "OpponentId": "114123-josh-quinlan",
       "Date": "2023-04-29T00:00:00"
+    },
+    {
+      "Name": "Trey Waters",
+      "Opponent": "Billy Goff",
+      "OpponentId": "169724-billy-goff",
+      "Date": "2024-05-11T00:00:00"
     }
   ],
   "98371-fernando-padilla": [
@@ -48387,6 +49718,24 @@
       "Opponent": "Pat Sabatini",
       "OpponentId": "29210-pat-sabatini",
       "Date": "2023-11-11T00:00:00"
+    },
+    {
+      "Name": "Diego Lopes",
+      "Opponent": "Sodiq Yusuff",
+      "OpponentId": "58362-sodiq-yusuff",
+      "Date": "2024-04-13T00:00:00"
+    },
+    {
+      "Name": "Diego Lopes",
+      "Opponent": "Dan Ige",
+      "OpponentId": "21178-dan-ige",
+      "Date": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "Diego Lopes",
+      "Opponent": "Brian Ortega",
+      "OpponentId": "40994-brian-ortega",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "139270-tainara-lisboa": [
@@ -48423,8 +49772,28 @@
       "Date": "2024-02-24T00:00:00"
     }
   ],
-  "92171-muin-gafurov": [],
-  "175214-ketlen-souza": [],
+  "92171-muin-gafurov": [
+    {
+      "Name": "Muin Gafurov",
+      "Opponent": "Kyung Ho Kang",
+      "OpponentId": "kyung-ho-kang",
+      "Date": "2024-06-22T00:00:00"
+    }
+  ],
+  "175214-ketlen-souza": [
+    {
+      "Name": "Ketlen Souza",
+      "Opponent": "Marnic Mann",
+      "OpponentId": "171672-marnic-mann",
+      "Date": "2024-04-27T00:00:00"
+    },
+    {
+      "Name": "Ketlen Souza",
+      "Opponent": "Yazmin Jauregui",
+      "OpponentId": "207769-yasmine-jauregui",
+      "Date": "2024-09-14T19:30:00"
+    }
+  ],
   "39845-jessie-butler": [],
   "132326-stephen-erceg": [
     {
@@ -48458,6 +49827,18 @@
       "Opponent": "Jack Jenkins",
       "OpponentId": "134851-jack-jenkins",
       "Date": "2023-09-09T00:00:00"
+    },
+    {
+      "Name": "Chepe Mariscal",
+      "Opponent": "Morgan Charriere",
+      "OpponentId": "93065-morgan-charriere",
+      "Date": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "Chepe Mariscal",
+      "Opponent": "Damon Jackson",
+      "OpponentId": "39377-damon-jackson",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "254261-joshua-thawng": [
@@ -48478,11 +49859,38 @@
       "Opponent": "Felipe Bunes",
       "OpponentId": "66549-felipe-silva-felipinho",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Joshua Van",
+      "Opponent": "Edgar Ch\u00E1irez",
+      "OpponentId": "80020-edgar-chaidez",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
-  "131141-austen-lane": [],
-  "201648-ivana-siric": [],
-  "41130-westin-wilson": [],
+  "131141-austen-lane": [
+    {
+      "Name": "Austen Lane",
+      "Opponent": "Robelis Despaigne",
+      "OpponentId": "339509-robelis-despaigne",
+      "Date": "2024-10-19T16:00:00"
+    }
+  ],
+  "201648-ivana-siric": [
+    {
+      "Name": "Ivana Petrovi\u0107",
+      "Opponent": "Na Liang",
+      "OpponentId": "136810-na-liang",
+      "Date": "2024-04-27T00:00:00"
+    }
+  ],
+  "41130-westin-wilson": [
+    {
+      "Name": "Westin Wilson",
+      "Opponent": "Jeka Saragih",
+      "OpponentId": "169642-jeka-a-saragih",
+      "Date": "2024-06-15T00:00:00"
+    }
+  ],
   "89891-nursultan-ruziboev-black": [
     {
       "Name": "Nursulton Ruziboev",
@@ -48529,9 +49937,30 @@
       "Date": "2023-10-21T00:00:00"
     }
   ],
-  "36621-bassil-hafez": [],
-  "67170-daniel-barez": [],
-  "209968-shauna-bannon": [],
+  "36621-bassil-hafez": [
+    {
+      "Name": "Bassil Hafez",
+      "Opponent": "Mickey Gall",
+      "OpponentId": "63731-mickey-gall",
+      "Date": "2024-06-01T00:00:00"
+    }
+  ],
+  "67170-daniel-barez": [
+    {
+      "Name": "Daniel Barez",
+      "Opponent": "Victor Altamirano",
+      "OpponentId": "101415-victor-altamirano",
+      "Date": "2024-09-28T12:00:00"
+    }
+  ],
+  "209968-shauna-bannon": [
+    {
+      "Name": "Shauna Bannon",
+      "Opponent": "Alice Ardelean",
+      "OpponentId": "84463-alice-ardelean",
+      "Date": "2024-07-27T00:00:00"
+    }
+  ],
   "124944-michael-parkin": [
     {
       "Name": "Mick Parkin",
@@ -48550,6 +49979,12 @@
       "Opponent": "Mohammed Usman",
       "OpponentId": "156538-mohammed-usman",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Mick Parkin",
+      "Opponent": "\u0141ukasz Brzeski",
+      "OpponentId": "90654-ukasz-brzeski",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "99713-johnny-parsons": [
@@ -48573,6 +50008,18 @@
       "Opponent": "CJ Vergara",
       "OpponentId": "38340-carlos-vergara",
       "Date": "2024-03-09T00:00:00"
+    },
+    {
+      "Name": "Asu Almabayev",
+      "Opponent": "Jose Johnson",
+      "OpponentId": "110739-jose-johnson",
+      "Date": "2024-06-15T00:00:00"
+    },
+    {
+      "Name": "Asu Almabayev",
+      "Opponent": "Matheus Nicolau",
+      "OpponentId": "35392-matheus-nicolau-pereira",
+      "Date": "2024-10-19T16:00:00"
     }
   ],
   "131561-dennis-buzukia": [
@@ -48595,6 +50042,12 @@
       "Opponent": "Stephanie Egger",
       "OpponentId": "114098-stephanie-egger",
       "Date": "2023-12-09T00:00:00"
+    },
+    {
+      "Name": "Luana Santos",
+      "Opponent": "Mariya Agapova",
+      "OpponentId": "156192-mariya-agapova",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "110739-jose-johnson": [
@@ -48611,6 +50064,12 @@
       "Opponent": "Francis Marshall",
       "OpponentId": "186284-francis-marshall",
       "Date": "2023-08-12T00:00:00"
+    },
+    {
+      "Name": "Isaac Dulgarian",
+      "Opponent": "Brendon Marotte",
+      "OpponentId": "117074-brendan-marotte",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "169724-billy-goff": [
@@ -48627,6 +50086,18 @@
       "Opponent": "Zarah Fairn",
       "OpponentId": "98694-zarah-fairn",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "Jacqueline Cavalcanti",
+      "Opponent": "Josiane Nunes",
+      "OpponentId": "61258-josiane-nunes",
+      "Date": "2024-08-24T19:00:00"
+    },
+    {
+      "Name": "Jacqueline Cavalcanti",
+      "Opponent": "Nora Cornolle",
+      "OpponentId": "297105-nora-cornolle",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "297105-nora-cornolle": [
@@ -48635,6 +50106,12 @@
       "Opponent": "Joselyne Edwards",
       "OpponentId": "98366-yoselin-edwards",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "Nora Cornolle",
+      "Opponent": "Melissa Mullins",
+      "OpponentId": "188856-melissa-mullins",
+      "Date": "2024-04-06T00:00:00"
     }
   ],
   "152507-caolan-loughran": [
@@ -48651,6 +50128,12 @@
       "Opponent": "Manolo Zecchini",
       "OpponentId": "122701-manolo-zecchini",
       "Date": "2023-09-02T00:00:00"
+    },
+    {
+      "Name": "Morgan Charriere",
+      "Opponent": "Gabriel Miranda",
+      "OpponentId": "36548-gabriel-miranda-fly",
+      "Date": "2024-09-28T12:00:00"
     }
   ],
   "122701-manolo-zecchini": [],
@@ -48661,6 +50144,12 @@
       "Opponent": "Zac Pauga",
       "OpponentId": "212294-zac-pauga",
       "Date": "2024-02-10T00:00:00"
+    },
+    {
+      "Name": "Bogdan Guskov",
+      "Opponent": "Ryan Spann",
+      "OpponentId": "20908-ryan-spann",
+      "Date": "2024-04-27T00:00:00"
     }
   ],
   "195097-kevin-jousset": [
@@ -48707,6 +50196,12 @@
       "Opponent": "Marnic Mann",
       "OpponentId": "171672-marnic-mann",
       "Date": "2023-09-16T00:00:00"
+    },
+    {
+      "Name": "Josefine Knutsson",
+      "Opponent": "Julia Polastri",
+      "OpponentId": "168315-julia-polastri",
+      "Date": "2024-06-15T00:00:00"
     }
   ],
   "171672-marnic-mann": [],
@@ -48716,6 +50211,12 @@
       "Opponent": "Alex Reyes",
       "OpponentId": "8628-alex-reyes",
       "Date": "2023-09-16T00:00:00"
+    },
+    {
+      "Name": "Charlie Campbell",
+      "Opponent": "Trevor Peek",
+      "OpponentId": "60331-trevor-peek",
+      "Date": "2024-04-06T00:00:00"
     }
   ],
   "213856-montse-rendon": [
@@ -48742,10 +50243,35 @@
       "Opponent": "Bruno Silva",
       "OpponentId": "59819-bruno-silva-blindado",
       "Date": "2023-10-21T00:00:00"
+    },
+    {
+      "Name": "Shara Magomedov",
+      "Opponent": "Antonio Tr\u00F3coli",
+      "OpponentId": "40987-antonio-trcoli-malvadeza",
+      "Date": "2024-06-22T00:00:00"
+    },
+    {
+      "Name": "Shara Magomedov",
+      "Opponent": "Micha\u0142 Oleksiejczuk",
+      "OpponentId": "61212-michal-oleksiejczuk",
+      "Date": "2024-08-03T00:00:00"
+    },
+    {
+      "Name": "Shara Magomedov",
+      "Opponent": "Armen Petrosyan",
+      "OpponentId": "198212-armen-petrosyan",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
   "66362-mohammad-yahya": [],
-  "173680-kau-fernandes": [],
+  "173680-kau-fernandes": [
+    {
+      "Name": "Kau\u00EA Fernandes",
+      "Opponent": "Mohammad Yahya",
+      "OpponentId": "66362-mohammad-yahya",
+      "Date": "2024-08-03T00:00:00"
+    }
+  ],
   "292626-eduarda-moura": [
     {
       "Name": "Eduarda Moura",
@@ -48771,6 +50297,12 @@
       "Opponent": "Uros Medic",
       "OpponentId": "175629-uros-medic",
       "Date": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "Myktybek Orolbai",
+      "Opponent": "Elves Brener",
+      "OpponentId": "131388-elvis-brenner",
+      "Date": "2024-05-04T00:00:00"
     }
   ],
   "181513-payton-talbout": [
@@ -48785,6 +50317,12 @@
       "Opponent": "Cameron Saaiman",
       "OpponentId": "112520-cameron-saaiman",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Payton Talbott",
+      "Opponent": "Yanis Ghemmouri",
+      "OpponentId": "98157-yanis-ghemmouri",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "76570-rodolfo-bellato": [
@@ -48795,7 +50333,20 @@
       "Date": "2023-12-02T00:00:00"
     }
   ],
-  "35756-zack-reese": [],
+  "35756-zack-reese": [
+    {
+      "Name": "Zach Reese",
+      "Opponent": "Julian Marquez",
+      "OpponentId": "29696-julian-marquez",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "Zach Reese",
+      "Opponent": "Jos\u00E9 Medina",
+      "OpponentId": "155441-jos-daniel-medina-rivero-chicho-medina",
+      "Date": "2024-08-24T19:00:00"
+    }
+  ],
   "217437-talita-alencar": [
     {
       "Name": "Talita Alencar",
@@ -48811,16 +50362,47 @@
       "Opponent": "Martin Buday",
       "OpponentId": "147242-martin-buday",
       "Date": "2023-12-16T00:00:00"
+    },
+    {
+      "Name": "Shamil Gaziev",
+      "Opponent": "Don\u0026#39;Tale Mayes",
+      "OpponentId": "46499-dontale-mayes",
+      "Date": "2024-08-03T00:00:00"
     }
   ],
   "66549-felipe-silva-felipinho": [],
-  "145210-tom-nolan": [],
+  "145210-tom-nolan": [
+    {
+      "Name": "Tom Nolan",
+      "Opponent": "Victor Martinez",
+      "OpponentId": "18297-victor-martinez",
+      "Date": "2024-05-18T00:00:00"
+    },
+    {
+      "Name": "Tom Nolan",
+      "Opponent": "Alex Reyes",
+      "OpponentId": "8628-alex-reyes",
+      "Date": "2024-08-17T00:00:00"
+    }
+  ],
   "144286-jean-silva": [
     {
       "Name": "Jean Silva",
       "Opponent": "Westin Wilson",
       "OpponentId": "41130-westin-wilson",
       "Date": "2024-01-13T00:00:00"
+    },
+    {
+      "Name": "Jean Silva",
+      "Opponent": "Charles Jourdain",
+      "OpponentId": "36724-charles-jourdain",
+      "Date": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "Jean Silva",
+      "Opponent": "Drew Dober",
+      "OpponentId": "drew-dober",
+      "Date": "2024-07-13T00:00:00"
     }
   ],
   "133259-ramon-tavares": [
@@ -48832,7 +50414,14 @@
     }
   ],
   "127056-serhiy-sidey": [],
-  "187808-thomas-peterson": [],
+  "187808-thomas-peterson": [
+    {
+      "Name": "Thomas Petersen",
+      "Opponent": "Mohammed Usman",
+      "OpponentId": "156538-mohammed-usman",
+      "Date": "2024-07-20T00:00:00"
+    }
+  ],
   "168712-marquel-mederos": [
     {
       "Name": "MarQuel Mederos",
@@ -48847,6 +50436,12 @@
       "Opponent": "Fernie Garcia",
       "OpponentId": "43088-fernie-garcia",
       "Date": "2024-02-10T00:00:00"
+    },
+    {
+      "Name": "Hyder Amil",
+      "Opponent": "Jeong Yeong Lee",
+      "OpponentId": "51443-jeong-young-lee",
+      "Date": "2024-07-20T00:00:00"
     }
   ],
   "158527-bolaji-oki": [
@@ -48864,6 +50459,18 @@
       "Opponent": "Trevin Giles",
       "OpponentId": "20072-trevin-giles",
       "Date": "2024-02-10T00:00:00"
+    },
+    {
+      "Name": "Carlos Prates",
+      "Opponent": "Charles Radtke",
+      "OpponentId": "29374-charlie-radtke",
+      "Date": "2024-06-08T00:00:00"
+    },
+    {
+      "Name": "Carlos Prates",
+      "Opponent": "Jingliang Li",
+      "OpponentId": "jing-liang-li-the-leech",
+      "Date": "2024-08-17T00:00:00"
     }
   ],
   "26244-robert-bryczek": [],
@@ -48873,6 +50480,12 @@
       "Opponent": "Val Woodburn",
       "OpponentId": "166396-valentine-woodburn",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Oban Elliott",
+      "Opponent": "Preston Parsons",
+      "OpponentId": "74671-preston-parsons",
+      "Date": "2024-07-27T00:00:00"
     }
   ],
   "222456-danny-barlow": [
@@ -48881,6 +50494,12 @@
       "Opponent": "Josh Quinlan",
       "OpponentId": "114123-josh-quinlan",
       "Date": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "Danny Barlow",
+      "Opponent": "Nikolay Veretennikov",
+      "OpponentId": "74381-nikolai-veretenikov",
+      "Date": "2024-08-10T00:00:00"
     }
   ],
   "102827-mingyang-zhang": [
@@ -48899,6 +50518,12 @@
       "Opponent": "Denys Bondar",
       "OpponentId": "104652-denis-bondar",
       "Date": "2024-02-24T00:00:00"
+    },
+    {
+      "Name": "Ronaldo Rodr\u00EDguez",
+      "Opponent": "Ode Osbourne",
+      "OpponentId": "50154-ode-osbourne",
+      "Date": "2024-09-14T19:30:00"
     }
   ],
   "77145-abdul-kareem-al-selwady": [],
@@ -48909,6 +50534,12 @@
       "Opponent": "Benardo Sopaj",
       "OpponentId": "134446-mpernando-sopai",
       "Date": "2024-03-02T00:00:00"
+    },
+    {
+      "Name": "Vinicius Oliveira",
+      "Opponent": "Ricky Sim\u00F3n",
+      "OpponentId": "33229-ricky-simon",
+      "Date": "2024-06-29T00:00:00"
     }
   ],
   "134446-mpernando-sopai": [],
@@ -48945,6 +50576,18 @@
       "Opponent": "Igor Severino",
       "OpponentId": "229458-igor-da-silva-severino-cogumelo",
       "Date": "2024-03-23T00:00:00"
+    },
+    {
+      "Name": "Andr\u00E9 Lima",
+      "Opponent": "Mitch Raposo",
+      "OpponentId": "160416-mitch-raposo",
+      "Date": "2024-06-01T00:00:00"
+    },
+    {
+      "Name": "Andr\u00E9 Lima",
+      "Opponent": "Felipe dos Santos",
+      "OpponentId": "247470-felipe-dos-santos-lipe-detona",
+      "Date": "2024-09-07T16:00:00"
     }
   ],
   "229458-igor-da-silva-severino-cogumelo": [],
@@ -48965,7 +50608,265 @@
       "Opponent": "Anton Turkalj",
       "OpponentId": "115015-anton-turkalj",
       "Date": "2024-03-30T00:00:00"
+    },
+    {
+      "Name": "Ibo Aslan",
+      "Opponent": "Raffael Cerqueira",
+      "OpponentId": "236274-rafael-lima-rafael-bjj",
+      "Date": "2024-10-26T10:00:00"
     }
   ],
-  "14969-connor-matthews": []
+  "14969-connor-matthews": [],
+  "126015-csar-almeida": [
+    {
+      "Name": "C\u00E9sar Almeida",
+      "Opponent": "Dylan Budka",
+      "OpponentId": "275778-dylan-budka",
+      "Date": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "C\u00E9sar Almeida",
+      "Opponent": "Ihor Potieria",
+      "OpponentId": "91636-igor-poterya",
+      "Date": "2024-10-05T18:30:00"
+    }
+  ],
+  "275778-dylan-budka": [],
+  "163815-jean-matsumoto": [
+    {
+      "Name": "Jean Matsumoto",
+      "Opponent": "Dan Argueta",
+      "OpponentId": "162202-daniel-argueta-the-determined",
+      "Date": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "Jean Matsumoto",
+      "Opponent": "Brad Katona",
+      "OpponentId": "64459-brad-katona",
+      "Date": "2024-10-19T16:00:00"
+    }
+  ],
+  "48149-victor-striker": [
+    {
+      "Name": "Victor Hugo",
+      "Opponent": "Pedro Falc\u00E3o",
+      "OpponentId": "86763-pedro-falco",
+      "Date": "2024-04-06T00:00:00"
+    }
+  ],
+  "86763-pedro-falco": [],
+  "267496-valter-rui-the-clean-monster": [
+    {
+      "Name": "Valter Walker",
+      "Opponent": "Junior Tafa",
+      "OpponentId": "242095-junior-tafa",
+      "Date": "2024-08-17T00:00:00"
+    }
+  ],
+  "34265-kayla-harrison": [
+    {
+      "Name": "Kayla Harrison",
+      "Opponent": "Holly Holm",
+      "OpponentId": "18698-holly-holm-hottie",
+      "Date": "2024-04-13T00:00:00"
+    },
+    {
+      "Name": "Kayla Harrison",
+      "Opponent": "Ketlen Vieira",
+      "OpponentId": "99972-ketlen-vieira-fenomeno",
+      "Date": "2024-10-05T18:30:00"
+    }
+  ],
+  "56978-chris-padilla": [
+    {
+      "Name": "Chris Padilla",
+      "Opponent": "James Llontop",
+      "OpponentId": "94585-james-llontop",
+      "Date": "2024-04-27T00:00:00"
+    },
+    {
+      "Name": "Chris Padilla",
+      "Opponent": "Rongzhu",
+      "OpponentId": "129248-zhu-rong",
+      "Date": "2024-09-07T16:00:00"
+    }
+  ],
+  "94585-james-llontop": [],
+  "198829-jhonata-diniz": [
+    {
+      "Name": "Jhonata Diniz",
+      "Opponent": "Austen Lane",
+      "OpponentId": "131141-austen-lane",
+      "Date": "2024-04-27T00:00:00"
+    },
+    {
+      "Name": "Jhonata Diniz",
+      "Opponent": "Karl Williams",
+      "OpponentId": "215578-karl-williams",
+      "Date": "2024-08-10T00:00:00"
+    }
+  ],
+  "173579-dione-barbosa": [
+    {
+      "Name": "Dione Barbosa",
+      "Opponent": "Ernesta Kareckaite",
+      "OpponentId": "104562-ernesta-kareckaite",
+      "Date": "2024-05-04T00:00:00"
+    }
+  ],
+  "104562-ernesta-kareckaite": [],
+  "99747-mauricio-rufy": [
+    {
+      "Name": "Mauricio Ruffy",
+      "Opponent": "Jamie Mullarkey",
+      "OpponentId": "51640-jamie-mullarkey",
+      "Date": "2024-05-04T00:00:00"
+    }
+  ],
+  "184677-oumar-sy": [
+    {
+      "Name": "Oumar Sy",
+      "Opponent": "Tuco Tokkos",
+      "OpponentId": "165168-george-tokkos",
+      "Date": "2024-05-18T00:00:00"
+    },
+    {
+      "Name": "Oumar Sy",
+      "Opponent": "Da Woon Jung",
+      "OpponentId": "103262-da-un-jung",
+      "Date": "2024-09-28T12:00:00"
+    }
+  ],
+  "165168-george-tokkos": [],
+  "160416-mitch-raposo": [],
+  "57555-pooja-thomar": [
+    {
+      "Name": "Puja Tomar",
+      "Opponent": "Rayanne Amanda",
+      "OpponentId": "188018-rayanne-amanda",
+      "Date": "2024-06-08T00:00:00"
+    }
+  ],
+  "168315-julia-polastri": [
+    {
+      "Name": "Julia Polastri",
+      "Opponent": "Cory McKenna",
+      "OpponentId": "81574-cory-mckenna",
+      "Date": "2024-10-12T16:00:00"
+    }
+  ],
+  "286593-carli-judice": [],
+  "143475-chang-ho-lee": [
+    {
+      "Name": "Chang Ho Lee",
+      "Opponent": "Long Xiao",
+      "OpponentId": "130852-long-xiao",
+      "Date": "2024-06-22T00:00:00"
+    }
+  ],
+  "130852-long-xiao": [],
+  "163804-magomed-gadzhiyasulov": [
+    {
+      "Name": "Magomed Gadzhiyasulov",
+      "Opponent": "Brendson Ribeiro",
+      "OpponentId": "119779-brendson-ribeiro-zyzz",
+      "Date": "2024-06-22T00:00:00"
+    }
+  ],
+  "133447-felipe-douro": [
+    {
+      "Name": "Felipe Lima",
+      "Opponent": "Muhammad Naimov",
+      "OpponentId": "136098-muhammadjon-naimov",
+      "Date": "2024-06-22T00:00:00"
+    }
+  ],
+  "40987-antonio-trcoli-malvadeza": [],
+  "167636-rei-tsuruya": [
+    {
+      "Name": "Rei Tsuruya",
+      "Opponent": "Carlos Hernandez",
+      "OpponentId": "60838-carlos-hernandez",
+      "Date": "2024-06-29T00:00:00"
+    }
+  ],
+  "194482-fatima-kline": [],
+  "84463-alice-ardelean": [],
+  "106035-jordan-vucenic": [],
+  "180757-stephanie-luciano-rondinha": [
+    {
+      "Name": "Stephanie Luciano",
+      "Opponent": "Talita Alencar",
+      "OpponentId": "217437-talita-alencar",
+      "Date": "2024-08-10T00:00:00"
+    }
+  ],
+  "114976-quang-le": [],
+  "74381-nikolai-veretenikov": [],
+  "189829-stewart-nicoll": [],
+  "271545-cong-wang": [
+    {
+      "Name": "Cong Wang",
+      "Opponent": "Victoria Leonardo",
+      "OpponentId": "102107-victoria-leonardo",
+      "Date": "2024-08-24T19:00:00"
+    }
+  ],
+  "155441-jos-daniel-medina-rivero-chicho-medina": [],
+  "194524-mairon-santos": [
+    {
+      "Name": "Mairon Santos",
+      "Opponent": "Kaan Ofli",
+      "OpponentId": "95784-kaan-ofli",
+      "Date": "2024-08-24T19:00:00"
+    }
+  ],
+  "95784-kaan-ofli": [],
+  "292593-ryan-loder": [
+    {
+      "Name": "Ryan Loder",
+      "Opponent": "Robert Valentin",
+      "OpponentId": "136498-robert-valentin",
+      "Date": "2024-08-24T19:00:00"
+    }
+  ],
+  "136498-robert-valentin": [],
+  "142728-nathan-fletcher": [
+    {
+      "Name": "Nathan Fletcher",
+      "Opponent": "Zygimantas Ramaska",
+      "OpponentId": "140696-zygimantas-ramaska",
+      "Date": "2024-09-07T16:00:00"
+    }
+  ],
+  "140696-zygimantas-ramaska": [],
+  "42328-ivan-erslan": [],
+  "192343-lucas-rocha-fenomeno": [],
+  "187868-cody-haddon": [
+    {
+      "Name": "Cody Haddon",
+      "Opponent": "Dan Argueta",
+      "OpponentId": "162202-daniel-argueta-the-determined",
+      "Date": "2024-10-12T16:00:00"
+    }
+  ],
+  "229173-sean-sharaf": [],
+  "173956-razonbek-temirov": [
+    {
+      "Name": "Ramazan Temirov",
+      "Opponent": "CJ Vergara",
+      "OpponentId": "38340-carlos-vergara",
+      "Date": "2024-10-12T16:00:00"
+    }
+  ],
+  "232642-cameron-smotherean": [
+    {
+      "Name": "Cameron Smotherman",
+      "Opponent": "Jake Hadley",
+      "OpponentId": "87298-jake-hadley",
+      "Date": "2024-10-19T16:00:00"
+    }
+  ],
+  "58430-carlos-leal": [],
+  "236274-rafael-lima-rafael-bjj": []
 }

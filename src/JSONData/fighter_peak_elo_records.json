@@ -26,6 +26,15 @@
     "Draws": 0,
     "LastOpp": "Michael Bisping"
   },
+  "40148-islam-makhachev": {
+    "Name": "Islam Makhachev",
+    "Elo": 1200,
+    "Date": "2024-06-01T00:00:00",
+    "Wins": 15,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Dustin Poirier"
+  },
   "39265-kamarudeen-usman": {
     "Name": "Kamaru Usman",
     "Elo": 1198,
@@ -35,6 +44,15 @@
     "Draws": 0,
     "LastOpp": "Colby Covington"
   },
+  "12723-max-holloway-lil-evil": {
+    "Name": "Max Holloway",
+    "Elo": 1190,
+    "Date": "2024-04-13T00:00:00",
+    "Wins": 22,
+    "Losses": 7,
+    "Draws": 0,
+    "LastOpp": "Justin Gaethje"
+  },
   "charles-oliveira-do-bronx": {
     "Name": "Charles Oliveira",
     "Elo": 1186,
@@ -43,15 +61,6 @@
     "Losses": 8,
     "Draws": 0,
     "LastOpp": "Justin Gaethje"
-  },
-  "40148-islam-makhachev": {
-    "Name": "Islam Makhachev",
-    "Elo": 1185,
-    "Date": "2023-10-21T00:00:00",
-    "Wins": 14,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Alexander Volkanovski"
   },
   "tony-ferguson-el-cucuy": {
     "Name": "Tony Ferguson",
@@ -70,15 +79,6 @@
     "Losses": 4,
     "Draws": 0,
     "LastOpp": "Matt Brown"
-  },
-  "12723-max-holloway-lil-evil": {
-    "Name": "Max Holloway",
-    "Elo": 1179,
-    "Date": "2018-12-08T00:00:00",
-    "Wins": 16,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Brian Ortega"
   },
   "dustin-poirier-the-diamond": {
     "Name": "Dustin Poirier",
@@ -160,6 +160,15 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Henry Cejudo"
+  },
+  "32797-belal-muhammad": {
+    "Name": "Belal Muhammad",
+    "Elo": 1158,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 15,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Leon Edwards"
   },
   "daniel-cormier": {
     "Name": "Daniel Cormier",
@@ -251,15 +260,6 @@
     "Draws": 0,
     "LastOpp": "Vitor Belfort"
   },
-  "32797-belal-muhammad": {
-    "Name": "Belal Muhammad",
-    "Elo": 1144,
-    "Date": "2023-05-06T00:00:00",
-    "Wins": 14,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Gilbert Burns"
-  },
   "19126-tj-dillashaw": {
     "Name": "T.J. Dillashaw",
     "Elo": 1143,
@@ -269,6 +269,15 @@
     "Draws": 0,
     "LastOpp": "Cody Garbrandt"
   },
+  "17398-robert-whittaker": {
+    "Name": "Robert Whittaker",
+    "Elo": 1142,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 17,
+    "Losses": 5,
+    "Draws": 0,
+    "LastOpp": "Ikram Aliskerov"
+  },
   "cain-velasquez": {
     "Name": "Cain Velasquez",
     "Elo": 1141,
@@ -277,15 +286,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Junior dos Santos"
-  },
-  "17398-robert-whittaker": {
-    "Name": "Robert Whittaker",
-    "Elo": 1141,
-    "Date": "2021-04-17T00:00:00",
-    "Wins": 14,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Kelvin Gastelum"
   },
   "20010-beneil-dariush-benny": {
     "Name": "Beneil Dariush",
@@ -350,6 +350,15 @@
     "Draws": 0,
     "LastOpp": "Jorge Masvidal"
   },
+  "83405-magomed-ankalaev": {
+    "Name": "Magomed Ankalaev",
+    "Elo": 1134,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 11,
+    "Losses": 1,
+    "Draws": 1,
+    "LastOpp": "Aleksandar Raki\u0107"
+  },
   "11614-valentina-shevchenko": {
     "Name": "Valentina Shevchenko",
     "Elo": 1131,
@@ -367,6 +376,15 @@
     "Losses": 4,
     "Draws": 0,
     "LastOpp": "Frank Mir"
+  },
+  "76553-deiveson-alcantra-daico": {
+    "Name": "Deiveson Figueiredo",
+    "Elo": 1130,
+    "Date": "2024-08-03T00:00:00",
+    "Wins": 13,
+    "Losses": 3,
+    "Draws": 1,
+    "LastOpp": "Marlon Vera"
   },
   "rashad-evans-sugar": {
     "Name": "Rashad Evans",
@@ -395,6 +413,24 @@
     "Draws": 0,
     "LastOpp": "Tom Aspinall"
   },
+  "129278-ilia-topuria": {
+    "Name": "Ilia Topuria",
+    "Elo": 1128,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 8,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Max Holloway"
+  },
+  "188143-khamzat-girikhanov": {
+    "Name": "Khamzat Chimaev",
+    "Elo": 1126,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 8,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Robert Whittaker"
+  },
   "23634-colby-covington": {
     "Name": "Colby Covington",
     "Elo": 1125,
@@ -413,14 +449,23 @@
     "Draws": 0,
     "LastOpp": "Pedro Munhoz"
   },
-  "83405-magomed-ankalaev": {
-    "Name": "Magomed Ankalaev",
+  "91516-brendan-allen": {
+    "Name": "Brendan Allen",
     "Elo": 1125,
-    "Date": "2024-01-13T00:00:00",
-    "Wins": 10,
+    "Date": "2024-04-06T00:00:00",
+    "Wins": 12,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Chris Curtis"
+  },
+  "117305-alex-pereira": {
+    "Name": "Alex Pereira",
+    "Elo": 1125,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 9,
     "Losses": 1,
-    "Draws": 1,
-    "LastOpp": "Johnny Walker"
+    "Draws": 0,
+    "LastOpp": "Khalil Rountree Jr."
   },
   "johny-hendricks": {
     "Name": "Johny Hendricks",
@@ -430,6 +475,15 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Matt Brown"
+  },
+  "47934-merab-dvalishvili": {
+    "Name": "Merab Dvalishvili",
+    "Elo": 1124,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 11,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Sean O\u0026#39;Malley"
   },
   "Derek-Brunson": {
     "Name": "Derek Brunson",
@@ -449,6 +503,15 @@
     "Draws": 0,
     "LastOpp": "Marlon Vera"
   },
+  "51267-dricus-du-plessis-stilknocks": {
+    "Name": "Dricus Du Plessis",
+    "Elo": 1123,
+    "Date": "2024-08-17T00:00:00",
+    "Wins": 8,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Israel Adesanya"
+  },
   "jim-miller": {
     "Name": "Jim Miller",
     "Elo": 1122,
@@ -457,15 +520,6 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Yancy Medeiros"
-  },
-  "91516-brendan-allen": {
-    "Name": "Brendan Allen",
-    "Elo": 1122,
-    "Date": "2023-11-18T00:00:00",
-    "Wins": 11,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Paul Craig"
   },
   "bj-penn-the-prodigy": {
     "Name": "BJ Penn",
@@ -557,15 +611,6 @@
     "Draws": 0,
     "LastOpp": "Luke Rockhold"
   },
-  "76553-deiveson-alcantra-daico": {
-    "Name": "Deiveson Figueiredo",
-    "Elo": 1119,
-    "Date": "2020-11-21T00:00:00",
-    "Wins": 9,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Alex Perez"
-  },
   "42359-henry-cejudo": {
     "Name": "Henry Cejudo",
     "Elo": 1118,
@@ -601,6 +646,24 @@
     "Losses": 5,
     "Draws": 0,
     "LastOpp": "Israel Adesanya"
+  },
+  "alexander-volkov": {
+    "Name": "Alexander Volkov",
+    "Elo": 1115,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 12,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "Sergei Pavlovich"
+  },
+  "23273-tom-aspinall": {
+    "Name": "Tom Aspinall",
+    "Elo": 1115,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 8,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Curtis Blaydes"
   },
   "ronaldo-souza-jacare": {
     "Name": "Ronaldo Souza",
@@ -638,6 +701,15 @@
     "Draws": 0,
     "LastOpp": "Jan B\u0142achowicz"
   },
+  "32750-grant-dawson": {
+    "Name": "Grant Dawson",
+    "Elo": 1112,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 10,
+    "Losses": 1,
+    "Draws": 1,
+    "LastOpp": "Rafa Garc\u00EDa"
+  },
   "187819-cyril-gane-real-c": {
     "Name": "Ciryl Gane",
     "Elo": 1112,
@@ -665,15 +737,6 @@
     "Draws": 0,
     "LastOpp": "Marcin Tybura"
   },
-  "47934-merab-dvalishvili": {
-    "Name": "Merab Dvalishvili",
-    "Elo": 1111,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 10,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Henry Cejudo"
-  },
   "ryan-bader-darth": {
     "Name": "Ryan Bader",
     "Elo": 1110,
@@ -682,6 +745,15 @@
     "Losses": 5,
     "Draws": 0,
     "LastOpp": "A. Nogueira"
+  },
+  "12767-alexandre-pantoja": {
+    "Name": "Alexandre Pantoja",
+    "Elo": 1110,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 12,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Steve Erceg"
   },
   "15880-john-lineker": {
     "Name": "John Lineker",
@@ -718,24 +790,6 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Rob Font"
-  },
-  "188143-khamzat-girikhanov": {
-    "Name": "Khamzat Chimaev",
-    "Elo": 1108,
-    "Date": "2023-10-21T00:00:00",
-    "Wins": 7,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Kamaru Usman"
-  },
-  "129278-ilia-topuria": {
-    "Name": "Ilia Topuria",
-    "Elo": 1108,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 7,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Alexander Volkanovski"
   },
   "frank-mir": {
     "Name": "Frank Mir",
@@ -791,15 +845,6 @@
     "Draws": 0,
     "LastOpp": "Josh Emmett"
   },
-  "32750-grant-dawson": {
-    "Name": "Grant Dawson",
-    "Elo": 1107,
-    "Date": "2023-07-01T00:00:00",
-    "Wins": 8,
-    "Losses": 0,
-    "Draws": 1,
-    "LastOpp": "Damir Ismagulov"
-  },
   "jose-aldo-junior": {
     "Name": "Jos\u00E9 Aldo",
     "Elo": 1106,
@@ -817,15 +862,6 @@
     "Losses": 2,
     "Draws": 1,
     "LastOpp": "Jorge Masvidal"
-  },
-  "51267-dricus-du-plessis-stilknocks": {
-    "Name": "Dricus Du Plessis",
-    "Elo": 1106,
-    "Date": "2024-01-20T00:00:00",
-    "Wins": 7,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Sean Strickland"
   },
   "rory-macdonald-the-waterboy": {
     "Name": "Rory MacDonald",
@@ -863,15 +899,6 @@
     "Draws": 0,
     "LastOpp": "Chris Weidman"
   },
-  "alexander-volkov": {
-    "Name": "Alexander Volkov",
-    "Elo": 1104,
-    "Date": "2023-09-09T00:00:00",
-    "Wins": 11,
-    "Losses": 4,
-    "Draws": 0,
-    "LastOpp": "Tai Tuivasa"
-  },
   "81052-shavkat-rakhmonov": {
     "Name": "Shavkat Rakhmonov",
     "Elo": 1104,
@@ -889,6 +916,15 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Neil Magny"
+  },
+  "115752-arman-tsarukyan": {
+    "Name": "Arman Tsarukyan",
+    "Elo": 1103,
+    "Date": "2024-04-13T00:00:00",
+    "Wins": 9,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Charles Oliveira"
   },
   "diego-sanchez-nightmare": {
     "Name": "Diego Sanchez",
@@ -925,6 +961,15 @@
     "Losses": 2,
     "Draws": 1,
     "LastOpp": "Chris Gutierrez"
+  },
+  "83443-weili-zhang": {
+    "Name": "Weili Zhang",
+    "Elo": 1102,
+    "Date": "2024-04-13T00:00:00",
+    "Wins": 9,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Xiaonan Yan"
   },
   "evan-tanner": {
     "Name": "Evan Tanner",
@@ -998,15 +1043,6 @@
     "Draws": 0,
     "LastOpp": "Beneil Dariush"
   },
-  "12767-alexandre-pantoja": {
-    "Name": "Alexandre Pantoja",
-    "Elo": 1100,
-    "Date": "2023-12-16T00:00:00",
-    "Wins": 11,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Brandon Royval"
-  },
   "matt-hamill-the-hammer": {
     "Name": "Matt Hamill",
     "Elo": 1099,
@@ -1024,6 +1060,15 @@
     "Losses": 4,
     "Draws": 1,
     "LastOpp": "Kyung Ho Kang"
+  },
+  "21348-randall-brown-rude-boy": {
+    "Name": "Randy Brown",
+    "Elo": 1099,
+    "Date": "2024-06-01T00:00:00",
+    "Wins": 13,
+    "Losses": 5,
+    "Draws": 0,
+    "LastOpp": "Elizeu Zaleski"
   },
   "63005-tatiana-suarez": {
     "Name": "Tatiana Suarez",
@@ -1079,14 +1124,14 @@
     "Draws": 0,
     "LastOpp": "Edson Barboza"
   },
-  "23273-tom-aspinall": {
-    "Name": "Tom Aspinall",
+  "171377-ian-garry": {
+    "Name": "Ian Machado Garry",
     "Elo": 1098,
-    "Date": "2023-11-11T00:00:00",
-    "Wins": 7,
-    "Losses": 1,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 8,
+    "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Sergei Pavlovich"
+    "LastOpp": "Michael Page"
   },
   "alexander-gustafsson-the-mauler": {
     "Name": "Alexander Gustafsson",
@@ -1160,6 +1205,24 @@
     "Draws": 0,
     "LastOpp": "J\u00E9ssica Andrade"
   },
+  "16950-renato-carneiro-moicano": {
+    "Name": "Renato Moicano",
+    "Elo": 1095,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 12,
+    "Losses": 5,
+    "Draws": 0,
+    "LastOpp": "Benoit Saint-Denis"
+  },
+  "55575-michel-pereira": {
+    "Name": "Michel Pereira",
+    "Elo": 1095,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 9,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Ihor Potieria"
+  },
   "anthony-smith-lionheart": {
     "Name": "Anthony Smith",
     "Elo": 1094,
@@ -1214,15 +1277,6 @@
     "Draws": 0,
     "LastOpp": "David Mitchell"
   },
-  "115752-arman-tsarukyan": {
-    "Name": "Arman Tsarukyan",
-    "Elo": 1093,
-    "Date": "2023-12-02T00:00:00",
-    "Wins": 8,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Beneil Dariush"
-  },
   "119831-jack-della-maddalena": {
     "Name": "Jack Della Maddalena",
     "Elo": 1093,
@@ -1249,6 +1303,24 @@
     "Losses": 5,
     "Draws": 0,
     "LastOpp": "Mayra Bueno Silva"
+  },
+  "120417-muhammad-mokaev": {
+    "Name": "Muhammad Mokaev",
+    "Elo": 1092,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 7,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Manel Kape"
+  },
+  "107316-caio-borralho-cara-de-kombi": {
+    "Name": "Caio Borralho",
+    "Elo": 1092,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 7,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Jared Cannonier"
   },
   "martin-kampmann-hitman": {
     "Name": "Martin Kampmann",
@@ -1331,15 +1403,6 @@
     "Draws": 0,
     "LastOpp": "Bethe Correia"
   },
-  "83443-weili-zhang": {
-    "Name": "Weili Zhang",
-    "Elo": 1090,
-    "Date": "2023-08-19T00:00:00",
-    "Wins": 8,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Amanda Lemos"
-  },
   "89112-sergey-pavlovich": {
     "Name": "Sergei Pavlovich",
     "Elo": 1090,
@@ -1367,6 +1430,15 @@
     "Draws": 0,
     "LastOpp": "Jason Knight"
   },
+  "39227-rose-namajunas-the-riveter": {
+    "Name": "Rose Namajunas",
+    "Elo": 1089,
+    "Date": "2024-07-13T00:00:00",
+    "Wins": 11,
+    "Losses": 5,
+    "Draws": 0,
+    "LastOpp": "Tracy Cortez"
+  },
   "45649-alex-cowboy": {
     "Name": "Alex Oliveira",
     "Elo": 1089,
@@ -1376,14 +1448,23 @@
     "Draws": 0,
     "LastOpp": "Carlo Pedersoli"
   },
-  "171377-ian-garry": {
-    "Name": "Ian Machado Garry",
+  "33428-mario-bautista": {
+    "Name": "Mario Bautista",
     "Elo": 1089,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 7,
-    "Losses": 0,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 9,
+    "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Geoff Neal"
+    "LastOpp": "Jos\u00E9 Aldo"
+  },
+  "32242-sean-brady": {
+    "Name": "Sean Brady",
+    "Elo": 1089,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 7,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Gilbert Burns"
   },
   "151690-jailton-junior-malhadinho": {
     "Name": "Jailton Almeida",
@@ -1421,6 +1502,33 @@
     "Draws": 1,
     "LastOpp": "Roman Bogatov"
   },
+  "89335-montel-jackson": {
+    "Name": "Montel Jackson",
+    "Elo": 1088,
+    "Date": "2024-07-13T00:00:00",
+    "Wins": 8,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Da\u0026#39;Mon Blackshear"
+  },
+  "84753-lerone-murphy": {
+    "Name": "Lerone Murphy",
+    "Elo": 1088,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 7,
+    "Losses": 0,
+    "Draws": 1,
+    "LastOpp": "Dan Ige"
+  },
+  "55022-joaquin-buckley": {
+    "Name": "Joaquin Buckley",
+    "Elo": 1088,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 10,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "Stephen Thompson"
+  },
   "21780-cody-garbrandt-no-love": {
     "Name": "Cody Garbrandt",
     "Elo": 1087,
@@ -1438,6 +1546,15 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Rafael dos Anjos"
+  },
+  "36807-paddy-pimblett": {
+    "Name": "Paddy Pimblett",
+    "Elo": 1087,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 6,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Bobby Green"
   },
   "167460-erin-blanchfield": {
     "Name": "Erin Blanchfield",
@@ -1484,24 +1601,6 @@
     "Draws": 0,
     "LastOpp": "Santiago Ponzinibbio"
   },
-  "39227-rose-namajunas-the-riveter": {
-    "Name": "Rose Namajunas",
-    "Elo": 1086,
-    "Date": "2021-11-06T00:00:00",
-    "Wins": 9,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Weili Zhang"
-  },
-  "21348-randall-brown-rude-boy": {
-    "Name": "Randy Brown",
-    "Elo": 1086,
-    "Date": "2024-02-03T00:00:00",
-    "Wins": 12,
-    "Losses": 5,
-    "Draws": 0,
-    "LastOpp": "Muslim Salikhov"
-  },
   "33830-gregor-gillespie": {
     "Name": "Gregor Gillespie",
     "Elo": 1086,
@@ -1510,6 +1609,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Yancy Medeiros"
+  },
+  "134206-omar-nurmagomedov": {
+    "Name": "Umar Nurmagomedov",
+    "Elo": 1086,
+    "Date": "2024-08-03T00:00:00",
+    "Wins": 6,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Cory Sandhagen"
   },
   "tim-sylvia-the-maine-iac": {
     "Name": "Tim Sylvia",
@@ -1655,14 +1763,14 @@
     "Draws": 0,
     "LastOpp": "Michael Chiesa"
   },
-  "55575-michel-pereira": {
-    "Name": "Michel Pereira",
+  "145595-tatsuro-taira": {
+    "Name": "Tatsuro Taira",
     "Elo": 1083,
-    "Date": "2024-03-09T00:00:00",
-    "Wins": 8,
-    "Losses": 2,
+    "Date": "2024-06-15T00:00:00",
+    "Wins": 6,
+    "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Micha\u0142 Oleksiejczuk"
+    "LastOpp": "Alex Perez"
   },
   "pat-miletich-the-croation-sensation": {
     "Name": "Pat Miletich",
@@ -1690,6 +1798,15 @@
     "Losses": 5,
     "Draws": 0,
     "LastOpp": "Chris Curtis"
+  },
+  "29515-drakkar-klose": {
+    "Name": "Drakkar Klose",
+    "Elo": 1082,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 9,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Joaquim Silva"
   },
   "143925-maycee-barber": {
     "Name": "Maycee Barber",
@@ -1727,15 +1844,6 @@
     "Draws": 0,
     "LastOpp": "Calvin Kattar"
   },
-  "33428-mario-bautista": {
-    "Name": "Mario Bautista",
-    "Elo": 1081,
-    "Date": "2024-01-13T00:00:00",
-    "Wins": 8,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Ricky Sim\u00F3n"
-  },
   "120815-jamahal-hill": {
     "Name": "Jamahal Hill",
     "Elo": 1081,
@@ -1745,23 +1853,14 @@
     "Draws": 0,
     "LastOpp": "Glover Teixeira"
   },
-  "117305-alex-pereira": {
-    "Name": "Alex Pereira",
+  "125404-nassourdine-imavov": {
+    "Name": "Nassourdine Imavov",
     "Elo": 1081,
-    "Date": "2023-11-11T00:00:00",
-    "Wins": 6,
-    "Losses": 1,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 7,
+    "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Ji\u0159\u00ED Proch\u00E1zka"
-  },
-  "120417-muhammad-mokaev": {
-    "Name": "Muhammad Mokaev",
-    "Elo": 1081,
-    "Date": "2024-03-02T00:00:00",
-    "Wins": 6,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Alex Perez"
+    "LastOpp": "Brendan Allen"
   },
   "mark-munoz-the-philippine-wrecking-machine": {
     "Name": "Mark Mu\u00F1oz",
@@ -1798,6 +1897,15 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Derrick Lewis"
+  },
+  "41538-anthony-hernandez": {
+    "Name": "Anthony Hernandez",
+    "Elo": 1080,
+    "Date": "2024-10-19T16:00:00",
+    "Wins": 7,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Michel Pereira"
   },
   "marcus-davis-the-irish-hand-grenade": {
     "Name": "Marcus Davis",
@@ -1852,6 +1960,15 @@
     "Losses": 7,
     "Draws": 0,
     "LastOpp": "Bobby Green"
+  },
+  "99885-natalia-silva": {
+    "Name": "Nat\u00E1lia Silva",
+    "Elo": 1079,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 6,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "J\u00E9ssica Andrade"
   },
   "ricco-rodriguez-suave": {
     "Name": "Ricco Rodriguez",
@@ -1961,6 +2078,33 @@
     "Draws": 0,
     "LastOpp": "Jingliang Li"
   },
+  "139271-norma-dumont-viana": {
+    "Name": "Norma Dumont",
+    "Elo": 1077,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 8,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Irene Aldana"
+  },
+  "78681-gregory-rodrigues-robocop": {
+    "Name": "Gregory Rodrigues",
+    "Elo": 1077,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 7,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Christian Leroy Duncan"
+  },
+  "164286-michael-morales": {
+    "Name": "Michael Morales",
+    "Elo": 1077,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 5,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Neil Magny"
+  },
   "oleg-taktarov-the-russian-bear": {
     "Name": "Oleg Taktarov",
     "Elo": 1076,
@@ -2024,6 +2168,24 @@
     "Draws": 0,
     "LastOpp": "Uriah Hall"
   },
+  "147160-roman-dolidze": {
+    "Name": "Roman Dolidze",
+    "Elo": 1076,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 8,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Kevin Holland"
+  },
+  "203365-carlos-ulberg-mr-marvelous": {
+    "Name": "Carlos Ulberg",
+    "Elo": 1076,
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 6,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Alonzo Menifield"
+  },
   "quinton-jackson-rampage": {
     "Name": "Quinton Jackson",
     "Elo": 1075,
@@ -2032,24 +2194,6 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Matt Hamill"
-  },
-  "89335-montel-jackson": {
-    "Name": "Montel Jackson",
-    "Elo": 1075,
-    "Date": "2023-04-22T00:00:00",
-    "Wins": 7,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Rani Yahya"
-  },
-  "32242-sean-brady": {
-    "Name": "Sean Brady",
-    "Elo": 1075,
-    "Date": "2023-12-02T00:00:00",
-    "Wins": 6,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Kelvin Gastelum"
   },
   "ken-shamrock-the-worlds-most-dangerous-man": {
     "Name": "Ken Shamrock",
@@ -2177,15 +2321,6 @@
     "Draws": 1,
     "LastOpp": "Valentina Shevchenko"
   },
-  "29515-drakkar-klose": {
-    "Name": "Drakkar Klose",
-    "Elo": 1072,
-    "Date": "2023-12-02T00:00:00",
-    "Wins": 8,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Joe Solecki"
-  },
   "58362-sodiq-yusuff": {
     "Name": "Sodiq Yusuff",
     "Elo": 1072,
@@ -2204,23 +2339,14 @@
     "Draws": 0,
     "LastOpp": "Augusto Sakai"
   },
-  "134206-omar-nurmagomedov": {
-    "Name": "Umar Nurmagomedov",
+  "153353-bryan-battle": {
+    "Name": "Bryan Battle",
     "Elo": 1072,
-    "Date": "2024-03-02T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 6,
+    "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Bekzat Almakhan"
-  },
-  "36807-paddy-pimblett": {
-    "Name": "Paddy Pimblett",
-    "Elo": 1072,
-    "Date": "2023-12-16T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Tony Ferguson"
+    "LastOpp": "Kevin Jousset"
   },
   "matt-wiman-handsome": {
     "Name": "Matt Wiman",
@@ -2284,6 +2410,15 @@
     "Losses": 4,
     "Draws": 0,
     "LastOpp": "Bobby Green"
+  },
+  "85643-diego-lopes": {
+    "Name": "Diego Lopes",
+    "Elo": 1071,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 5,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Brian Ortega"
   },
   "josh-barnett-the-babyfaced-assassin": {
     "Name": "Josh Barnett",
@@ -2375,6 +2510,15 @@
     "Draws": 0,
     "LastOpp": "Yana Santos"
   },
+  "56622-virna-jandiroba": {
+    "Name": "Virna Jandiroba",
+    "Elo": 1070,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 7,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Amanda Lemos"
+  },
   "93501-kyler-phillips": {
     "Name": "Kyler Phillips",
     "Elo": 1070,
@@ -2456,6 +2600,15 @@
     "Draws": 1,
     "LastOpp": "Frankie Edgar"
   },
+  "98539-joanderson-brito-tubarao": {
+    "Name": "Joanderson Brito",
+    "Elo": 1069,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 5,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Jack Shore"
+  },
   "nate-quarry-rock": {
     "Name": "Nate Quarry",
     "Elo": 1068,
@@ -2510,15 +2663,6 @@
     "Draws": 0,
     "LastOpp": "Nik Lentz"
   },
-  "147160-roman-dolidze": {
-    "Name": "Roman Dolidze",
-    "Elo": 1068,
-    "Date": "2022-12-03T00:00:00",
-    "Wins": 6,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Jack Hermansson"
-  },
   "212810-benoit-saint-denis": {
     "Name": "Benoit Saint-Denis",
     "Elo": 1068,
@@ -2527,15 +2671,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Matt Frevola"
-  },
-  "145595-tatsuro-taira": {
-    "Name": "Tatsuro Taira",
-    "Elo": 1068,
-    "Date": "2023-12-09T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Carlos Hernandez"
   },
   "shane-carwin-the-engineer": {
     "Name": "Shane Carwin",
@@ -2645,23 +2780,14 @@
     "Draws": 0,
     "LastOpp": "Marina Rodriguez"
   },
-  "78681-gregory-rodrigues-robocop": {
-    "Name": "Gregory Rodrigues",
+  "41407-steve-garcia-jr": {
+    "Name": "Steve Garcia",
     "Elo": 1066,
-    "Date": "2024-02-10T00:00:00",
+    "Date": "2024-09-07T16:00:00",
     "Wins": 6,
     "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Brad Tavares"
-  },
-  "99885-natalia-silva": {
-    "Name": "Nat\u00E1lia Silva",
-    "Elo": 1066,
-    "Date": "2024-02-03T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Viviane Araujo"
+    "LastOpp": "Kyle Nelson"
   },
   "matt-lindland-the-law": {
     "Name": "Matt Lindland",
@@ -2708,6 +2834,15 @@
     "Draws": 0,
     "LastOpp": "Rick Story"
   },
+  "6018-gerald-meerschaert-the-machine": {
+    "Name": "Gerald Meerschaert",
+    "Elo": 1065,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 12,
+    "Losses": 9,
+    "Draws": 0,
+    "LastOpp": "Edmen Shahbazyan"
+  },
   "25471-cynthia-calvillo": {
     "Name": "Cynthia Calvillo",
     "Elo": 1065,
@@ -2716,6 +2851,15 @@
     "Losses": 1,
     "Draws": 1,
     "LastOpp": "Jessica Eye"
+  },
+  "73142-gillian-robertson": {
+    "Name": "Gillian Robertson",
+    "Elo": 1065,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 11,
+    "Losses": 6,
+    "Draws": 0,
+    "LastOpp": "M. Waterson-Gomez"
   },
   "20908-ryan-spann": {
     "Name": "Ryan Spann",
@@ -2726,14 +2870,14 @@
     "Draws": 0,
     "LastOpp": "Dominick Reyes"
   },
-  "107316-caio-borralho-cara-de-kombi": {
-    "Name": "Caio Borralho",
+  "97013-joel-alvarez": {
+    "Name": "Joel Alvarez",
     "Elo": 1065,
-    "Date": "2023-11-04T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
+    "Date": "2024-08-03T00:00:00",
+    "Wins": 6,
+    "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Abus Magomedov"
+    "LastOpp": "Elves Brener"
   },
   "thiago-silva": {
     "Name": "Thiago Silva",
@@ -2753,15 +2897,6 @@
     "Draws": 0,
     "LastOpp": "Roan Carneiro"
   },
-  "16950-renato-carneiro-moicano": {
-    "Name": "Renato Moicano",
-    "Elo": 1064,
-    "Date": "2024-02-03T00:00:00",
-    "Wins": 10,
-    "Losses": 5,
-    "Draws": 0,
-    "LastOpp": "Drew Dober"
-  },
   "134267": {
     "Name": "Mackenzie Dern",
     "Elo": 1064,
@@ -2770,6 +2905,24 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Nina Nunes"
+  },
+  "90068-sergey-spivak": {
+    "Name": "Serghei Spivac",
+    "Elo": 1064,
+    "Date": "2024-08-10T00:00:00",
+    "Wins": 8,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "Marcin Tybura"
+  },
+  "97154-kalinn-williams": {
+    "Name": "Khaos Williams",
+    "Elo": 1064,
+    "Date": "2024-05-18T00:00:00",
+    "Wins": 6,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Carlston Harris"
   },
   "34063-adrian-yanez": {
     "Name": "Adrian Yanez",
@@ -2879,24 +3032,6 @@
     "Draws": 0,
     "LastOpp": "Andre Fili"
   },
-  "41538-anthony-hernandez": {
-    "Name": "Anthony Hernandez",
-    "Elo": 1063,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 6,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Roman Kopylov"
-  },
-  "84753-lerone-murphy": {
-    "Name": "Lerone Murphy",
-    "Elo": 1063,
-    "Date": "2023-07-22T00:00:00",
-    "Wins": 5,
-    "Losses": 0,
-    "Draws": 1,
-    "LastOpp": "Josh Culibao"
-  },
   "25880-christopher-daukaus": {
     "Name": "Chris Daukaus",
     "Elo": 1063,
@@ -2923,6 +3058,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Gerald Meerschaert"
+  },
+  "93373-azamat-murzakanov": {
+    "Name": "Azamat Murzakanov",
+    "Elo": 1063,
+    "Date": "2024-08-03T00:00:00",
+    "Wins": 4,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Alonzo Menifield"
   },
   "chris-leben-the-crippler": {
     "Name": "Chris Leben",
@@ -2986,6 +3130,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Kai Kara-France"
+  },
+  "71660-rinat-fahretdinov": {
+    "Name": "Rinat Fakhretdinov",
+    "Elo": 1062,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 5,
+    "Losses": 0,
+    "Draws": 1,
+    "LastOpp": "Carlos Leal"
   },
   "mark-kerr-the-smashing-machine": {
     "Name": "Mark Kerr",
@@ -3077,15 +3230,6 @@
     "Draws": 0,
     "LastOpp": "Gavin Tucker"
   },
-  "90068-sergey-spivak": {
-    "Name": "Serghei Spivac",
-    "Elo": 1061,
-    "Date": "2023-02-04T00:00:00",
-    "Wins": 7,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Derrick Lewis"
-  },
   "ben-rothwell-northstar": {
     "Name": "Ben Rothwell",
     "Elo": 1060,
@@ -3131,14 +3275,14 @@
     "Draws": 0,
     "LastOpp": "Darren Elkins"
   },
-  "55022-joaquin-buckley": {
-    "Name": "Joaquin Buckley",
+  "116637-miranda-maverick": {
+    "Name": "Miranda Maverick",
     "Elo": 1060,
-    "Date": "2024-03-30T00:00:00",
-    "Wins": 8,
-    "Losses": 4,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 7,
+    "Losses": 3,
     "Draws": 0,
-    "LastOpp": "Vicente Luque"
+    "LastOpp": "Dione Barbosa"
   },
   "hermes-franca": {
     "Name": "Hermes Fran\u00E7a",
@@ -3194,14 +3338,14 @@
     "Draws": 0,
     "LastOpp": "Anthony Smith"
   },
-  "6018-gerald-meerschaert-the-machine": {
-    "Name": "Gerald Meerschaert",
+  "48941-nasrat-haqparast": {
+    "Name": "Nasrat Haqparast",
     "Elo": 1059,
-    "Date": "2022-08-13T00:00:00",
-    "Wins": 10,
-    "Losses": 7,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 9,
+    "Losses": 4,
     "Draws": 0,
-    "LastOpp": "Bruno Silva"
+    "LastOpp": "Jared Gordon"
   },
   "85671-johnny-walker": {
     "Name": "Johnny Walker",
@@ -3211,24 +3355,6 @@
     "Losses": 4,
     "Draws": 0,
     "LastOpp": "Anthony Smith"
-  },
-  "203365-carlos-ulberg-mr-marvelous": {
-    "Name": "Carlos Ulberg",
-    "Elo": 1059,
-    "Date": "2023-09-09T00:00:00",
-    "Wins": 5,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Da Woon Jung"
-  },
-  "164286-michael-morales": {
-    "Name": "Michael Morales",
-    "Elo": 1059,
-    "Date": "2023-11-18T00:00:00",
-    "Wins": 4,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Jake Matthews"
   },
   "jerry-bohlander": {
     "Name": "Jerry Bohlander",
@@ -3302,6 +3428,33 @@
     "Draws": 0,
     "LastOpp": "Carl Deaton III"
   },
+  "34779-jiri-prochazka": {
+    "Name": "Ji\u0159\u00ED Proch\u00E1zka",
+    "Elo": 1058,
+    "Date": "2024-04-13T00:00:00",
+    "Wins": 4,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Aleksandar Raki\u0107"
+  },
+  "102094-ludovit-klein": {
+    "Name": "\u013Dudov\u00EDt Klein",
+    "Elo": 1058,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 7,
+    "Losses": 2,
+    "Draws": 1,
+    "LastOpp": "Roosevelt Roberts"
+  },
+  "69225-karine-silva-killer": {
+    "Name": "Karine Silva",
+    "Elo": 1058,
+    "Date": "2024-04-27T00:00:00",
+    "Wins": 4,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Ariane Lipski"
+  },
   "guy-mezger-the-sandman": {
     "Name": "Guy Mezger",
     "Elo": 1057,
@@ -3356,6 +3509,15 @@
     "Draws": 0,
     "LastOpp": "Francisco Trinaldo"
   },
+  "77737-macy-chiasson": {
+    "Name": "Macy Chiasson",
+    "Elo": 1057,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 8,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Mayra Bueno Silva"
+  },
   "24803-kaiwhare-kara-france": {
     "Name": "Kai Kara-France",
     "Elo": 1057,
@@ -3382,24 +3544,6 @@
     "Losses": 0,
     "Draws": 1,
     "LastOpp": "Kennedy Nzechukwu"
-  },
-  "34779-jiri-prochazka": {
-    "Name": "Ji\u0159\u00ED Proch\u00E1zka",
-    "Elo": 1057,
-    "Date": "2022-06-11T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Glover Teixeira"
-  },
-  "153353-bryan-battle": {
-    "Name": "Bryan Battle",
-    "Elo": 1057,
-    "Date": "2023-09-23T00:00:00",
-    "Wins": 5,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "AJ Fletcher"
   },
   "sean-sherk-the-muscle-shark": {
     "Name": "Sean Sherk",
@@ -3446,15 +3590,6 @@
     "Draws": 0,
     "LastOpp": "Jim Miller"
   },
-  "73142-gillian-robertson": {
-    "Name": "Gillian Robertson",
-    "Elo": 1056,
-    "Date": "2023-04-15T00:00:00",
-    "Wins": 9,
-    "Losses": 5,
-    "Draws": 0,
-    "LastOpp": "Piera Rodriguez"
-  },
   "63593-casey-kenny": {
     "Name": "Casey Kenney",
     "Elo": 1056,
@@ -3463,6 +3598,15 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Nathaniel Wood"
+  },
+  "105800-ignacio-carabantes": {
+    "Name": "Ignacio Bahamondes",
+    "Elo": 1056,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 5,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Manuel Torres"
   },
   "david-abbott-tank": {
     "Name": "David Abbott",
@@ -3526,6 +3670,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Matthew Semelsberger"
+  },
+  "218307-sharaputdin-magomedov-golden-boy": {
+    "Name": "Shara Magomedov",
+    "Elo": 1055,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 4,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Armen Petrosyan"
   },
   "thiago-tavares": {
     "Name": "Thiago Tavares",
@@ -3671,24 +3824,6 @@
     "Draws": 0,
     "LastOpp": "Ryan Jimmo"
   },
-  "48941-nasrat-haqparast": {
-    "Name": "Nasrat Haqparast",
-    "Elo": 1053,
-    "Date": "2023-12-09T00:00:00",
-    "Wins": 8,
-    "Losses": 4,
-    "Draws": 0,
-    "LastOpp": "Jamie Mullarkey"
-  },
-  "56622-virna-jandiroba": {
-    "Name": "Virna Jandiroba",
-    "Elo": 1053,
-    "Date": "2024-03-30T00:00:00",
-    "Wins": 6,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Lupita Godinez"
-  },
   "64589-yoon-yong-park": {
     "Name": "Jun Yong Park",
     "Elo": 1053,
@@ -3698,14 +3833,14 @@
     "Draws": 0,
     "LastOpp": "Albert Duraev"
   },
-  "98539-joanderson-brito-tubarao": {
-    "Name": "Joanderson Brito",
+  "127815-farid-bashrat": {
+    "Name": "Farid Basharat",
     "Elo": 1053,
-    "Date": "2023-11-18T00:00:00",
+    "Date": "2024-10-26T10:00:00",
     "Wins": 4,
-    "Losses": 1,
+    "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Jonathan Pearce"
+    "LastOpp": "Victor Hugo"
   },
   "16609-tom-breese": {
     "Name": "Tom Breese",
@@ -3743,15 +3878,6 @@
     "Draws": 0,
     "LastOpp": "Alex Reyes"
   },
-  "77737-macy-chiasson": {
-    "Name": "Macy Chiasson",
-    "Elo": 1052,
-    "Date": "2021-03-20T00:00:00",
-    "Wins": 5,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Marion Reneau"
-  },
   "81591-damir-ismagulov": {
     "Name": "Damir Ismagulov",
     "Elo": 1052,
@@ -3769,6 +3895,24 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "Devin Clark"
+  },
+  "81538-tabatha-ricci": {
+    "Name": "Tabatha Ricci",
+    "Elo": 1052,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 6,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Angela Hill"
+  },
+  "127726-khamzat-sakalov": {
+    "Name": "Asu Almabayev",
+    "Elo": 1052,
+    "Date": "2024-10-19T16:00:00",
+    "Wins": 4,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Matheus Nicolau"
   },
   "david-loiseau-the-crow": {
     "Name": "David Loiseau",
@@ -3824,15 +3968,6 @@
     "Draws": 0,
     "LastOpp": "Mark Hunt"
   },
-  "97013-joel-alvarez": {
-    "Name": "Joel Alvarez",
-    "Elo": 1051,
-    "Date": "2021-11-13T00:00:00",
-    "Wins": 4,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Thiago Mois\u00E9s"
-  },
   "29210-pat-sabatini": {
     "Name": "Pat Sabatini",
     "Elo": 1051,
@@ -3850,6 +3985,33 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Joaquin Buckley"
+  },
+  "144942-joseph-pyfer": {
+    "Name": "Joe Pyfer",
+    "Elo": 1051,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 4,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Marc-Andr\u00E9 Barriault"
+  },
+  "124944-michael-parkin": {
+    "Name": "Mick Parkin",
+    "Elo": 1051,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 4,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "\u0141ukasz Brzeski"
+  },
+  "36554-carlos-prates-carlao": {
+    "Name": "Carlos Prates",
+    "Elo": 1051,
+    "Date": "2024-08-17T00:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Jingliang Li"
   },
   "vladimir-matyushenko-the-janitor": {
     "Name": "Vladimir Matyushenko",
@@ -3913,24 +4075,6 @@
     "Losses": 3,
     "Draws": 0,
     "LastOpp": "James Vick"
-  },
-  "97154-kalinn-williams": {
-    "Name": "Khaos Williams",
-    "Elo": 1050,
-    "Date": "2021-11-13T00:00:00",
-    "Wins": 4,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Miguel Baeza"
-  },
-  "139271-norma-dumont-viana": {
-    "Name": "Norma Dumont",
-    "Elo": 1050,
-    "Date": "2023-07-15T00:00:00",
-    "Wins": 6,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Chelsea Chandler"
   },
   "74768-casey-oneill": {
     "Name": "Casey O\u0026#39;Neill",
@@ -4040,23 +4184,14 @@
     "Draws": 0,
     "LastOpp": "Takashi Sato"
   },
-  "125404-nassourdine-imavov": {
-    "Name": "Nassourdine Imavov",
+  "144286-jean-silva": {
+    "Name": "Jean Silva",
     "Elo": 1049,
-    "Date": "2022-09-03T00:00:00",
-    "Wins": 4,
-    "Losses": 1,
+    "Date": "2024-07-13T00:00:00",
+    "Wins": 3,
+    "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Joaquin Buckley"
-  },
-  "116637-miranda-maverick": {
-    "Name": "Miranda Maverick",
-    "Elo": 1049,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 6,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Andrea Lee"
+    "LastOpp": "Drew Dober"
   },
   "dan-hardy-the-outlaw": {
     "Name": "Dan Hardy",
@@ -4121,6 +4256,15 @@
     "Draws": 0,
     "LastOpp": "Reza Madadi"
   },
+  "52612-taylor-lapilus": {
+    "Name": "Taylor Lapilus",
+    "Elo": 1048,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 6,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Vince Morales"
+  },
   "43901-sage-northcutt": {
     "Name": "Sage Northcutt",
     "Elo": 1048,
@@ -4157,6 +4301,15 @@
     "Draws": 0,
     "LastOpp": "Modestas Bukauskas"
   },
+  "103506-sean-woodson": {
+    "Name": "Sean Woodson",
+    "Elo": 1048,
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 6,
+    "Losses": 1,
+    "Draws": 1,
+    "LastOpp": "Alex Caceres"
+  },
   "42701-billy-quarantillo": {
     "Name": "Billy Quarantillo",
     "Elo": 1048,
@@ -4166,14 +4319,14 @@
     "Draws": 0,
     "LastOpp": "Alexander Hernandez"
   },
-  "144942-joseph-pyfer": {
-    "Name": "Joe Pyfer",
+  "92314-waldo-cortes-acosta": {
+    "Name": "Waldo Cortes-Acosta",
     "Elo": 1048,
-    "Date": "2023-10-07T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 5,
+    "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Abdul Razak Alhassan"
+    "LastOpp": "Robelis Despaigne"
   },
   "tim-credeur-crazy": {
     "Name": "Tim Credeur",
@@ -4283,6 +4436,15 @@
     "Draws": 0,
     "LastOpp": "Vinc Pichel"
   },
+  "25031-brandon-royval": {
+    "Name": "Brandon Royval",
+    "Elo": 1047,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 7,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Tatsuro Taira"
+  },
   "133312-lupita-godinez": {
     "Name": "Lupita Godinez",
     "Elo": 1047,
@@ -4301,14 +4463,14 @@
     "Draws": 0,
     "LastOpp": "Adam Fugitt"
   },
-  "69225-karine-silva-killer": {
-    "Name": "Karine Silva",
+  "44895-jose-mariscal": {
+    "Name": "Chepe Mariscal",
     "Elo": 1047,
-    "Date": "2023-08-19T00:00:00",
-    "Wins": 3,
+    "Date": "2024-08-10T00:00:00",
+    "Wins": 4,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Maryna Moroz"
+    "LastOpp": "Damon Jackson"
   },
   "chael-sonnen": {
     "Name": "Chael Sonnen",
@@ -4418,15 +4580,6 @@
     "Draws": 0,
     "LastOpp": "Jordan Wright"
   },
-  "93373-azamat-murzakanov": {
-    "Name": "Azamat Murzakanov",
-    "Elo": 1046,
-    "Date": "2023-04-15T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Dustin Jacoby"
-  },
   "136098-muhammadjon-naimov": {
     "Name": "Muhammad Naimov",
     "Elo": 1046,
@@ -4435,6 +4588,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Erik Silva"
+  },
+  "181513-payton-talbout": {
+    "Name": "Payton Talbott",
+    "Elo": 1046,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Yanis Ghemmouri"
   },
   "renato-sobral-babalu": {
     "Name": "Renato Sobral",
@@ -4571,6 +4733,15 @@
     "Draws": 0,
     "LastOpp": "David Zawada"
   },
+  "158947-chase-hooper": {
+    "Name": "Chase Hooper",
+    "Elo": 1045,
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 6,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Viacheslav Borshchev"
+  },
   "98220-matthew-semelsberger": {
     "Name": "Matthew Semelsberger",
     "Elo": 1045,
@@ -4588,15 +4759,6 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Chris Duncan"
-  },
-  "71660-rinat-fahretdinov": {
-    "Name": "Rinat Fakhretdinov",
-    "Elo": 1045,
-    "Date": "2023-11-04T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
-    "Draws": 1,
-    "LastOpp": "Elizeu Zaleski"
   },
   "keith-jardine-the-dean-of-mean": {
     "Name": "Keith Jardine",
@@ -4724,6 +4886,15 @@
     "Draws": 0,
     "LastOpp": "Roosevelt Roberts"
   },
+  "244627-bo-nickal": {
+    "Name": "Bo Nickal",
+    "Elo": 1044,
+    "Date": "2024-04-13T00:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Cody Brundage"
+  },
   "kendall-grove-da-spyder": {
     "Name": "Kendall Grove",
     "Elo": 1043,
@@ -4832,6 +5003,15 @@
     "Draws": 0,
     "LastOpp": "Natan Levy"
   },
+  "119061-fares-ziam": {
+    "Name": "Fares Ziam",
+    "Elo": 1043,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 6,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Matt Frevola"
+  },
   "34702-makhmud-muradov": {
     "Name": "Makhmud Muradov",
     "Elo": 1043,
@@ -4849,6 +5029,15 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Bruna Brasil"
+  },
+  "94654-raul-rosas": {
+    "Name": "Raul Rosas Jr.",
+    "Elo": 1043,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 4,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Aoriqileng"
   },
   "70861-marcus-mcghee": {
     "Name": "Marcus McGhee",
@@ -4967,14 +5156,14 @@
     "Draws": 0,
     "LastOpp": "Steve Garcia"
   },
-  "127815-farid-bashrat": {
-    "Name": "Farid Basharat",
+  "223129-luana-santos": {
+    "Name": "Luana Santos",
     "Elo": 1042,
-    "Date": "2024-01-13T00:00:00",
+    "Date": "2024-07-13T00:00:00",
     "Wins": 3,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Taylor Lapilus"
+    "LastOpp": "Mariya Agapova"
   },
   "patrick-cote-the-predator": {
     "Name": "Patrick Cote",
@@ -5066,14 +5255,14 @@
     "Draws": 0,
     "LastOpp": "Bethe Correia"
   },
-  "25031-brandon-royval": {
-    "Name": "Brandon Royval",
+  "55253-bruno-gustavo-aparecido-da-silva-bulldog": {
+    "Name": "Bruno Silva 'Bulldog'",
     "Elo": 1041,
-    "Date": "2023-04-15T00:00:00",
-    "Wins": 5,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 4,
     "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Matheus Nicolau"
+    "LastOpp": "Cody Durden"
   },
   "25872-william-algeo-honey-badger": {
     "Name": "Bill Algeo",
@@ -5092,6 +5281,15 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Felipe dos Santos"
+  },
+  "171056-jasmine-jasdavicious": {
+    "Name": "Jasmine Jasudavicius",
+    "Elo": 1041,
+    "Date": "2024-07-13T00:00:00",
+    "Wins": 5,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Fatima Kline"
   },
   "shonie-carter-mr-international": {
     "Name": "Shonie Carter",
@@ -5183,6 +5381,15 @@
     "Draws": 0,
     "LastOpp": "Ronda Rousey"
   },
+  "46875-miles-johns": {
+    "Name": "Miles Johns",
+    "Elo": 1040,
+    "Date": "2024-06-15T00:00:00",
+    "Wins": 6,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "D. Silva de Andrade"
+  },
   "18967-david-dvorak": {
     "Name": "David Dvo\u0159\u00E1k",
     "Elo": 1040,
@@ -5192,14 +5399,14 @@
     "Draws": 0,
     "LastOpp": "Juancamilo Ronderos"
   },
-  "105800-ignacio-carabantes": {
-    "Name": "Ignacio Bahamondes",
+  "125696-william-gomis": {
+    "Name": "William Gomis",
     "Elo": 1040,
-    "Date": "2023-04-08T00:00:00",
-    "Wins": 3,
-    "Losses": 1,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 4,
+    "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Trey Ogden"
+    "LastOpp": "Joanderson Brito"
   },
   "112520-cameron-saaiman": {
     "Name": "Cameron Saaiman",
@@ -5246,15 +5453,6 @@
     "Draws": 0,
     "LastOpp": "Shawn Jordan"
   },
-  "52612-taylor-lapilus": {
-    "Name": "Taylor Lapilus",
-    "Elo": 1039,
-    "Date": "2023-09-02T00:00:00",
-    "Wins": 4,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Caol\u00E1n Loughran"
-  },
   "20072-trevin-giles": {
     "Name": "Trevin Giles",
     "Elo": 1039,
@@ -5272,15 +5470,6 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Andrea Lee"
-  },
-  "81538-tabatha-ricci": {
-    "Name": "Tabatha Ricci",
-    "Elo": 1039,
-    "Date": "2023-06-24T00:00:00",
-    "Wins": 4,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Gillian Robertson"
   },
   "61258-josiane-nunes": {
     "Name": "Josiane Nunes",
@@ -5399,14 +5588,23 @@
     "Draws": 0,
     "LastOpp": "Hannah Goldy"
   },
-  "41407-steve-garcia-jr": {
-    "Name": "Steve Garcia",
+  "158649-brady-hiestand": {
+    "Name": "Brady Hiestand",
     "Elo": 1038,
-    "Date": "2023-12-09T00:00:00",
+    "Date": "2024-06-15T00:00:00",
+    "Wins": 3,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Garrett Armfield"
+  },
+  "104455-david-onama": {
+    "Name": "David Onama",
+    "Elo": 1038,
+    "Date": "2024-04-27T00:00:00",
     "Wins": 4,
     "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Melquizael Costa"
+    "LastOpp": "Jonathan Pearce"
   },
   "121190-christian-rodriguez": {
     "Name": "Christian Rodriguez",
@@ -5434,15 +5632,6 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Jake Collier"
-  },
-  "124944-michael-parkin": {
-    "Name": "Mick Parkin",
-    "Elo": 1038,
-    "Date": "2024-03-23T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Mohammed Usman"
   },
   "patrick-smith-pat": {
     "Name": "Patrick Smith",
@@ -5615,6 +5804,24 @@
     "Draws": 0,
     "LastOpp": "Niko Price"
   },
+  "166360-iasmin-lucindo": {
+    "Name": "Iasmin Lucindo",
+    "Elo": 1037,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 4,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Marina Rodriguez"
+  },
+  "52251-themba-takura-gorimbo": {
+    "Name": "Themba Gorimbo",
+    "Elo": 1037,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 4,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Niko Price"
+  },
   "maurice-smith-mo": {
     "Name": "Maurice Smith",
     "Elo": 1036,
@@ -5723,14 +5930,23 @@
     "Draws": 1,
     "LastOpp": "Jake Hadley"
   },
-  "92314-waldo-cortes-acosta": {
-    "Name": "Waldo Cortes-Acosta",
+  "143238-ailin-luciana-perez": {
+    "Name": "Ail\u00EDn P\u00E9rez",
     "Elo": 1036,
-    "Date": "2024-01-13T00:00:00",
+    "Date": "2024-09-28T12:00:00",
     "Wins": 4,
     "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Andrei Arlovski"
+    "LastOpp": "Darya Zheleznyakova"
+  },
+  "248605-jaqueline-amorim": {
+    "Name": "Jaqueline Amorim",
+    "Elo": 1036,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 3,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Vanessa Demopoulos"
   },
   "ivan-menjivar-pride-of-el-salvador": {
     "Name": "Ivan Menjivar",
@@ -5795,14 +6011,23 @@
     "Draws": 0,
     "LastOpp": "Matt Frevola"
   },
-  "102094-ludovit-klein": {
-    "Name": "\u013Dudov\u00EDt Klein",
+  "117993-charles-johnson": {
+    "Name": "Charles Johnson",
     "Elo": 1035,
-    "Date": "2024-03-02T00:00:00",
-    "Wins": 5,
-    "Losses": 2,
-    "Draws": 1,
-    "LastOpp": "AJ Cunningham"
+    "Date": "2024-10-19T16:00:00",
+    "Wins": 6,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "Sumudaerji"
+  },
+  "92877-daniel-marcos": {
+    "Name": "Daniel Marcos",
+    "Elo": 1035,
+    "Date": "2024-06-08T00:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "John Casta\u00F1eda"
   },
   "215578-karl-williams": {
     "Name": "Karl Williams",
@@ -5903,15 +6128,6 @@
     "Draws": 1,
     "LastOpp": "Chad Anheliger"
   },
-  "103506-sean-woodson": {
-    "Name": "Sean Woodson",
-    "Elo": 1034,
-    "Date": "2024-01-20T00:00:00",
-    "Wins": 5,
-    "Losses": 1,
-    "Draws": 1,
-    "LastOpp": "Charles Jourdain"
-  },
   "81574-cory-mckenna": {
     "Name": "Cory McKenna",
     "Elo": 1034,
@@ -5929,6 +6145,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Warlley Alves"
+  },
+  "129386-andr-lima-mascote": {
+    "Name": "Andr\u00E9 Lima",
+    "Elo": 1034,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Felipe dos Santos"
   },
   "remco-pardoel-grizzly": {
     "Name": "Remco Pardoel",
@@ -6055,6 +6280,15 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Justin Gaethje"
+  },
+  "57525-angela-hill-overkill": {
+    "Name": "Angela Hill",
+    "Elo": 1033,
+    "Date": "2024-05-18T00:00:00",
+    "Wins": 12,
+    "Losses": 13,
+    "Draws": 0,
+    "LastOpp": "Luana Pinheiro"
   },
   "50888-magomed-mustafaev": {
     "Name": "Magomed Mustafaev",
@@ -6344,15 +6578,6 @@
     "Draws": 0,
     "LastOpp": "Fares Ziam"
   },
-  "125696-william-gomis": {
-    "Name": "William Gomis",
-    "Elo": 1032,
-    "Date": "2023-09-02T00:00:00",
-    "Wins": 3,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Yanis Ghemmouri"
-  },
   "116334-christian-duncan": {
     "Name": "Christian Leroy Duncan",
     "Elo": 1032,
@@ -6362,14 +6587,14 @@
     "Draws": 0,
     "LastOpp": "Claudio Ribeiro"
   },
-  "181513-payton-talbout": {
-    "Name": "Payton Talbott",
+  "34265-kayla-harrison": {
+    "Name": "Kayla Harrison",
     "Elo": 1032,
-    "Date": "2024-03-23T00:00:00",
+    "Date": "2024-10-05T18:30:00",
     "Wins": 2,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Cameron Saaiman"
+    "LastOpp": "Ketlen Vieira"
   },
   "jason-delucia": {
     "Name": "Jason DeLucia",
@@ -6551,6 +6776,15 @@
     "Draws": 0,
     "LastOpp": "Du\u0161ko Todorovi\u0107"
   },
+  "218790-bruno-the-hulk": {
+    "Name": "Brunno Ferreira",
+    "Elo": 1031,
+    "Date": "2024-06-08T00:00:00",
+    "Wins": 3,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Dustin Stoltzfus"
+  },
   "135516-nazim-sadykhov": {
     "Name": "Nazim Sadykhov",
     "Elo": 1031,
@@ -6559,6 +6793,33 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Terrance McKinney"
+  },
+  "182971-myktybek-orolbaev": {
+    "Name": "Myktybek Orolbai",
+    "Elo": 1031,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Elves Brener"
+  },
+  "50927-vinicius-prego": {
+    "Name": "Vinicius Oliveira",
+    "Elo": 1031,
+    "Date": "2024-06-29T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Ricky Sim\u00F3n"
+  },
+  "56978-chris-padilla": {
+    "Name": "Chris Padilla",
+    "Elo": 1031,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Rongzhu"
   },
   "mark-hall-the-cobra": {
     "Name": "Mark Hall",
@@ -6785,6 +7046,15 @@
     "Draws": 0,
     "LastOpp": "Ihor Potieria"
   },
+  "114251-luana-carolina-dread": {
+    "Name": "Luana Carolina",
+    "Elo": 1030,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 6,
+    "Losses": 3,
+    "Draws": 0,
+    "LastOpp": "Lucie Pudilov\u00E1"
+  },
   "35149-tanner-boser": {
     "Name": "Tanner Boser",
     "Elo": 1030,
@@ -6793,15 +7063,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Raphael Pessoa"
-  },
-  "158947-chase-hooper": {
-    "Name": "Chase Hooper",
-    "Elo": 1030,
-    "Date": "2023-11-18T00:00:00",
-    "Wins": 5,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Jordan Leavitt"
   },
   "120996-william-knight": {
     "Name": "William Knight",
@@ -6830,15 +7091,6 @@
     "Draws": 0,
     "LastOpp": "Ronnie Lawrence"
   },
-  "171056-jasmine-jasdavicious": {
-    "Name": "Jasmine Jasudavicius",
-    "Elo": 1030,
-    "Date": "2024-01-20T00:00:00",
-    "Wins": 4,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Priscila Cachoeira"
-  },
   "180034-hyun-sung-park": {
     "Name": "Hyun Sung Park",
     "Elo": 1030,
@@ -6847,6 +7099,24 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Shannon Ross"
+  },
+  "92011-clayton-carpenter": {
+    "Name": "Clayton Carpenter",
+    "Elo": 1030,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Lucas Rocha"
+  },
+  "114216-hyder-amil": {
+    "Name": "Hyder Amil",
+    "Elo": 1030,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Jeong Yeong Lee"
   },
   "phillip-miller": {
     "Name": "Phillip Miller",
@@ -6929,23 +7199,23 @@
     "Draws": 0,
     "LastOpp": "Randy Brown"
   },
-  "244627-bo-nickal": {
-    "Name": "Bo Nickal",
+  "29255-victor-henry": {
+    "Name": "Victor Henry",
     "Elo": 1029,
-    "Date": "2023-07-08T00:00:00",
-    "Wins": 2,
-    "Losses": 0,
+    "Date": "2024-04-27T00:00:00",
+    "Wins": 3,
+    "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Val Woodburn"
+    "LastOpp": "Rani Yahya"
   },
-  "44895-jose-mariscal": {
-    "Name": "Chepe Mariscal",
+  "297105-nora-cornolle": {
+    "Name": "Nora Cornolle",
     "Elo": 1029,
-    "Date": "2023-09-09T00:00:00",
+    "Date": "2024-04-06T00:00:00",
     "Wins": 2,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Jack Jenkins"
+    "LastOpp": "Melissa Mullins"
   },
   "195097-kevin-jousset": {
     "Name": "Kevin Jousset",
@@ -6955,6 +7225,33 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Kenan Song"
+  },
+  "151252-ibo-aslan": {
+    "Name": "Ibo Aslan",
+    "Elo": 1029,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Raffael Cerqueira"
+  },
+  "198829-jhonata-diniz": {
+    "Name": "Jhonata Diniz",
+    "Elo": 1029,
+    "Date": "2024-08-10T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Karl Williams"
+  },
+  "184677-oumar-sy": {
+    "Name": "Oumar Sy",
+    "Elo": 1029,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Da Woon Jung"
   },
   "carlos-newton-the-ronin": {
     "Name": "Carlos Newton",
@@ -7181,23 +7478,23 @@
     "Draws": 0,
     "LastOpp": "Francisco Prado"
   },
-  "127726-khamzat-sakalov": {
-    "Name": "Asu Almabayev",
+  "179091-charlie-campbell": {
+    "Name": "Charlie Campbell",
     "Elo": 1028,
-    "Date": "2024-03-09T00:00:00",
+    "Date": "2024-04-06T00:00:00",
     "Wins": 2,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "CJ Vergara"
+    "LastOpp": "Trevor Peek"
   },
-  "223129-luana-santos": {
-    "Name": "Luana Santos",
+  "163815-jean-matsumoto": {
+    "Name": "Jean Matsumoto",
     "Elo": 1028,
-    "Date": "2023-12-09T00:00:00",
+    "Date": "2024-10-19T16:00:00",
     "Wins": 2,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Stephanie Egger"
+    "LastOpp": "Brad Katona"
   },
   "kenichi-yamamoto": {
     "Name": "Kenichi Yamamoto",
@@ -7333,24 +7630,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Julija Stoliarenko"
-  },
-  "119061-fares-ziam": {
-    "Name": "Fares Ziam",
-    "Elo": 1027,
-    "Date": "2024-02-24T00:00:00",
-    "Wins": 5,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Claudio Puelles"
-  },
-  "46875-miles-johns": {
-    "Name": "Miles Johns",
-    "Elo": 1027,
-    "Date": "2024-03-23T00:00:00",
-    "Wins": 5,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Cody Gibson"
   },
   "66758-rodrigo-nascimento-z-colmeia": {
     "Name": "Rodrigo Nascimento",
@@ -7541,14 +7820,23 @@
     "Draws": 0,
     "LastOpp": "Darrick Minner"
   },
-  "85643-diego-lopes": {
-    "Name": "Diego Lopes",
+  "116047-trey-waters": {
+    "Name": "Trey Waters",
     "Elo": 1026,
-    "Date": "2023-11-11T00:00:00",
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Billy Goff"
+  },
+  "93065-morgan-charriere": {
+    "Name": "Morgan Charriere",
+    "Elo": 1026,
+    "Date": "2024-09-28T12:00:00",
     "Wins": 2,
     "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Pat Sabatini"
+    "LastOpp": "Gabriel Miranda"
   },
   "sam-stout-hands-of-stone": {
     "Name": "Sam Stout",
@@ -7640,15 +7928,6 @@
     "Draws": 0,
     "LastOpp": "Gabriel Ben\u00EDtez"
   },
-  "55253-bruno-gustavo-aparecido-da-silva-bulldog": {
-    "Name": "Bruno Silva 'Bulldog'",
-    "Elo": 1025,
-    "Date": "2023-03-11T00:00:00",
-    "Wins": 3,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Tyson Nam"
-  },
   "90318-jordan-leavitt": {
     "Name": "Jordan Leavitt",
     "Elo": 1025,
@@ -7657,6 +7936,60 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Trey Ogden"
+  },
+  "35907-vanessa-demopoulos": {
+    "Name": "Vanessa Demopoulos",
+    "Elo": 1025,
+    "Date": "2024-05-18T00:00:00",
+    "Wins": 5,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Emily Ducote"
+  },
+  "245772-isaac-dulgarian": {
+    "Name": "Isaac Dulgarian",
+    "Elo": 1025,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 2,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Brendon Marotte"
+  },
+  "196666-jaqueline-cavalcanti": {
+    "Name": "Jacqueline Cavalcanti",
+    "Elo": 1025,
+    "Date": "2024-09-28T12:00:00",
+    "Wins": 3,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Nora Cornolle"
+  },
+  "174069-josefine-lindgren-knutsson-little-thunder": {
+    "Name": "Josefine Knutsson",
+    "Elo": 1025,
+    "Date": "2024-06-15T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Julia Polastri"
+  },
+  "150814-oban-elliot": {
+    "Name": "Oban Elliott",
+    "Elo": 1025,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Preston Parsons"
+  },
+  "165024-luis-rodrguez-lazyboy": {
+    "Name": "Ronaldo Rodr\u00EDguez",
+    "Elo": 1025,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 2,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Ode Osbourne"
   },
   "fabiano-iha": {
     "Name": "Fabiano Iha",
@@ -7757,15 +8090,6 @@
     "Draws": 0,
     "LastOpp": "Alexis Davis"
   },
-  "104455-david-onama": {
-    "Name": "David Onama",
-    "Elo": 1024,
-    "Date": "2023-06-24T00:00:00",
-    "Wins": 3,
-    "Losses": 2,
-    "Draws": 0,
-    "LastOpp": "Gabriel Santos"
-  },
   "140642-pierangela-rodriguez": {
     "Name": "Piera Rodriguez",
     "Elo": 1024,
@@ -7774,6 +8098,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Sam Hughes"
+  },
+  "124969-esteban-ribovics": {
+    "Name": "Esteban Ribovics",
+    "Elo": 1024,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 3,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Daniel Zellhuber"
   },
   "227991-viktoria-dudakova": {
     "Name": "Victoria Dudakova",
@@ -7873,6 +8206,15 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Cameron VanCamp"
+  },
+  "30204-abusupiyan-magomedov-abus": {
+    "Name": "Abus Magomedov",
+    "Elo": 1023,
+    "Date": "2024-10-26T10:00:00",
+    "Wins": 3,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Brunno Ferreira"
   },
   "mikey-burnett-the-eastside-assassin": {
     "Name": "Mikey Burnett",
@@ -7991,32 +8333,23 @@
     "Draws": 0,
     "LastOpp": "Clay Guida"
   },
-  "35907-vanessa-demopoulos": {
-    "Name": "Vanessa Demopoulos",
+  "108511-jesus-aguilar": {
+    "Name": "Jesus Aguilar",
     "Elo": 1022,
-    "Date": "2022-11-19T00:00:00",
+    "Date": "2024-08-17T00:00:00",
     "Wins": 3,
     "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Maria Oliveira"
+    "LastOpp": "Stewart Nicoll"
   },
-  "158649-brady-hiestand": {
-    "Name": "Brady Hiestand",
+  "222456-danny-barlow": {
+    "Name": "Danny Barlow",
     "Elo": 1022,
-    "Date": "2023-04-22T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Batgerel Danaa"
-  },
-  "92877-daniel-marcos": {
-    "Name": "Daniel Marcos",
-    "Elo": 1022,
-    "Date": "2023-07-22T00:00:00",
+    "Date": "2024-08-10T00:00:00",
     "Wins": 2,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Davey Grant"
+    "LastOpp": "Nikolay Veretennikov"
   },
   "alex-hunter": {
     "Name": "Alex Hunter",
@@ -8153,6 +8486,15 @@
     "Draws": 0,
     "LastOpp": "Yazmin Jauregui"
   },
+  "126015-csar-almeida": {
+    "Name": "C\u00E9sar Almeida",
+    "Elo": 1021,
+    "Date": "2024-10-05T18:30:00",
+    "Wins": 2,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Ihor Potieria"
+  },
   "caol-uno-uno-shoten": {
     "Name": "Caol Uno",
     "Elo": 1020,
@@ -8234,15 +8576,6 @@
     "Draws": 0,
     "LastOpp": "Robbie Lawler"
   },
-  "114251-luana-carolina-dread": {
-    "Name": "Luana Carolina",
-    "Elo": 1020,
-    "Date": "2024-02-03T00:00:00",
-    "Wins": 5,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Julija Stoliarenko"
-  },
   "160352-nick-maximov": {
     "Name": "Nick Maximov",
     "Elo": 1020,
@@ -8261,14 +8594,14 @@
     "Draws": 0,
     "LastOpp": "Christian Leroy Duncan"
   },
-  "248605-jaqueline-amorim": {
-    "Name": "Jaqueline Amorim",
+  "90133-trey-ogden": {
+    "Name": "Trey Ogden",
     "Elo": 1020,
-    "Date": "2024-03-16T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 3,
+    "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Cory McKenna"
+    "LastOpp": "Loik Radzhabov"
   },
   "brian-johnston-fury": {
     "Name": "Brian Johnston",
@@ -8405,6 +8738,15 @@
     "Draws": 0,
     "LastOpp": "Ode Osbourne"
   },
+  "46708-ariane-cristina-sorriso": {
+    "Name": "Ariane Carnelossi",
+    "Elo": 1019,
+    "Date": "2024-05-18T00:00:00",
+    "Wins": 3,
+    "Losses": 2,
+    "Draws": 0,
+    "LastOpp": "Piera Rodriguez"
+  },
   "169818-cody-brundage": {
     "Name": "Cody Brundage",
     "Elo": 1019,
@@ -8440,6 +8782,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Yanal Ashmouz"
+  },
+  "136052-bogdan-guskov": {
+    "Name": "Bogdan Guskov",
+    "Elo": 1019,
+    "Date": "2024-04-27T00:00:00",
+    "Wins": 2,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Ryan Spann"
   },
   "gan-mcgee-the-giant": {
     "Name": "Gan McGee",
@@ -8639,15 +8990,6 @@
     "Draws": 0,
     "LastOpp": "Malcolm Gordon"
   },
-  "218790-bruno-the-hulk": {
-    "Name": "Brunno Ferreira",
-    "Elo": 1018,
-    "Date": "2023-01-21T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Gregory Rodrigues"
-  },
   "51443-jeong-young-lee": {
     "Name": "Jeong Yeong Lee",
     "Elo": 1018,
@@ -8683,6 +9025,15 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Martin Buday"
+  },
+  "133447-felipe-douro": {
+    "Name": "Felipe Lima",
+    "Elo": 1018,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Muhammad Naimov"
   },
   "joe-charles-the-ghetto-man": {
     "Name": "Joe Charles",
@@ -8954,15 +9305,6 @@
     "Draws": 0,
     "LastOpp": "Roland Delorme"
   },
-  "57525-angela-hill-overkill": {
-    "Name": "Angela Hill",
-    "Elo": 1017,
-    "Date": "2023-11-04T00:00:00",
-    "Wins": 11,
-    "Losses": 13,
-    "Draws": 0,
-    "LastOpp": "Denise Gomes"
-  },
   "45020-timothy-johnson": {
     "Name": "Tim Johnson",
     "Elo": 1017,
@@ -9071,15 +9413,6 @@
     "Draws": 0,
     "LastOpp": "Mario Bautista"
   },
-  "166360-iasmin-lucindo": {
-    "Name": "Iasmin Lucindo",
-    "Elo": 1017,
-    "Date": "2023-08-12T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Polyana Viana"
-  },
   "134566-chelsea-chandler": {
     "Name": "Chelsea Chandler",
     "Elo": 1017,
@@ -9088,15 +9421,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Josiane Nunes"
-  },
-  "94654-raul-rosas": {
-    "Name": "Raul Rosas Jr.",
-    "Elo": 1017,
-    "Date": "2023-09-16T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Terrence Mitchell"
   },
   "35163-ismael-marreta": {
     "Name": "Ismael Bonfim",
@@ -9124,15 +9448,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Luis Pajuelo"
-  },
-  "182971-myktybek-orolbaev": {
-    "Name": "Myktybek Orolbai",
-    "Elo": 1017,
-    "Date": "2023-11-18T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Uros Medic"
   },
   "kevin-rosier": {
     "Name": "Kevin Rosier",
@@ -10151,15 +10466,6 @@
     "Draws": 0,
     "LastOpp": "Dequan Townsend"
   },
-  "46708-ariane-cristina-sorriso": {
-    "Name": "Ariane Carnelossi",
-    "Elo": 1016,
-    "Date": "2021-10-16T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Istela Nunes"
-  },
   "67789-yorgan-decastro": {
     "Name": "Yorgan De Castro",
     "Elo": 1016,
@@ -10295,42 +10601,6 @@
     "Draws": 0,
     "LastOpp": "Danny Roberts"
   },
-  "245772-isaac-dulgarian": {
-    "Name": "Isaac Dulgarian",
-    "Elo": 1016,
-    "Date": "2023-08-12T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Francis Marshall"
-  },
-  "93065-morgan-charriere": {
-    "Name": "Morgan Charriere",
-    "Elo": 1016,
-    "Date": "2023-09-02T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Manolo Zecchini"
-  },
-  "36554-carlos-prates-carlao": {
-    "Name": "Carlos Prates",
-    "Elo": 1016,
-    "Date": "2024-02-10T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Trevin Giles"
-  },
-  "222456-danny-barlow": {
-    "Name": "Danny Barlow",
-    "Elo": 1016,
-    "Date": "2024-02-17T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Josh Quinlan"
-  },
   "102827-mingyang-zhang": {
     "Name": "Mingyang Zhang",
     "Elo": 1016,
@@ -10339,15 +10609,6 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Brendson Ribeiro"
-  },
-  "50927-vinicius-prego": {
-    "Name": "Vinicius Oliveira",
-    "Elo": 1016,
-    "Date": "2024-03-02T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Benardo Sopaj"
   },
   "21208-michael-page": {
     "Name": "Michael Page",
@@ -10358,14 +10619,50 @@
     "Draws": 0,
     "LastOpp": "Kevin Holland"
   },
-  "129386-andr-lima-mascote": {
-    "Name": "Andr\u00E9 Lima",
+  "99747-mauricio-rufy": {
+    "Name": "Mauricio Ruffy",
     "Elo": 1016,
-    "Date": "2024-03-23T00:00:00",
+    "Date": "2024-05-04T00:00:00",
     "Wins": 1,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Igor Severino"
+    "LastOpp": "Jamie Mullarkey"
+  },
+  "194524-mairon-santos": {
+    "Name": "Mairon Santos",
+    "Elo": 1016,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Kaan Ofli"
+  },
+  "292593-ryan-loder": {
+    "Name": "Ryan Loder",
+    "Elo": 1016,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Robert Valentin"
+  },
+  "142728-nathan-fletcher": {
+    "Name": "Nathan Fletcher",
+    "Elo": 1016,
+    "Date": "2024-09-07T16:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Zygimantas Ramaska"
+  },
+  "173956-razonbek-temirov": {
+    "Name": "Ramazan Temirov",
+    "Elo": 1016,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "CJ Vergara"
   },
   "ebenezer-fontes-braga-pitbull": {
     "Name": "Ebenezer Fontes Braga",
@@ -10574,6 +10871,15 @@
     "Draws": 0,
     "LastOpp": "Chris Heatherly"
   },
+  "18497-julian-erosa": {
+    "Name": "Julian Erosa",
+    "Elo": 1015,
+    "Date": "2024-07-13T00:00:00",
+    "Wins": 8,
+    "Losses": 7,
+    "Draws": 0,
+    "LastOpp": "Christian Rodriguez"
+  },
   "17191-adam-milstead-the-prototype": {
     "Name": "Adam Milstead",
     "Elo": 1015,
@@ -10781,15 +11087,6 @@
     "Draws": 0,
     "LastOpp": "Dakota Bush"
   },
-  "29255-victor-henry": {
-    "Name": "Victor Henry",
-    "Elo": 1015,
-    "Date": "2022-01-22T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Raoni Barcelos"
-  },
   "20364-chad-anheliger": {
     "Name": "Chad Anheliger",
     "Elo": 1015,
@@ -10817,15 +11114,6 @@
     "Draws": 0,
     "LastOpp": "Khalid Taha"
   },
-  "30204-abusupiyan-magomedov-abus": {
-    "Name": "Abus Magomedov",
-    "Elo": 1015,
-    "Date": "2022-09-03T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Dustin Stoltzfus"
-  },
   "193326-tamires-vidal": {
     "Name": "Tamires Vidal",
     "Elo": 1015,
@@ -10844,15 +11132,6 @@
     "Draws": 0,
     "LastOpp": "Marcelo Rojo"
   },
-  "92011-clayton-carpenter": {
-    "Name": "Clayton Carpenter",
-    "Elo": 1015,
-    "Date": "2023-02-18T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Juancamilo Ronderos"
-  },
   "60331-trevor-peek": {
     "Name": "Trevor Peek",
     "Elo": 1015,
@@ -10862,6 +11141,24 @@
     "Draws": 0,
     "LastOpp": "Erick Gonzalez"
   },
+  "52607-sam-patterson": {
+    "Name": "Sam Patterson",
+    "Elo": 1015,
+    "Date": "2024-07-27T00:00:00",
+    "Wins": 2,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Kiefer Crosbie"
+  },
+  "175214-ketlen-souza": {
+    "Name": "Ketlen Souza",
+    "Elo": 1015,
+    "Date": "2024-09-14T19:30:00",
+    "Wins": 2,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Yazmin Jauregui"
+  },
   "169724-billy-goff": {
     "Name": "Billy Goff",
     "Elo": 1015,
@@ -10870,15 +11167,6 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Yusaku Kinoshita"
-  },
-  "179091-charlie-campbell": {
-    "Name": "Charlie Campbell",
-    "Elo": 1015,
-    "Date": "2023-09-16T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Alex Reyes"
   },
   "292626-eduarda-moura": {
     "Name": "Eduarda Moura",
@@ -10898,14 +11186,14 @@
     "Draws": 0,
     "LastOpp": "Ihor Potieria"
   },
-  "144286-jean-silva": {
-    "Name": "Jean Silva",
+  "271545-cong-wang": {
+    "Name": "Cong Wang",
     "Elo": 1015,
-    "Date": "2024-01-13T00:00:00",
+    "Date": "2024-08-24T19:00:00",
     "Wins": 1,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Westin Wilson"
+    "LastOpp": "Victoria Leonardo"
   },
   "christian-wellisch": {
     "Name": "Christian Wellisch",
@@ -11177,32 +11465,14 @@
     "Draws": 0,
     "LastOpp": "Irina Alekseeva"
   },
-  "218307-sharaputdin-magomedov-golden-boy": {
-    "Name": "Shara Magomedov",
+  "35756-zack-reese": {
+    "Name": "Zach Reese",
     "Elo": 1014,
-    "Date": "2023-10-21T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
+    "Date": "2024-08-24T19:00:00",
+    "Wins": 2,
+    "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Bruno Silva"
-  },
-  "114216-hyder-amil": {
-    "Name": "Hyder Amil",
-    "Elo": 1014,
-    "Date": "2024-02-10T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Fernie Garcia"
-  },
-  "165024-luis-rodrguez-lazyboy": {
-    "Name": "Ronaldo Rodr\u00EDguez",
-    "Elo": 1014,
-    "Date": "2024-02-24T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Denys Bondar"
+    "LastOpp": "Jos\u00E9 Medina"
   },
   "339509-robelis-despaigne": {
     "Name": "Robelis Despaigne",
@@ -11212,15 +11482,6 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Josh Parisian"
-  },
-  "151252-ibo-aslan": {
-    "Name": "Ibo Aslan",
-    "Elo": 1014,
-    "Date": "2024-03-30T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Anton Turkalj"
   },
   "kazuo-takahashi-yoshiki": {
     "Name": "Kazuo Takahashi",
@@ -11762,33 +12023,6 @@
     "Draws": 0,
     "LastOpp": "Hailey Cowan"
   },
-  "116047-trey-waters": {
-    "Name": "Trey Waters",
-    "Elo": 1013,
-    "Date": "2023-04-29T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Josh Quinlan"
-  },
-  "297105-nora-cornolle": {
-    "Name": "Nora Cornolle",
-    "Elo": 1013,
-    "Date": "2023-09-02T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Joselyne Edwards"
-  },
-  "174069-josefine-lindgren-knutsson-little-thunder": {
-    "Name": "Josefine Knutsson",
-    "Elo": 1013,
-    "Date": "2023-09-16T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": "Marnic Mann"
-  },
   "229363-dariya-zheleznyakova": {
     "Name": "Darya Zheleznyakova",
     "Elo": 1013,
@@ -11797,6 +12031,42 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Montserrat Rendon"
+  },
+  "48149-victor-striker": {
+    "Name": "Victor Hugo",
+    "Elo": 1013,
+    "Date": "2024-04-06T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Pedro Falc\u00E3o"
+  },
+  "173579-dione-barbosa": {
+    "Name": "Dione Barbosa",
+    "Elo": 1013,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Ernesta Kareckaite"
+  },
+  "180757-stephanie-luciano-rondinha": {
+    "Name": "Stephanie Luciano",
+    "Elo": 1013,
+    "Date": "2024-08-10T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Talita Alencar"
+  },
+  "232642-cameron-smotherean": {
+    "Name": "Cameron Smotherman",
+    "Elo": 1013,
+    "Date": "2024-10-19T16:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Jake Hadley"
   },
   "tyrone-roberts-native-warrior": {
     "Name": "Tyrone Roberts",
@@ -12041,15 +12311,6 @@
     "Draws": 0,
     "LastOpp": "Shane Young"
   },
-  "52251-themba-takura-gorimbo": {
-    "Name": "Themba Gorimbo",
-    "Elo": 1012,
-    "Date": "2024-02-03T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Pete Rodriguez"
-  },
   "60287-jamal-pogues": {
     "Name": "Jamal Pogues",
     "Elo": 1012,
@@ -12077,14 +12338,23 @@
     "Draws": 0,
     "LastOpp": "Landon Qui\u00F1ones"
   },
-  "150814-oban-elliot": {
-    "Name": "Oban Elliott",
+  "167636-rei-tsuruya": {
+    "Name": "Rei Tsuruya",
     "Elo": 1012,
-    "Date": "2024-02-17T00:00:00",
+    "Date": "2024-06-29T00:00:00",
     "Wins": 1,
     "Losses": 0,
     "Draws": 0,
-    "LastOpp": "Val Woodburn"
+    "LastOpp": "Carlos Hernandez"
+  },
+  "187868-cody-haddon": {
+    "Name": "Cody Haddon",
+    "Elo": 1012,
+    "Date": "2024-10-12T16:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Dan Argueta"
   },
   "peter-sobotta": {
     "Name": "Peter Sobotta",
@@ -12212,15 +12482,6 @@
     "Draws": 0,
     "LastOpp": "Genaro Vald\u00E9z"
   },
-  "117993-charles-johnson": {
-    "Name": "Charles Johnson",
-    "Elo": 1011,
-    "Date": "2023-01-14T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Jimmy Flick"
-  },
   "41575-gaston-bolanoes": {
     "Name": "Gaston Bola\u00F1os",
     "Elo": 1011,
@@ -12230,14 +12491,14 @@
     "Draws": 0,
     "LastOpp": "Aaron Phillips"
   },
-  "196666-jaqueline-cavalcanti": {
-    "Name": "Jacqueline Cavalcanti",
+  "145210-tom-nolan": {
+    "Name": "Tom Nolan",
     "Elo": 1011,
-    "Date": "2023-09-02T00:00:00",
-    "Wins": 1,
-    "Losses": 0,
+    "Date": "2024-08-17T00:00:00",
+    "Wins": 2,
+    "Losses": 1,
     "Draws": 0,
-    "LastOpp": "Zarah Fairn"
+    "LastOpp": "Alex Reyes"
   },
   "wanderlei-silva-the-axe-murderer": {
     "Name": "Wanderlei Silva",
@@ -12302,15 +12563,6 @@
     "Draws": 0,
     "LastOpp": "Jerrod Sanders"
   },
-  "18497-julian-erosa": {
-    "Name": "Julian Erosa",
-    "Elo": 1010,
-    "Date": "2022-09-10T00:00:00",
-    "Wins": 6,
-    "Losses": 5,
-    "Draws": 0,
-    "LastOpp": "Hakeem Dawodu"
-  },
   "17180-josh-stansbury-the-sandman": {
     "Name": "Josh Stansbury",
     "Elo": 1010,
@@ -12346,6 +12598,15 @@
     "Losses": 4,
     "Draws": 1,
     "LastOpp": "Bill Algeo"
+  },
+  "36621-bassil-hafez": {
+    "Name": "Bassil Hafez",
+    "Elo": 1010,
+    "Date": "2024-06-01T00:00:00",
+    "Wins": 1,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Mickey Gall"
   },
   "vaughan-harvey-lee": {
     "Name": "Vaughan Lee",
@@ -12400,6 +12661,24 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Abu Azaitar"
+  },
+  "173680-kau-fernandes": {
+    "Name": "Kau\u00EA Fernandes",
+    "Elo": 1009,
+    "Date": "2024-08-03T00:00:00",
+    "Wins": 1,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Mohammad Yahya"
+  },
+  "163804-magomed-gadzhiyasulov": {
+    "Name": "Magomed Gadzhiyasulov",
+    "Elo": 1009,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Brendson Ribeiro"
   },
   "carmelo-marrero-the-fury": {
     "Name": "Carmelo Marrero",
@@ -12490,15 +12769,6 @@
     "Losses": 2,
     "Draws": 0,
     "LastOpp": "Journey Newson"
-  },
-  "143238-ailin-luciana-perez": {
-    "Name": "Ail\u00EDn P\u00E9rez",
-    "Elo": 1008,
-    "Date": "2023-11-18T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Lucie Pudilov\u00E1"
   },
   "edwin-figueroa-el-feroz": {
     "Name": "Edwin Figueroa",
@@ -12644,14 +12914,14 @@
     "Draws": 0,
     "LastOpp": "Matthew Semelsberger"
   },
-  "90133-trey-ogden": {
-    "Name": "Trey Ogden",
+  "125815-alessandro-costa": {
+    "Name": "Alessandro Costa",
     "Elo": 1007,
-    "Date": "2022-09-17T00:00:00",
-    "Wins": 1,
-    "Losses": 1,
+    "Date": "2024-05-04T00:00:00",
+    "Wins": 2,
+    "Losses": 2,
     "Draws": 0,
-    "LastOpp": "Daniel Zellhuber"
+    "LastOpp": "Kevin Borjas"
   },
   "213856-montse-rendon": {
     "Name": "Montserrat Rendon",
@@ -12896,6 +13166,15 @@
     "Draws": 0,
     "LastOpp": "Max Rohskopf"
   },
+  "46499-dontale-mayes": {
+    "Name": "Don\u0026#39;Tale Mayes",
+    "Elo": 1006,
+    "Date": "2024-04-27T00:00:00",
+    "Wins": 4,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "Caio Machado"
+  },
   "66739-shamil-gamzatov": {
     "Name": "Shamil Gamzatov",
     "Elo": 1006,
@@ -12959,15 +13238,6 @@
     "Draws": 0,
     "LastOpp": "Victor Altamirano"
   },
-  "108511-jesus-aguilar": {
-    "Name": "Jesus Aguilar",
-    "Elo": 1006,
-    "Date": "2024-02-24T00:00:00",
-    "Wins": 2,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Mateus Mendon\u00E7a"
-  },
   "204759-azat-maksum": {
     "Name": "Azat Maksum",
     "Elo": 1006,
@@ -13003,6 +13273,24 @@
     "Losses": 0,
     "Draws": 0,
     "LastOpp": "Timmy Cuamba"
+  },
+  "57555-pooja-thomar": {
+    "Name": "Puja Tomar",
+    "Elo": 1006,
+    "Date": "2024-06-08T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Rayanne Amanda"
+  },
+  "143475-chang-ho-lee": {
+    "Name": "Chang Ho Lee",
+    "Elo": 1006,
+    "Date": "2024-06-22T00:00:00",
+    "Wins": 1,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": "Long Xiao"
   },
   "leonard-garcia-bad-boy": {
     "Name": "Leonard Garcia",
@@ -13066,15 +13354,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Joby Sanchez"
-  },
-  "46499-dontale-mayes": {
-    "Name": "Don\u0026#39;Tale Mayes",
-    "Elo": 1005,
-    "Date": "2023-06-03T00:00:00",
-    "Wins": 3,
-    "Losses": 3,
-    "Draws": 0,
-    "LastOpp": "Andrei Arlovski"
   },
   "maxim-grishin": {
     "Name": "Maxim Grishin",
@@ -13337,6 +13616,15 @@
     "Draws": 1,
     "LastOpp": "Jim Wallhead"
   },
+  "82229-veronica-macedo": {
+    "Name": "Veronica Hardy",
+    "Elo": 1003,
+    "Date": "2024-05-11T00:00:00",
+    "Wins": 4,
+    "Losses": 4,
+    "Draws": 0,
+    "LastOpp": "JJ Aldrich"
+  },
   "75678-matt-sayles-robo": {
     "Name": "Matt Sayles",
     "Elo": 1003,
@@ -13399,15 +13687,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Maur\u00EDcio Rua"
-  },
-  "125815-alessandro-costa": {
-    "Name": "Alessandro Costa",
-    "Elo": 1003,
-    "Date": "2023-06-17T00:00:00",
-    "Wins": 1,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Jimmy Flick"
   },
   "80020-edgar-chaidez": {
     "Name": "Edgar Ch\u00E1irez",
@@ -13615,6 +13894,24 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Yusaku Kinoshita"
+  },
+  "187808-thomas-peterson": {
+    "Name": "Thomas Petersen",
+    "Elo": 1002,
+    "Date": "2024-07-20T00:00:00",
+    "Wins": 1,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Mohammed Usman"
+  },
+  "267496-valter-rui-the-clean-monster": {
+    "Name": "Valter Walker",
+    "Elo": 1002,
+    "Date": "2024-08-17T00:00:00",
+    "Wins": 1,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Junior Tafa"
   },
   "anthony-macias-mad-dog": {
     "Name": "Anthony Macias",
@@ -13886,6 +14183,15 @@
     "Draws": 0,
     "LastOpp": "Lucas Alexander"
   },
+  "201648-ivana-siric": {
+    "Name": "Ivana Petrovi\u0107",
+    "Elo": 1001,
+    "Date": "2024-04-27T00:00:00",
+    "Wins": 1,
+    "Losses": 1,
+    "Draws": 0,
+    "LastOpp": "Na Liang"
+  },
   "110739-jose-johnson": {
     "Name": "Jose Johnson",
     "Elo": 1001,
@@ -13903,15 +14209,6 @@
     "Losses": 1,
     "Draws": 0,
     "LastOpp": "Angel Pacheco"
-  },
-  "136052-bogdan-guskov": {
-    "Name": "Bogdan Guskov",
-    "Elo": 1001,
-    "Date": "2024-02-10T00:00:00",
-    "Wins": 1,
-    "Losses": 1,
-    "Draws": 0,
-    "LastOpp": "Zac Pauga"
   },
   "teila-tuli": {
     "Name": "Teila Tuli",
@@ -19574,15 +19871,6 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "82229-veronica-macedo": {
-    "Name": "Veronica Hardy",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "jim-wallhead-judo": {
     "Name": "Jim Wallhead",
     "Elo": 1000,
@@ -21842,26 +22130,8 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "124969-esteban-ribovics": {
-    "Name": "Esteban Ribovics",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "159865-gabriel-santos-mosquitinho": {
     "Name": "Gabriel Santos",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
-  "52607-sam-patterson": {
-    "Name": "Sam Patterson",
     "Elo": 1000,
     "Date": "0001-01-01T00:00:00",
     "Wins": 0,
@@ -21923,26 +22193,8 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "175214-ketlen-souza": {
-    "Name": "Ketlen Souza",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "39845-jessie-butler": {
     "Name": "Jesse Butler",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
-  "201648-ivana-siric": {
-    "Name": "Ivana Petrovi\u0107",
     "Elo": 1000,
     "Date": "0001-01-01T00:00:00",
     "Wins": 0,
@@ -21970,15 +22222,6 @@
   },
   "166396-valentine-woodburn": {
     "Name": "Val Woodburn",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
-  "36621-bassil-hafez": {
-    "Name": "Bassil Hafez",
     "Elo": 1000,
     "Date": "0001-01-01T00:00:00",
     "Wins": 0,
@@ -22112,15 +22355,6 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "173680-kau-fernandes": {
-    "Name": "Kau\u00EA Fernandes",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "76640-kaynan-kruschewsky-bahia": {
     "Name": "Kaynan Kruschewsky",
     "Elo": 1000,
@@ -22148,15 +22382,6 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "35756-zack-reese": {
-    "Name": "Zach Reese",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "188018-rayanne-amanda": {
     "Name": "Rayanne Amanda",
     "Elo": 1000,
@@ -22175,26 +22400,8 @@
     "Draws": 0,
     "LastOpp": ""
   },
-  "145210-tom-nolan": {
-    "Name": "Tom Nolan",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
   "127056-serhiy-sidey": {
     "Name": "Serhiy Sidey",
-    "Elo": 1000,
-    "Date": "0001-01-01T00:00:00",
-    "Wins": 0,
-    "Losses": 0,
-    "Draws": 0,
-    "LastOpp": ""
-  },
-  "187808-thomas-peterson": {
-    "Name": "Thomas Petersen",
     "Elo": 1000,
     "Date": "0001-01-01T00:00:00",
     "Wins": 0,
@@ -22330,6 +22537,231 @@
   },
   "14969-connor-matthews": {
     "Name": "Connor Matthews",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "275778-dylan-budka": {
+    "Name": "Dylan Budka",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "86763-pedro-falco": {
+    "Name": "Pedro Falc\u00E3o",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "94585-james-llontop": {
+    "Name": "James Llontop",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "104562-ernesta-kareckaite": {
+    "Name": "Ernesta Kareckaite",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "165168-george-tokkos": {
+    "Name": "Tuco Tokkos",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "160416-mitch-raposo": {
+    "Name": "Mitch Raposo",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "168315-julia-polastri": {
+    "Name": "Julia Polastri",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "286593-carli-judice": {
+    "Name": "Carli Judice",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "130852-long-xiao": {
+    "Name": "Long Xiao",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "40987-antonio-trcoli-malvadeza": {
+    "Name": "Antonio Tr\u00F3coli",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "194482-fatima-kline": {
+    "Name": "Fatima Kline",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "84463-alice-ardelean": {
+    "Name": "Alice Ardelean",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "106035-jordan-vucenic": {
+    "Name": "Jordan Vucenic",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "114976-quang-le": {
+    "Name": "Quang Le",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "74381-nikolai-veretenikov": {
+    "Name": "Nikolay Veretennikov",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "189829-stewart-nicoll": {
+    "Name": "Stewart Nicoll",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "155441-jos-daniel-medina-rivero-chicho-medina": {
+    "Name": "Jos\u00E9 Medina",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "95784-kaan-ofli": {
+    "Name": "Kaan Ofli",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "136498-robert-valentin": {
+    "Name": "Robert Valentin",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "140696-zygimantas-ramaska": {
+    "Name": "Zygimantas Ramaska",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "42328-ivan-erslan": {
+    "Name": "Ivan Erslan",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "192343-lucas-rocha-fenomeno": {
+    "Name": "Lucas Rocha",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "229173-sean-sharaf": {
+    "Name": "Sean Sharaf",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "58430-carlos-leal": {
+    "Name": "Carlos Leal",
+    "Elo": 1000,
+    "Date": "0001-01-01T00:00:00",
+    "Wins": 0,
+    "Losses": 0,
+    "Draws": 0,
+    "LastOpp": ""
+  },
+  "236274-rafael-lima-rafael-bjj": {
+    "Name": "Raffael Cerqueira",
     "Elo": 1000,
     "Date": "0001-01-01T00:00:00",
     "Wins": 0,
