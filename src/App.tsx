@@ -53,6 +53,11 @@ interface FighterPathChartProps {
   path: string[];
 }
 
+interface ChartAreaProps
+{
+  path: string[]
+}
+
 interface FighterWin
 {
   Name: string,
@@ -150,7 +155,7 @@ const Intro = () => {
           We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and rock-paper-scissors.
         </p>
         <p>
-          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the paths between any given fighter and the highest-rated fighters of all time (based on Elo ratings I calculated). You can also simply find a path between any two given fighters if it exists. 
+          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the paths between any two given fighters to justify why one would beat the other. I've also calculated ratings for fighters so that you can visualize upsets by the slope of the line. 
         </p>
       </Text>
     </>
@@ -159,20 +164,19 @@ const Intro = () => {
 
 const CollapseDivider = (props: CollapseDividerProps) => {
   return (
-    <Divider
-      my="xs"
-      label={
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <div style={{ marginBottom: '1em' }}>
-            {props.label}
-          </div>
-          <Button onClick={props.onClick}>
-            {props.opened && <IoIosArrowUp />}
-            {!props.opened && <IoIosArrowDown />}
-          </Button>
-        </div>
-      }
-    />
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <div style={{ flex: '1 1 70%', marginRight: '1em' }}>
+        <Divider
+          my="xs"
+          label={props.label}
+          labelPosition='left'
+        />
+      </div>
+      <Button size="xs" onClick={props.onClick}>
+        {props.opened && <IoIosArrowUp />}
+        {!props.opened && <IoIosArrowDown />}
+      </Button>
+    </div>
   )
 }
 
@@ -183,14 +187,18 @@ const FighterSelectForm = (props: FighterSelectProps) => {
   }, 300);
 
   return (
-    <Autocomplete
-        label={props.label}
-        data={props.data}
-        onChange={debounceOnChange}
-        withScrollArea={false}
-        styles={{ dropdown: { maxHeight: 200, overflowY: 'auto', cursor: 'pointer' } }}
-        style={{ marginRight: '1em' }} 
-      />
+    <div style={{width: '15em', margin: '1em 0' }}>
+      <Autocomplete
+          label={props.label}
+          placeholder="Search..."
+          data={props.data}
+          // limit={20}
+          onChange={debounceOnChange}
+          withScrollArea={false}
+          styles={{ dropdown: { maxHeight: 200, overflowY: 'auto', cursor: 'pointer' } }}
+          style={{ marginRight: '1em' }} 
+        />
+    </div>
   )
 }
 
@@ -213,7 +221,7 @@ const GoatSelectDropDown = (props: GoatSelectDropDownProps) => {
 
   return (
     <div
-    style={{ marginRight: '1em' }} >
+    style={{ width: '15em', margin: '1em 0' }} >
       <Combobox
         store={combobox}
         withinPortal={false}
@@ -284,7 +292,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
 
     const svg = d3.select(svgRef.current);
     const width = 1200;
-    const height = 200;
+    const height = 300;
     const margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
     svg.selectAll('*').remove();
@@ -295,7 +303,7 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
       .padding(0.5);
 
     const yScale = d3.scaleLinear()
-      .domain([d3.min(fighterDetails, d => d.elo) || 800, d3.max(fighterDetails, d => d.elo) || 2500]) 
+      .domain([d3.min(fighterDetails, d => d.elo) || 900, d3.max(fighterDetails, d => d.elo) || 1300]) 
       .nice()
       .range([height - margin.bottom, margin.top]);
 
@@ -351,16 +359,71 @@ const FighterPathChart = ({ path }: FighterPathChartProps) => {
   return <svg ref={svgRef} style={{ width: '1200px', height: '400px' }} />;
 };
 
+const ChartArea = (props: ChartAreaProps) => {
+  return (
+    <>
+    <div className="fade-in" key={JSON.stringify(props.path)}>
+      <div style={{ border: '1px solid #ccc', padding: '10px', borderRadius: '10px', width: '100%', margin: '20px 0', overflowX: 'auto' }}>
+        <FighterPathChart path={props.path} />
+      </div>
+      <FighterPathText path={props.path} />
+    </div>
+    </>
+  )
+}
+
 //========================================================================================================
 // LARGER COMPONENTS
 //========================================================================================================
+
+const FighterPath = () => {
+  const [startingFighterId, setStartingFighterId] = useState<string>(""); 
+  const [endingFighterId, setEndingFighterId] = useState<string>(""); 
+  const [fighterPath, setFighterPath] = useState<string[] | null>(null);
+  const [opened, { toggle }] = useDisclosure(true);
+
+  const fighterKeys = Object.keys(fighter_id_name_map);
+  const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
+
+  const handleFindPath = () => {
+    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId); 
+    setFighterPath(path);
+  }
+
+  return (
+    <>
+      <CollapseDivider 
+        label="Fighter vs Fighter"
+        opened={opened}
+        onClick={toggle}
+      />
+      <Collapse in={opened}>
+        <FighterSelectForm
+          label="Starting Fighter"
+          data={fighterNames}
+          onChange={(fighterName) => setStartingFighterId(mapFighterNameToId(fighterName))}
+        />
+        <FighterSelectForm
+          label="Ending Fighter"
+          data={fighterNames}
+          onChange={(fighterName) => setEndingFighterId(mapFighterNameToId(fighterName))}
+        />
+        <FindPathButton
+          label="Find path"
+          onClick={handleFindPath}
+        />
+        {fighterPath && <ChartArea path={fighterPath} />}
+      </Collapse>
+    </>
+  );
+}
 
 const GoatPaths = () => {
   const [startFighterId, setStartFighterId] = useState<string>(""); 
   const [goats, setGoats] = useState<string[]>([]);
   const [endFighterId, setEndFighterId] = useState<string>(""); 
   const [fighterPath, setFighterPath] = useState<string[] | null>(null);
-  const [opened, { toggle }] = useDisclosure(true);
+  const [opened, { toggle }] = useDisclosure(false);
 
   const fighterKeys = Object.keys(fighter_id_name_map);
   const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
@@ -406,86 +469,23 @@ const GoatPaths = () => {
       opened={opened}
     />
     <Collapse in={opened}>
-      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-        <FighterSelectForm 
-          label="Select the starting fighter"
-          data={fighterNames}
-          onChange={handleFighterSelected}
-        />
-        <GoatSelectDropDown 
-          data={goats}
-          onSelect={(fighterName) => setEndFighterId(mapFighterNameToId(fighterName))}
-        />
-        <FindPathButton 
-          label="Find path"
-          onClick={handleFindPath}
-        />
-      </div>
-      {fighterPath && (
-          <div className="fade-in" key={JSON.stringify(fighterPath)}>
-            <FighterPathChart path={fighterPath} />
-            <FighterPathText path={fighterPath} />
-          </div>
-        )}
+      <FighterSelectForm 
+        label="Starting Fighter"
+        data={fighterNames}
+        onChange={handleFighterSelected}
+      />
+      <GoatSelectDropDown 
+        data={goats}
+        onSelect={(fighterName) => setEndFighterId(mapFighterNameToId(fighterName))}
+      />
+      <FindPathButton 
+        label="Find path"
+        onClick={handleFindPath}
+      />
+      {fighterPath && <ChartArea path={fighterPath} />}
     </Collapse>
     </>
   )
-}
-
-const FighterPath = () => {
-  const [startingFighterId, setStartingFighterId] = useState<string>(""); 
-  const [endingFighterId, setEndingFighterId] = useState<string>(""); 
-  const [fighterPath, setFighterPath] = useState<string[] | null>(null);
-  const [opened, { toggle }] = useDisclosure(true);
-  const [isVisible, setIsVisible] = useState<boolean>(false); // New state for visibility
-
-  const fighterKeys = Object.keys(fighter_id_name_map);
-  const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
-
-  const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId); 
-    if (path != null) {
-      setIsVisible(true);
-    }
-    else {
-      setIsVisible(false);
-    }
-    setFighterPath(path);
-  }
-
-  return (
-    <>
-      <CollapseDivider 
-        label="Fighter vs Fighter"
-        opened={opened}
-        onClick={toggle}
-      />
-      <Collapse in={opened}>
-        <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-          <FighterSelectForm
-            label="Select the starting fighter"
-            data={fighterNames}
-            onChange={(fighterName) => setStartingFighterId(mapFighterNameToId(fighterName))}
-          />
-          <FighterSelectForm
-            label="Select the ending fighter"
-            data={fighterNames}
-            onChange={(fighterName) => setEndingFighterId(mapFighterNameToId(fighterName))}
-          />
-          <FindPathButton
-            label="Find path"
-            onClick={handleFindPath}
-          />
-        </div>
-        {fighterPath && (
-          <div className="fade-in" key={JSON.stringify(fighterPath)}>
-            <FighterPathChart path={fighterPath} />
-            <FighterPathText path={fighterPath} />
-          </div>
-        )}
-      </Collapse>
-    </>
-  );
 }
 
 //========================================================================================================
@@ -495,10 +495,10 @@ const FighterPath = () => {
 function App() {
   return (
     <MantineProvider>
-      <div style={{ padding: '3rem 4rem 3rem' }}>
+      <div style={{ padding: '3rem 4rem 3rem', overflowX: 'hidden' }}>
         <Intro />
-        <GoatPaths />
         <FighterPath />
+        <GoatPaths />
       </div>
     </MantineProvider>
   );
