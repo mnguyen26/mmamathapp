@@ -150,16 +150,26 @@ const Intro = () => {
   return (
     <>
       <Title order={1}>MMA Math</Title>
-      <Text>
-        <p>
+      <Text size='xs'>
+        <p style={{textIndent: '1em'}}>
           We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and rock-paper-scissors.
         </p>
-        <p>
-          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the paths between any two given fighters to justify why one would beat the other. I've also calculated ratings for fighters so that you can visualize upsets by the slope of the line. 
+        <p style={{textIndent: '1em'}}>
+          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the win paths between any two given fighters to justify why one would beat the other.
         </p>
       </Text>
     </>
   );
+}
+
+const Notes = () => {
+  return (
+    <>
+    <Text size='xs' style={{width:'200px', marginTop: '10em'}}>
+      *I've only kept track of fights in the UFC. Fights in other promotions are not included. Fighter images are plotted by rating so that a greater upward slope indicates a bigger upset. Ratings are based on a modified Elo calculation that gives more weight to finishes than decisions. Elo ratings are also only based on fights in the UFC so that all fights for all fighters occur in the same pool. The ratings plotted are the peak ratings during a particular fighters career and not their rating at the time of the fight.
+    </Text>
+    </>
+  )
 }
 
 const CollapseDivider = (props: CollapseDividerProps) => {
@@ -266,7 +276,7 @@ const FighterPathText = ({ path }: { path: string[] | null }) => {
   if (!path) return null;
 
   return (
-    <div>
+    <div style={{fontSize: '.8em'}}>
       {path.map((fighterId, index) => {
         const fighterName = mapFighterIdToName(fighterId);
         const nextFighterId = path[index + 1];
@@ -495,10 +505,11 @@ const GoatPaths = () => {
 function App() {
   return (
     <MantineProvider>
-      <div style={{ padding: '3rem 4rem 3rem', overflowX: 'hidden' }}>
+      <div style={{ padding: '3rem 4rem 3rem', overflowX: 'hidden', maxWidth: '1500px' }}>
         <Intro />
         <FighterPath />
         <GoatPaths />
+        <Notes />
       </div>
     </MantineProvider>
   );
