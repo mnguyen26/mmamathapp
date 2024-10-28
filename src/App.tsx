@@ -402,6 +402,7 @@ const FighterPath = () => {
 
   return (
     <>
+    <div style={{ margin: '1em 0' }}>
       <CollapseDivider 
         label="Fighter vs Fighter"
         opened={opened}
@@ -424,6 +425,7 @@ const FighterPath = () => {
         />
         {fighterPath && <ChartArea path={fighterPath} />}
       </Collapse>
+    </div>
     </>
   );
 }
@@ -473,27 +475,29 @@ const GoatPaths = () => {
 
   return (
     <>
-    <CollapseDivider 
-      label="Fighter vs GOATs"
-      onClick={toggle}
-      opened={opened}
-    />
-    <Collapse in={opened}>
-      <FighterSelectForm 
-        label="Starting Fighter"
-        data={fighterNames}
-        onChange={handleFighterSelected}
+    <div style={{ margin: '1em 0' }}>
+      <CollapseDivider 
+        label="Fighter vs GOATs"
+        onClick={toggle}
+        opened={opened}
       />
-      <GoatSelectDropDown 
-        data={goats}
-        onSelect={(fighterName) => setEndFighterId(mapFighterNameToId(fighterName))}
-      />
-      <FindPathButton 
-        label="Find path"
-        onClick={handleFindPath}
-      />
-      {fighterPath && <ChartArea path={fighterPath} />}
-    </Collapse>
+      <Collapse in={opened}>
+        <FighterSelectForm 
+          label="Starting Fighter"
+          data={fighterNames}
+          onChange={handleFighterSelected}
+        />
+        <GoatSelectDropDown 
+          data={goats}
+          onSelect={(fighterName) => setEndFighterId(mapFighterNameToId(fighterName))}
+        />
+        <FindPathButton 
+          label="Find path"
+          onClick={handleFindPath}
+        />
+        {fighterPath && <ChartArea path={fighterPath} />}
+      </Collapse>
+    </div>
     </>
   )
 }
