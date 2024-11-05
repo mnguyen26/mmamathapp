@@ -53,9 +53,14 @@ interface FighterPathChartProps {
   path: string[];
 }
 
+interface FighterPathDetailsProps {
+  path: FighterWin[];
+}
+
 interface ChartAreaProps
 {
-  path: string[]
+  path: string[];
+  pathDetails: FighterWin[];
 }
 
 interface FighterWin
@@ -64,6 +69,7 @@ interface FighterWin
   Opponent: string,
   OpponentId: string,
   Date: string,
+  Method: string,
 }
 
 interface FighterDetail {
@@ -127,6 +133,34 @@ const findShortestPath = (graph: { [key: string]: FighterWin[] }, startFighterId
 
   return null;
 }
+
+const findShortestPathWithDetails = (graph: { [key: string]: FighterWin[] }, startFighterId: string, targetFighterId: string): FighterWin[] | null => {
+  if (!graph[startFighterId] || !graph[targetFighterId]) {
+    return null;
+  }
+
+  const queue: { path: FighterWin[], lastFighterId: string }[] = [{ path: [], lastFighterId: startFighterId }];
+  const visited: Set<string> = new Set([startFighterId]);
+
+  while (queue.length > 0) {
+    const { path, lastFighterId } = queue.shift()!;
+    
+    if (lastFighterId === targetFighterId) {
+      return path;
+    }
+
+    for (const win of graph[lastFighterId]) {
+      const neighborId = win.OpponentId;
+      if (!visited.has(neighborId)) {
+        visited.add(neighborId);
+        const newPath = [...path, win];
+        queue.push({ path: newPath, lastFighterId: neighborId });
+      }
+    }
+  }
+
+  return null;
+};
 
 const getFighterDetails = (fighterIds: string[]): FighterDetail[] => {
   const fighterNames = mapFighterIdsToNames(fighterIds);
@@ -290,6 +324,44 @@ const FighterPathText = ({ path }: { path: string[] | null }) => {
   );
 }
 
+const FighterPathDetails = (props: FighterPathDetailsProps) => {
+  return (
+    <>
+    <div className="scrollable-container-col">
+      {props.path.map(win => {
+        const winner = win.Name;
+        const loser = win.Opponent;
+        const date = new Date(win.Date);
+        const formattedDate = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
+        const method = win.Method;
+
+        const winnerPicUrl = fighterPics.find(f => f.Name === winner)?.PicURL || 'default_winner_image_url';
+        const loserPicUrl = fighterPics.find(f => f.Name === loser)?.PicURL || 'default_loser_image_url';
+
+        return (
+          <>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+              <div style={{ textAlign: 'center', width: '6.5em' }}>
+                <img src={winnerPicUrl} alt={winner} style={{ width: '100%', height: 'auto' }} />
+                <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{winner}</div>
+              </div>
+              <div style={{ margin: '0 1em', whiteSpace: 'nowrap', alignSelf: 'flex-end' }}>defeated</div>
+              <div style={{ textAlign: 'center', width: '6.5em' }}>
+                <img src={loserPicUrl} alt={loser} style={{ width: '100%', height: 'auto' }} />
+                <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{loser}</div>
+              </div>
+            </div>
+            <div style={{ fontSize: '0.6em' }}>on {formattedDate} via {method}</div>
+          </div>
+          </>
+        );
+      })}
+    </div>
+    </>
+  )
+}
+
 // d3 line graph
 const FighterPathChart = ({ path }: FighterPathChartProps) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -373,10 +445,19 @@ const ChartArea = (props: ChartAreaProps) => {
   return (
     <>
     <div className="fade-in" key={JSON.stringify(props.path)}>
-      <div style={{ border: '1px solid #ccc', padding: '10px', borderRadius: '10px', width: '100%', margin: '20px 0', overflowX: 'auto' }}>
+      <div className="scrollable-container"
+        style={{ 
+        border: '1px solid #ccc', 
+        padding: '10px', 
+        borderRadius: '10px', 
+        width: '100%', 
+        margin: '20px 0', 
+        overflowX: 'auto'
+         }}>
         <FighterPathChart path={props.path} />
       </div>
       <FighterPathText path={props.path} />
+      <FighterPathDetails path={props.pathDetails} />
     </div>
     </>
   )
@@ -390,14 +471,17 @@ const FighterPath = () => {
   const [startingFighterId, setStartingFighterId] = useState<string>(""); 
   const [endingFighterId, setEndingFighterId] = useState<string>(""); 
   const [fighterPath, setFighterPath] = useState<string[] | null>(null);
+  const [fighterPathWithDetails, setFighterPathWithDetails] = useState<FighterWin[] | null>(null);
   const [opened, { toggle }] = useDisclosure(true);
 
   const fighterKeys = Object.keys(fighter_id_name_map);
   const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
   const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId); 
+    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId);
+    let pathWithDetails = findShortestPathWithDetails(fighterWinsGraph, startingFighterId, endingFighterId);
     setFighterPath(path);
+    setFighterPathWithDetails(pathWithDetails)
   }
 
   return (
@@ -423,7 +507,9 @@ const FighterPath = () => {
           label="Find path"
           onClick={handleFindPath}
         />
-        {fighterPath && <ChartArea path={fighterPath} />}
+        {fighterPath && fighterPathWithDetails && (
+          <ChartArea path={fighterPath} pathDetails={fighterPathWithDetails} />
+        )}
       </Collapse>
     </div>
     </>
@@ -495,7 +581,7 @@ const GoatPaths = () => {
           label="Find path"
           onClick={handleFindPath}
         />
-        {fighterPath && <ChartArea path={fighterPath} />}
+        {/* {fighterPath && <ChartArea path={fighterPath} />} */}
       </Collapse>
     </div>
     </>
@@ -509,7 +595,7 @@ const GoatPaths = () => {
 function App() {
   return (
     <MantineProvider>
-      <div style={{ padding: '3rem 4rem 3rem', overflowX: 'hidden', maxWidth: '1500px' }}>
+      <div style={{ padding: '3rem 2rem', overflowX: 'hidden', maxWidth: '1500px' }}>
         <Intro />
         <FighterPath />
         <GoatPaths />
