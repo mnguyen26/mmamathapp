@@ -3,7 +3,7 @@
 //========================================================================================================
 
 // React
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 // Mantine
@@ -49,17 +49,12 @@ interface FindPathButtonProps {
   onClick: () => void
 }
 
-interface FighterPathChartProps {
-  path: string[];
-}
-
 interface FighterPathDetailsProps {
   path: FighterWin[];
 }
 
 interface ChartAreaProps
 {
-  path: string[];
   pathDetails: FighterWin[];
 }
 
@@ -185,10 +180,10 @@ const Intro = () => {
     <>
       <Title order={1}>MMA Math</Title>
       <Text size='xs'>
-        <p style={{textIndent: '1em'}}>
+        <p className="paragraph-text">
           We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and rock-paper-scissors.
         </p>
-        <p style={{textIndent: '1em'}}>
+        <p className="paragraph-text">
           But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the win paths between any two given fighters to justify why one would beat the other.
         </p>
       </Text>
@@ -196,20 +191,10 @@ const Intro = () => {
   );
 }
 
-const Notes = () => {
-  return (
-    <>
-    <Text size='xs' style={{width:'200px', marginTop: '10em'}}>
-      *I've only kept track of fights in the UFC. Fights in other promotions are not included. Fighter images are plotted by rating so that a greater upward slope indicates a bigger upset. Ratings are based on a modified Elo calculation that gives more weight to finishes than decisions. Elo ratings are also only based on fights in the UFC so that all fights for all fighters occur in the same pool. The ratings plotted are the peak ratings during a particular fighters career and not their rating at the time of the fight.
-    </Text>
-    </>
-  )
-}
-
 const CollapseDivider = (props: CollapseDividerProps) => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-      <div style={{ flex: '1 1 70%', marginRight: '1em' }}>
+    <div className="divider">
+      <div className="divider-line">
         <Divider
           my="xs"
           label={props.label}
@@ -231,12 +216,11 @@ const FighterSelectForm = (props: FighterSelectProps) => {
   }, 300);
 
   return (
-    <div style={{width: '15em', margin: '1em 0' }}>
+    <div className="autocomplete">
       <Autocomplete
           label={props.label}
           placeholder="Search..."
           data={props.data}
-          // limit={20}
           onChange={debounceOnChange}
           withScrollArea={false}
           styles={{ dropdown: { maxHeight: 200, overflowY: 'auto', cursor: 'pointer' } }}
@@ -265,7 +249,7 @@ const GoatSelectDropDown = (props: GoatSelectDropDownProps) => {
 
   return (
     <div
-    style={{ width: '15em', margin: '1em 0' }} >
+    className="autocomplete" >
       <Combobox
         store={combobox}
         withinPortal={false}
@@ -306,25 +290,10 @@ const FindPathButton = (props: FindPathButtonProps) => {
   )
 }
 
-const FighterPathText = ({ path }: { path: string[] | null }) => {
-  if (!path) return null;
-
-  return (
-    <div style={{fontSize: '.8em'}}>
-      {path.map((fighterId, index) => {
-        const fighterName = mapFighterIdToName(fighterId);
-        const nextFighterId = path[index + 1];
-        if (nextFighterId) {
-          const nextFighterName = mapFighterIdToName(nextFighterId);
-          return <div key={index}>{fighterName} defeated {nextFighterName}</div>;
-        }
-        return null;
-      })}
-    </div>
-  );
-}
-
 const FighterPathDetails = (props: FighterPathDetailsProps) => {
+
+  const defaultPicUrl = "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/ComingSoon/comingsoon_headshot_odopod.png?VersionId=6Lx8ImOpYf0wBYQKs_FGYIkuSIfTN0f0\u0026amp;itok=pYDOjN8k";
+
   return (
     <>
     <div className="scrollable-container-col">
@@ -335,21 +304,21 @@ const FighterPathDetails = (props: FighterPathDetailsProps) => {
         const formattedDate = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
         const method = win.Method;
 
-        const winnerPicUrl = fighterPics.find(f => f.Name === winner)?.PicURL || 'default_winner_image_url';
-        const loserPicUrl = fighterPics.find(f => f.Name === loser)?.PicURL || 'default_loser_image_url';
+        const winnerPicUrl = fighterPics.find(f => f.Name === winner)?.PicURL || defaultPicUrl;
+        const loserPicUrl = fighterPics.find(f => f.Name === loser)?.PicURL || defaultPicUrl;
 
         return (
           <>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-              <div style={{ textAlign: 'center', width: '6.5em' }}>
-                <img src={winnerPicUrl} alt={winner} style={{ width: '100%', height: 'auto' }} />
-                <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{winner}</div>
+          <div className="win-detail-col">
+            <div className="win-detail-row">
+              <div className="fighter-detail">
+                <img src={winnerPicUrl} alt={winner} className="fighter-img" />
+                <div className="fighter-name">{winner}</div>
               </div>
-              <div style={{ margin: '0 1em', whiteSpace: 'nowrap', alignSelf: 'flex-end' }}>defeated</div>
-              <div style={{ textAlign: 'center', width: '6.5em' }}>
-                <img src={loserPicUrl} alt={loser} style={{ width: '100%', height: 'auto' }} />
-                <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{loser}</div>
+              <div style={{ margin: '0 1em' }}>defeated</div>
+              <div className="fighter-detail">
+                <img src={loserPicUrl} alt={loser} className="fighter-img" />
+                <div className="fighter-name">{loser}</div>
               </div>
             </div>
             <div style={{ fontSize: '0.6em' }}>on {formattedDate} via {method}</div>
@@ -362,101 +331,10 @@ const FighterPathDetails = (props: FighterPathDetailsProps) => {
   )
 }
 
-// d3 line graph
-const FighterPathChart = ({ path }: FighterPathChartProps) => {
-  const svgRef = useRef<SVGSVGElement | null>(null);
-  
-  const fighterDetails = getFighterDetails(path);
-  const fighterNames = fighterDetails.map(detail => detail.name);
-
-  useEffect(() => {
-    if (!fighterDetails) return;
-
-    const svg = d3.select(svgRef.current);
-    const width = 1200;
-    const height = 300;
-    const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-
-    svg.selectAll('*').remove();
-
-    const xScale = d3.scalePoint<string>()
-      .domain(fighterNames)
-      .range([margin.left, width - margin.right])
-      .padding(0.5);
-
-    const yScale = d3.scaleLinear()
-      .domain([d3.min(fighterDetails, d => d.elo) || 900, d3.max(fighterDetails, d => d.elo) || 1300]) 
-      .nice()
-      .range([height - margin.bottom, margin.top]);
-
-    svg.attr('viewBox', `0 0 ${width} ${height}`);
-
-    const line = d3.line<string>()
-      .x(d => xScale(d) as number)
-      .y(d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000));
-
-    svg.append('path')
-      .datum(fighterNames)
-      .attr('fill', 'none')
-      .attr('stroke', 'steelblue')
-      .attr('stroke-width', 1)
-      .attr('d', line);
-
-    svg.selectAll('image')
-      .data(fighterNames)
-      .enter()
-      .append('image')
-      .attr('xlink:href', d => {
-        const fighterDetail = fighterDetails.find(f => f.name === d); 
-        return fighterDetail ? fighterDetail.picUrl : ''; 
-      })
-      .attr('x', d => xScale(d) as number - 25)
-      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) - 40) 
-      .attr('width', 50)
-      .attr('height', 50);
-
-    svg.selectAll('text.label')
-      .data(fighterNames)
-      .enter()
-      .append('text')
-      .attr('class', 'label')
-      .attr('x', d => xScale(d) as number)
-      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) + 15)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', '10px')
-      .text(d => d);
-
-    svg.selectAll('text.elo')
-      .data(fighterNames)
-      .enter()
-      .append('text')
-      .attr('class', 'elo')
-      .attr('x', d => xScale(d) as number)
-      .attr('y', d => yScale(fighterDetails.find(f => f.name === d)?.elo || 1000) + 25)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', '8px') 
-      .text(d => fighterDetails.find(f => f.name === d)?.elo || 'N/A'); 
-  }, [path]);
-
-  return <svg ref={svgRef} style={{ width: '1200px', height: '400px' }} />;
-};
-
 const ChartArea = (props: ChartAreaProps) => {
   return (
     <>
-    <div className="fade-in" key={JSON.stringify(props.path)}>
-      <div className="scrollable-container"
-        style={{ 
-        border: '1px solid #ccc', 
-        padding: '10px', 
-        borderRadius: '10px', 
-        width: '100%', 
-        margin: '20px 0', 
-        overflowX: 'auto'
-         }}>
-        <FighterPathChart path={props.path} />
-      </div>
-      <FighterPathText path={props.path} />
+    <div className="fade-in" key={JSON.stringify(props.pathDetails)}>
       <FighterPathDetails path={props.pathDetails} />
     </div>
     </>
@@ -470,7 +348,6 @@ const ChartArea = (props: ChartAreaProps) => {
 const FighterPath = () => {
   const [startingFighterId, setStartingFighterId] = useState<string>(""); 
   const [endingFighterId, setEndingFighterId] = useState<string>(""); 
-  const [fighterPath, setFighterPath] = useState<string[] | null>(null);
   const [fighterPathWithDetails, setFighterPathWithDetails] = useState<FighterWin[] | null>(null);
   const [opened, { toggle }] = useDisclosure(true);
 
@@ -478,9 +355,7 @@ const FighterPath = () => {
   const fighterNames = mapFighterIdsToNames(fighterKeys).sort();
 
   const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startingFighterId, endingFighterId);
     let pathWithDetails = findShortestPathWithDetails(fighterWinsGraph, startingFighterId, endingFighterId);
-    setFighterPath(path);
     setFighterPathWithDetails(pathWithDetails)
   }
 
@@ -507,8 +382,8 @@ const FighterPath = () => {
           label="Find path"
           onClick={handleFindPath}
         />
-        {fighterPath && fighterPathWithDetails && (
-          <ChartArea path={fighterPath} pathDetails={fighterPathWithDetails} />
+        {fighterPathWithDetails && (
+          <ChartArea pathDetails={fighterPathWithDetails} />
         )}
       </Collapse>
     </div>
@@ -519,8 +394,8 @@ const FighterPath = () => {
 const GoatPaths = () => {
   const [startFighterId, setStartFighterId] = useState<string>(""); 
   const [goats, setGoats] = useState<string[]>([]);
-  const [endFighterId, setEndFighterId] = useState<string>(""); 
-  const [fighterPath, setFighterPath] = useState<string[] | null>(null);
+  const [endFighterId, setEndFighterId] = useState<string>("");
+  const [pathDetails, setPathDetails] = useState<FighterWin[] | null>(null)
   const [opened, { toggle }] = useDisclosure(false);
 
   const fighterKeys = Object.keys(fighter_id_name_map);
@@ -555,8 +430,8 @@ const GoatPaths = () => {
   }
 
   const handleFindPath = () => {
-    let path = findShortestPath(fighterWinsGraph, startFighterId, endFighterId); 
-    setFighterPath(path);
+    let pathDetails = findShortestPathWithDetails(fighterWinsGraph, startFighterId, endFighterId);
+    setPathDetails(pathDetails);
   }
 
   return (
@@ -581,7 +456,9 @@ const GoatPaths = () => {
           label="Find path"
           onClick={handleFindPath}
         />
-        {/* {fighterPath && <ChartArea path={fighterPath} />} */}
+        {pathDetails && (
+          <ChartArea pathDetails={pathDetails} />
+        )}
       </Collapse>
     </div>
     </>
@@ -599,7 +476,6 @@ function App() {
         <Intro />
         <FighterPath />
         <GoatPaths />
-        <Notes />
       </div>
     </MantineProvider>
   );
