@@ -9,7 +9,9 @@ Check out the app here: (https://mnguyen26.github.io/mmamathapp/)
 
 ## How To
 Select Fighters: Use the search function to select a starting fighter and an ending fighter.
+###
 Find the Path: Click "Find Path" to begin. The app will start with fighters the starting fighter has beaten, then recursively move through each fighter’s victories until reaching the end fighter.
+###
 View Results: If a path exists, the app will display it, highlighting each step from the starting to the ending fighter.
 
 ###
