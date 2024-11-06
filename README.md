@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# MMA Math App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app that can connect two fighters through wins. To be used for silliness
 
-## Available Scripts
+## How To
 
-In the project directory, you can run:
+(https://mnguyen26.github.io/mmamathapp/)
 
-### `npm start`
+Search for and select your first fighter whose wins we will start off with. Do the same for a second fighter who will be the end. When you click the "Find Path" button, the app will start with fighters the starting fighter has beaten and then do the same for that set of fighters recursively until the end fighter is found.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project was inspired by what the online MMA community refers to as "MMA Math", which often does not turn out to work in real life. The basic premise is assuming that one fighter's win over another would make the first fighter the favorite to win in a fight against anyone who the second fighter has defeated. In other words, it assumes a transitive property of wins; if you beat him, and I beat you, I should beat him. This, in fact, often does not work because wins are not transitive and fighting ability is not measured as a one-dimensional trait. There is an element of randomness but styles really do make fights and matchups matter in determining the outcome of a fight. However, "MMA math" is still used all the time by individuals to guess the outcomes of fights.
 
-### `npm test`
+This project takes MMA math to its farthest and most absurd extent but making multiple leaps in logic through multiple wins. It will attempt to find the win path between any two fighters that you enter. As long as a fighter has at least one win in the UFC, it's very likely you will be able to connect them to another fighter with at least one loss in the UFC. Thus, you can very easily say any particular fighter of your liking is better than another that is of your dis...liking.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# MMA Math App
+An app that finds a path of victories connecting two fighters. Not to be taken seriously
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Overview
+The MMA Math App allows users to explore connections between fighters based on wins, recreating the often debated but flawed "MMA Math" logic. Given two fighters, the app finds a path of victories linking the first fighter to the second, if one exists.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Try It Out
+Check out the app here: (https://mnguyen26.github.io/mmamathapp/)
 
-### `npm run eject`
+## How To
+Select Fighters: Use the search function to select a starting fighter and an ending fighter.
+Find the Path: Click "Find Path" to begin. The app will start with fighters the starting fighter has beaten, then recursively move through each fighter’s victories until reaching the end fighter.
+View Results: If a path exists, the app will display it, highlighting each step from the starting to the ending fighter.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###
+The app is inspired by the "MMA Math" concept found in online MMA communities, which assumes that if one fighter beats another, they should theoretically be able to defeat anyone the other fighter has beaten. This transitive logic is in reality flawed, as fighting skill is not measured as a one-dimensional trait. Styles and matchups matter.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app pushes "MMA Math" to its most absurd extent by linking fighters through win paths across multiple connections, allowing users to connect nearly any two fighters with UFC wins. Use it whether you want to "prove" a fighter's superiority or just have fun exploring connections.

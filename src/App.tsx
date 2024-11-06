@@ -11,9 +11,6 @@ import { MantineProvider, Title, Text, Autocomplete, Button, Collapse, Divider, 
 import { useDisclosure, useDebouncedCallback } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
-// d3
-import * as d3 from 'd3';
-
 // data
 import fighterWinsGraph from './JSONData/fighter_wins_graph.json';
 import goatFighters from './JSONData/fighter_peak_elo_records.json'
@@ -405,7 +402,7 @@ const GoatPaths = () => {
     let fighterId = "";
     let goatsToCompare: string[] = [];
     
-    if (fighterName != "") {
+    if (fighterName !== "") {
       fighterId = mapFighterNameToId(fighterName);
       goatsToCompare = mapFighterIdsToNames(findGOATsWithPaths(fighterId))
     }
@@ -423,7 +420,7 @@ const GoatPaths = () => {
         retList[retList.length] = path[path.length - 1]
         pathsLeft--;
       }
-      if (pathsLeft == 0) { break; }
+      if (pathsLeft === 0) { break; }
     }
   
     return retList;
