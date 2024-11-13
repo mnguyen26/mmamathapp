@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mmamathapp/static/css/main.44d58e4c.css",
-    "main.js": "/mmamathapp/static/js/main.8c02984e.js",
+    "main.css": "/mmamathapp/static/css/main.8ddae311.css",
+    "main.js": "/mmamathapp/static/js/main.60ed04a9.js",
     "static/js/453.6a7562f1.chunk.js": "/mmamathapp/static/js/453.6a7562f1.chunk.js",
     "index.html": "/mmamathapp/index.html",
-    "main.44d58e4c.css.map": "/mmamathapp/static/css/main.44d58e4c.css.map",
-    "main.8c02984e.js.map": "/mmamathapp/static/js/main.8c02984e.js.map",
+    "main.8ddae311.css.map": "/mmamathapp/static/css/main.8ddae311.css.map",
+    "main.60ed04a9.js.map": "/mmamathapp/static/js/main.60ed04a9.js.map",
     "453.6a7562f1.chunk.js.map": "/mmamathapp/static/js/453.6a7562f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d58e4c.css",
-    "static/js/main.8c02984e.js"
+    "static/css/main.8ddae311.css",
+    "static/js/main.60ed04a9.js"
   ]
 }
