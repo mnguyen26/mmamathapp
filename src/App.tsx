@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 // Mantine
-import { MantineProvider, Title, Text, Autocomplete, Button, Collapse, Divider, Combobox, useCombobox, Input, InputBase } from '@mantine/core';
+import { MantineProvider, Title, Text, Autocomplete, Button, Collapse, Divider, Combobox, useCombobox, Input, InputBase, Modal } from '@mantine/core';
 import { useDisclosure, useDebouncedCallback } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 
@@ -23,6 +23,16 @@ import './Styles/app.css'
 //========================================================================================================
 // INTERFACES
 //========================================================================================================
+
+interface HowToProps {
+  opened: boolean;
+  onClose: () => void;
+}
+
+interface AboutProps {
+  opened: boolean;
+  onClose: () => void;
+}
 
 interface CollapseDividerProps {
   label: string;
@@ -172,10 +182,40 @@ const getFighterDetails = (fighterIds: string[]): FighterDetail[] => {
 // SMALLER COMPONENTS
 //========================================================================================================
 
+const HowTo = (props: HowToProps) => {
+  return (
+    <>
+    <Modal opened={props.opened} onClose={props.onClose} title="How To">
+    <Text size='xs'>
+        <p className="paragraph-text">
+          Search for and select a fighter in the "Starting Fighter" form. Make sure they have at least one win in the UFC. Search for and select another fighter in the "Ending Fighter" form. Make sure they are the same gender as the start fighter. Click "Find Path". The starting fighter will be connected to a fighter that they defeated, then the same will be repeated for that fighter until the end fighter is reached.
+        </p>
+      </Text>
+    </Modal>
+    </>
+  )
+}
+
+const About = (props: AboutProps) => {
+  return (
+    <>
+    <Modal opened={props.opened} onClose={props.onClose} title="About">
+      <Text size='xs'>
+        <p className="paragraph-text">
+          We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and rock-paper-scissors.
+        </p>
+        <p className="paragraph-text">
+          But because I consistently still see this type of logic in MMA forums, this project takes the idea of MMA math to its furthest extent to show how absurd it can be. Here you can find the win paths between any two given fighters to justify why one would beat the other.
+        </p>
+      </Text>
+    </Modal>
+    </>
+  )
+}
+
 const Intro = () => {
   return (
     <>
-      <Title order={1}>MMA Math</Title>
       <Text size='xs'>
         <p className="paragraph-text">
           We should know that MMA math doesn't work in real life. Fighting ability isn't a one-dimensional trait and wins are non-transitive. Styles make fights and we've seen scenarios like Ronda Rousey beating Misha Tate, Holly Holm defeating Ronda Rousey, and Misha Tate beating Holly Holm. Outside of MMA you see the same phenomenon with starter Pokemon and rock-paper-scissors.
@@ -342,6 +382,27 @@ const ChartArea = (props: ChartAreaProps) => {
 // LARGER COMPONENTS
 //========================================================================================================
 
+const AppHeader = () => {
+  const [howToOpened, { open: openHowTo, close: closeHowTo }] = useDisclosure(false);
+  const [aboutOpened, { open: openAbout, close: closeAbout }] = useDisclosure(false);
+
+  return (
+    <>
+    <Title order={1}>MMA Math</Title>
+    <div className="header-container" style={{ display: 'flex' }}>
+      <div className="header-div" onClick={() => openHowTo()}>
+        How To
+      </div>
+      <div className="header-div" onClick={() => openAbout()}>
+        About
+      </div>
+    </div>
+    <HowTo opened={howToOpened} onClose={closeHowTo} />
+    <About opened={aboutOpened} onClose={closeAbout} />
+    </>
+  )
+}
+
 const FighterPath = () => {
   const [startingFighterId, setStartingFighterId] = useState<string>(""); 
   const [endingFighterId, setEndingFighterId] = useState<string>(""); 
@@ -469,8 +530,9 @@ const GoatPaths = () => {
 function App() {
   return (
     <MantineProvider>
-      <div style={{ padding: '3rem 2rem', overflowX: 'hidden', maxWidth: '1500px' }}>
-        <Intro />
+      {/* <div style={{ padding: '3rem 2rem', overflowX: 'hidden', maxWidth: '1500px' }}> */}
+      <div className="app-wrapper">
+        <AppHeader />
         <FighterPath />
         <GoatPaths />
       </div>
